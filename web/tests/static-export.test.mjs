@@ -8,6 +8,11 @@ test("exports a complete 20-run static explorer", async () => {
   assert.match(html, /<title>Turf\/War — Multiagent Canvas Experiment<\/title>/i);
   assert.match(html, /How territorial/);
   assert.match(html, /Homage to/);
+  assert.match(html, /GPT-5\.6-Sol · high reasoning · fast/);
+  assert.match(html, /Harness repository/);
+  assert.match(html, /Run 001 source \+ raw outputs/);
+  assert.match(html, /https:\/\/github\.com\/infoxiao\/turf-war/);
+  assert.match(html, /https:\/\/github\.com\/infoxiao\/turf-war-run-001/);
   assert.match(html, /PUBLIC MESSAGE CHANNEL/);
   assert.match(html, /data-message-round="24"/);
   assert.equal((html.match(/class="event-action"/g) ?? []).length, 72);

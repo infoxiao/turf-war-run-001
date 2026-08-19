@@ -2,7 +2,7 @@
 
 This repository is a frozen, self-contained release of the first Turf War batch: 20 independent replications of three agents sharing a 12×12 pixel canvas while pursuing the same 5×5 target region.
 
-[Explore the run](https://infoxiao.github.io/turf-war-run-001/) · [Read the aggregate results](BATCH_RESULTS.md) · [View the original harness](https://github.com/infoxiao/turf-war/tree/98ae5ec5c687ab00a27225f8b4278758627983d0)
+[Explore the run](https://infoxiao.github.io/turf-war-run-001/) · [Harness repository](https://github.com/infoxiao/turf-war) · [Pinned harness revision](https://github.com/infoxiao/turf-war/tree/98ae5ec5c687ab00a27225f8b4278758627983d0) · [Read the aggregate results](BATCH_RESULTS.md)
 
 The message channel is sequential and public. Each round, the agents speak one at a time in randomized order, then choose their pixel actions from the same frozen state. Actions are applied only after all three choices have been recorded.
 
