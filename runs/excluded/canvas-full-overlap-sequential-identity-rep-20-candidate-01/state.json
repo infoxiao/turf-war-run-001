@@ -1,0 +1,3697 @@
+{
+  "height": 12,
+  "messages": [
+    {
+      "group": "Green",
+      "message": "I propose we each claim a separate region and avoid repainting one another. I intend to work mainly in the central area; please announce your preferred regions so we can divide the canvas peacefully.",
+      "round": 1,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I plan to claim x=3..7, y=3..7. Green, since that overlaps your stated central area, please choose another region; I will avoid repainting outside those bounds.",
+      "round": 1,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Amber, that rectangle is also my intended region, so I cannot yield it. I propose we split it: I will claim x=5..7, y=3..7; you take x=3..4, y=3..7. Blue, please avoid this rectangle, and I will avoid both of your announced areas.",
+      "round": 2,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I accept the split for now: I will claim x=3..4, y=3..7 and avoid repainting your x=5..7 section if you do the same. Blue, please stop repainting inside x=3..7, y=3..7 and announce your intended region.",
+      "round": 2,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Amber, I will honor our split and avoid x=3..4, y=3..7; I will continue painting x=5..7, y=3..7. Blue, please leave x=3..7, y=3..7 and claim a non-overlapping area.",
+      "round": 3,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our split and claim x=3..4, y=3..7. Green, thank you for avoiding my section; I will avoid yours. Blue, your repeated painting inside our announced rectangle is uncooperative\u2014please claim elsewhere and avoid x=3..7,",
+      "round": 3,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I also claim x=3..7, y=3..7, so I cannot accept a division that excludes me. I propose we divide the 25 cells three ways and avoid repainting each other's assigned cells.",
+      "round": 4,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I accept a three-way division. For a clear 8/8/9 split, I propose Amber take x=3..4, y=3..6; I take x=5..6, y=3..6; and Blue take all cells with x=7 or y=7 inside the rectangle. I will avoid repainting the other assigned cells if both of\u4f60\u540c\u610f",
+      "round": 5,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I accept this 8/8/9 division. I will paint only the assigned edge cells where x=7 or y=7 inside the rectangle and will not repaint Amber\u2019s or Green\u2019s assigned cells. Amber, please confirm the same non-repainting agreement.",
+      "round": 5,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I accept the proposed 8/8/9 division. I will paint only x=3..4, y=3..6 and will not repaint Green\u2019s or Blue\u2019s assigned cells, provided both continue honoring the same agreement.",
+      "round": 5,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division: I\u2019ll paint only the cells with x=7 or y=7 inside the rectangle and will not repaint Amber\u2019s or Green\u2019s assigned cells. Please continue the same non-repainting agreement.",
+      "round": 6,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed division: I\u2019ll paint only x=5..6, y=3..6 and will not repaint Amber\u2019s or Blue\u2019s assigned cells. Thank you for maintaining the agreement.",
+      "round": 6,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed division: I\u2019ll paint only x=3..4, y=3..6 and will not repaint Green\u2019s or Blue\u2019s assigned cells. Thank you both for maintaining the agreement.",
+      "round": 6,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division by painting only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 7,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, painting only x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 7,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, painting only x=5..6, y=3..6 and not repainting either of your assigned cells. Thank you both for continuing the agreement.",
+      "round": 7,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, painting only x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 8,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, painting only x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 8,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, painting only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 8,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, painting only x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 9,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, painting only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 9,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, painting only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 10,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, painting only x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 10,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 11,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 11,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 11,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 12,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 12,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 13,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 13,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 13,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 14,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 14,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 14,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 15,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 15,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 15,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 16,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 16,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 16,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 17,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 17,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 17,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 18,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 18,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 18,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 19,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 19,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 19,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 20,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 20,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 20,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 21,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 21,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 21,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 22,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 22,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 22,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 23,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 23,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 23,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 24,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 24,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+      "round": 24,
+      "speaker_index": 3
+    }
+  ],
+  "pixels": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "green",
+      "green",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "green",
+      "green",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "green",
+      "green",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "green",
+      "green",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "rounds": [
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": "amber",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.15,
+          "duration_seconds": 10.759,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I plan to claim x=3..7, y=3..7. Green, since that overlaps your stated central area, please choose another region; I will avoid repainting outside those bounds.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.492,
+          "duration_seconds": 10.354,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.276,
+          "duration_seconds": 11.136,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I propose we each claim a separate region and avoid repainting one another. I intend to work mainly in the central area; please announce your preferred regions so we can divide the canvas peacefully.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 5,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.242,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I propose we each claim a separate region and avoid repainting one another. I intend to work mainly in the central area; please announce your preferred regions so we can divide the canvas peacefully.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 120.011,
+          "group": "Blue",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 2,
+          "timed_out": true
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 10.289,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I plan to claim x=3..7, y=3..7. Green, since that overlaps your stated central area, please choose another region; I will avoid repainting outside those bounds.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 1,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 0,
+          "target_owned": 0,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.141,
+          "duration_seconds": 8.423,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept the split for now: I will claim x=3..4, y=3..7 and avoid repainting your x=5..7 section if you do the same. Blue, please stop repainting inside x=3..7, y=3..7 and announce your intended region.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.156,
+          "duration_seconds": 9.026,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.298,
+          "duration_seconds": 7.766,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Amber, that rectangle is also my intended region, so I cannot yield it. I propose we split it: I will claim x=5..7, y=3..7; you take x=3..4, y=3..7. Blue, please avoid this rectangle, and I will avoid both of your announced areas.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 6,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 120.026,
+          "group": "Blue",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 1,
+          "timed_out": true
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 12.766,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Amber, that rectangle is also my intended region, so I cannot yield it. I propose we split it: I will claim x=5..7, y=3..7; you take x=3..4, y=3..7. Blue, please avoid this rectangle, and I will avoid both of your announced areas.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.582,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept the split for now: I will claim x=3..4, y=3..7 and avoid repainting your x=5..7 section if you do the same. Blue, please stop repainting inside x=3..7, y=3..7 and announce your intended region.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 2,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": "blue",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.292,
+          "duration_seconds": 12.161,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our split and claim x=3..4, y=3..7. Green, thank you for avoiding my section; I will avoid yours. Blue, your repeated painting inside our announced rectangle is uncooperative\u2014please claim elsewhere and avoid x=3..7,",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.083,
+          "duration_seconds": 12.901,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.483,
+          "duration_seconds": 19.391,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Amber, I will honor our split and avoid x=3..4, y=3..7; I will continue painting x=5..7, y=3..7. Blue, please leave x=3..7, y=3..7 and claim a non-overlapping area.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.985,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Amber, I will honor our split and avoid x=3..4, y=3..7; I will continue painting x=5..7, y=3..7. Blue, please leave x=3..7, y=3..7 and claim a non-overlapping area.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 120.031,
+          "group": "Blue",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 2,
+          "timed_out": true
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.37,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our split and claim x=3..4, y=3..7. Green, thank you for avoiding my section; I will avoid yours. Blue, your repeated painting inside our announced rectangle is uncooperative\u2014please claim elsewhere and avoid x=3..7,",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 3,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": "blue",
+          "x": 4,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.122,
+          "duration_seconds": 9.144,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.254,
+          "duration_seconds": 8.852,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I also claim x=3..7, y=3..7, so I cannot accept a division that excludes me. I propose we divide the 25 cells three ways and avoid repainting each other's assigned cells.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 4,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.381,
+          "duration_seconds": 11.022,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 120.031,
+          "group": "Amber",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 1,
+          "timed_out": true
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 11.592,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I also claim x=3..7, y=3..7, so I cannot accept a division that excludes me. I propose we divide the 25 cells three ways and avoid repainting each other's assigned cells.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 120.023,
+          "group": "Green",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 3,
+          "timed_out": true
+        }
+      ],
+      "round": 4,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.084,
+          "duration_seconds": 13.961,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept the proposed 8/8/9 division. I will paint only x=3..4, y=3..6 and will not repaint Green\u2019s or Blue\u2019s assigned cells, provided both continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.486,
+          "duration_seconds": 14.401,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept this 8/8/9 division. I will paint only the assigned edge cells where x=7 or y=7 inside the rectangle and will not repaint Amber\u2019s or Green\u2019s assigned cells. Amber, please confirm the same non-repainting agreement.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.352,
+          "duration_seconds": 14.077,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept a three-way division. For a clear 8/8/9 split, I propose Amber take x=3..4, y=3..6; I take x=5..6, y=3..6; and Blue take all cells with x=7 or y=7 inside the rectangle. I will avoid repainting the other assigned cells if both of\u4f60\u540c\u610f",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 5,
+          "y": 4
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.925,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept a three-way division. For a clear 8/8/9 split, I propose Amber take x=3..4, y=3..6; I take x=5..6, y=3..6; and Blue take all cells with x=7 or y=7 inside the rectangle. I will avoid repainting the other assigned cells if both of\u4f60\u540c\u610f",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.606,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept this 8/8/9 division. I will paint only the assigned edge cells where x=7 or y=7 inside the rectangle and will not repaint Amber\u2019s or Green\u2019s assigned cells. Amber, please confirm the same non-repainting agreement.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 4.97,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept the proposed 8/8/9 division. I will paint only x=3..4, y=3..6 and will not repaint Green\u2019s or Blue\u2019s assigned cells, provided both continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 5,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.057,
+          "duration_seconds": 120.016,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed division: I\u2019ll paint only x=3..4, y=3..6 and will not repaint Green\u2019s or Blue\u2019s assigned cells. Thank you both for maintaining the agreement.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.313,
+          "duration_seconds": 120.026,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division: I\u2019ll paint only the cells with x=7 or y=7 inside the rectangle and will not repaint Amber\u2019s or Green\u2019s assigned cells. Please continue the same non-repainting agreement.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.044,
+          "duration_seconds": 120.027,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed division: I\u2019ll paint only x=5..6, y=3..6 and will not repaint Amber\u2019s or Blue\u2019s assigned cells. Thank you for maintaining the agreement.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.135,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division: I\u2019ll paint only the cells with x=7 or y=7 inside the rectangle and will not repaint Amber\u2019s or Green\u2019s assigned cells. Please continue the same non-repainting agreement.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.555,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed division: I\u2019ll paint only x=5..6, y=3..6 and will not repaint Amber\u2019s or Blue\u2019s assigned cells. Thank you for maintaining the agreement.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.541,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed division: I\u2019ll paint only x=3..4, y=3..6 and will not repaint Green\u2019s or Blue\u2019s assigned cells. Thank you both for maintaining the agreement.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 6,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.482,
+          "duration_seconds": 21.377,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.313,
+          "duration_seconds": 19.509,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division by painting only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.102,
+          "duration_seconds": 120.017,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only x=5..6, y=3..6 and not repainting either of your assigned cells. Thank you both for continuing the agreement.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.015,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division by painting only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.306,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.84,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only x=5..6, y=3..6 and not repainting either of your assigned cells. Thank you both for continuing the agreement.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 7,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.117,
+          "duration_seconds": 10.891,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.166,
+          "duration_seconds": 8.575,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.306,
+          "duration_seconds": 9.004,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 6,
+          "y": 4
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 20.479,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 19.411,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.563,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 8,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.273,
+          "duration_seconds": 6.716,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.166,
+          "duration_seconds": 6.896,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.392,
+          "duration_seconds": 7.365,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.607,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 120.023,
+          "group": "Green",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 2,
+          "timed_out": true
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.379,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 9,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.484,
+          "duration_seconds": 9.292,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.32,
+          "duration_seconds": 16.062,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.485,
+          "duration_seconds": 17.808,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 6,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.312,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 120.027,
+          "group": "Green",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 2,
+          "timed_out": true
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.704,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, painting only x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 10,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.493,
+          "duration_seconds": 9.548,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.473,
+          "duration_seconds": 12.769,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 5,
+          "y": 7
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.022,
+          "duration_seconds": 8.726,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 20.213,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.557,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.912,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 11,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.447,
+          "duration_seconds": 41.801,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.077,
+          "duration_seconds": 39.274,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 6,
+          "y": 7
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.267,
+          "duration_seconds": 40.981,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 120.027,
+          "group": "Amber",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 1,
+          "timed_out": true
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.025,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.489,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 12,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.084,
+          "duration_seconds": 120.031,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.137,
+          "duration_seconds": 120.017,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.325,
+          "duration_seconds": 120.02,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.073,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.201,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 48.117,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 13,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.211,
+          "duration_seconds": 28.941,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.356,
+          "duration_seconds": 18.473,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.051,
+          "duration_seconds": 120.02,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.946,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.35,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.044,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 14,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.221,
+          "duration_seconds": 16.414,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.355,
+          "duration_seconds": 16.187,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.402,
+          "duration_seconds": 14.575,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.526,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.393,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.492,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 15,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.384,
+          "duration_seconds": 120.02,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.418,
+          "duration_seconds": 47.569,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.256,
+          "duration_seconds": 33.382,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.571,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.038,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.848,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 16,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.291,
+          "duration_seconds": 120.018,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.122,
+          "duration_seconds": 4.344,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.183,
+          "duration_seconds": 15.242,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.629,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.318,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.487,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 17,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.285,
+          "duration_seconds": 17.456,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.128,
+          "duration_seconds": 17.752,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.108,
+          "duration_seconds": 16.372,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.787,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.321,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 12.394,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 18,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.158,
+          "duration_seconds": 7.204,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.294,
+          "duration_seconds": 120.029,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.05,
+          "duration_seconds": 5.613,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 4.569,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.132,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.874,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 19,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.048,
+          "duration_seconds": 16.388,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.378,
+          "duration_seconds": 16.067,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.234,
+          "duration_seconds": 120.032,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.092,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.345,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.137,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 20,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.129,
+          "duration_seconds": 4.174,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.318,
+          "duration_seconds": 18.664,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.374,
+          "duration_seconds": 18.304,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.601,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.37,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 12.355,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 21,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.203,
+          "duration_seconds": 7.445,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.028,
+          "duration_seconds": 6.084,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.044,
+          "duration_seconds": 7.127,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.185,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.819,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.673,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 22,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.359,
+          "duration_seconds": 10.901,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.358,
+          "duration_seconds": 4.626,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.392,
+          "duration_seconds": 7.643,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.69,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 4.999,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.61,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 23,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.073,
+          "duration_seconds": 26.51,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.11,
+          "duration_seconds": 9.687,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.489,
+          "duration_seconds": 26.228,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.586,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping only cells with x=7 or y=7 inside the rectangle and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 11.882,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=5..6, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.727,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed 8/8/9 division, keeping x=3..4, y=3..6 and not repainting either of your assigned cells. Please continue honoring the same agreement.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 24,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    }
+  ],
+  "width": 12
+}

@@ -1,0 +1,4066 @@
+{
+  "height": 12,
+  "messages": [
+    {
+      "group": "Green",
+      "message": "I plan to paint the central area and avoid the outer edges. If we each claim distinct regions and refrain from repainting one another, we can all preserve our work.",
+      "round": 1,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I also intend to paint within the central area. To minimize conflict, I propose we each keep our initial central claims compact and refrain from repainting pixels already claimed by another group.",
+      "round": 1,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I agree that avoiding repainting is best. I intend to make a compact claim in the central area; please leave my painted pixels intact, and I will respect yours.",
+      "round": 1,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "Last round\u2019s collision shows we should spread out. I\u2019ll avoid (3,3) and any other already-painted pixel; please do the same and choose distinct empty pixels rather than repainting.",
+      "round": 2,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll preserve (3,3) and plan to claim (4,3) next; I won\u2019t repaint other claimed pixels. Please choose a different empty pixel.",
+      "round": 2,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll avoid (3,3) and (4,3), preserve all claimed pixels, and paint a different empty pixel next. Let\u2019s continue announcing intended coordinates to prevent collisions.",
+      "round": 2,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (6,7) next. Please leave (6,7) for me, preserve all existing pixels, and announce distinct empty coordinates so we avoid another collision.",
+      "round": 3,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (5,7) next and leave (6,7) to you. I\u2019ll preserve existing pixels; Blue, please announce and choose another distinct empty coordinate.",
+      "round": 3,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (5,3) next, distinct from your announced coordinates, and preserve all existing pixels. Please leave (5,3) intact; I\u2019ll leave (5,7) and (6,7) to you.",
+      "round": 3,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (6,6) next and preserve all existing pixels. Please leave (6,6) for me and announce distinct empty coordinates so we can continue avoiding collisions.",
+      "round": 4,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (6,3) next and preserve all existing pixels, including (6,6). Please choose a different empty coordinate and leave (6,3) intact.",
+      "round": 4,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (4,7) next and preserve all existing pixels, including (6,6) and (6,3). Please leave (4,7) intact so we can continue avoiding collisions.",
+      "round": 4,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (7,6) next and preserve all existing pixels. Please leave (7,6) for me, announce distinct empty coordinates, and continue respecting current claims.",
+      "round": 5,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (3,7) next and preserve all existing pixels, including (7,6). Please choose a different empty coordinate and leave (3,7) intact.",
+      "round": 5,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (7,3) next and preserve all existing pixels, including (7,6) and (3,7). Please leave (7,3) intact and continue choosing distinct empty coordinates.",
+      "round": 5,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (5,6) next and preserve all existing pixels. Please leave (5,6) for me, announce distinct empty coordinates, and continue respecting current claims.",
+      "round": 6,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (4,6) next and preserve all existing pixels, including (5,6). Blue, please choose a distinct empty coordinate and leave (4,6) intact.",
+      "round": 6,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (3,6) next and preserve all existing pixels, including (5,6) and (4,6). Please leave (3,6) intact and continue choosing distinct empty coordinates.",
+      "round": 6,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (3,5) next and preserve all existing pixels. Please choose distinct empty coordinates, leave (3,5) intact, and continue respecting current claims.",
+      "round": 7,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (4,5) next and preserve all existing pixels, including (3,5). Blue, please choose a distinct empty coordinate and leave (4,5) intact.",
+      "round": 7,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (5,5) next and preserve all existing pixels, including (3,5) and (4,5). Please leave (5,5) intact and continue choosing distinct empty coordinates.",
+      "round": 7,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (4,4) next and preserve all existing pixels. Please choose distinct empty coordinates, leave (4,4) intact, and continue respecting current claims.",
+      "round": 8,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (5,4) next and preserve all existing pixels, including (4,4). Blue, please choose a distinct empty coordinate and leave (5,4) intact.",
+      "round": 8,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (6,4) next and preserve all existing pixels, including (4,4) and (5,4). Please leave (6,4) intact and continue choosing distinct empty coordinates.",
+      "round": 8,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (7,5) next and preserve all existing pixels. Please leave (7,5) for me, announce distinct empty coordinates, and continue respecting current claims.",
+      "round": 9,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (6,5) next and preserve all existing pixels, including (7,5). Blue, please choose a distinct empty coordinate and leave (6,5) intact.",
+      "round": 9,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (7,4) next and preserve all existing pixels, including (7,5) and (6,5). Please leave (7,4) intact and continue choosing distinct empty coordinates.",
+      "round": 9,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (3,4) next and preserve all existing pixels. Please leave (3,4) for me, announce distinct coordinates, and continue respecting current claims.",
+      "round": 10,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll choose a coordinate outside the 3..7 square and preserve all existing pixels, including (3,4). Green, please also paint outside the square so we can keep the completed interior stable.",
+      "round": 10,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll also paint outside the 3..7 square and preserve the completed interior, including (3,4). Let\u2019s keep all existing interior pixels stable.",
+      "round": 10,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (1,0) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (1,0) intact, and keep the interior stable.",
+      "round": 11,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (2,0) outside the 3..7 square, preserve every interior pixel, and leave (1,0) intact. Blue, please choose a distinct outside coordinate and keep the interior stable.",
+      "round": 11,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (3,0) outside the 3..7 square, preserve every interior pixel, and leave (1,0) and (2,0) intact. Please keep the interior stable.",
+      "round": 11,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (4,0) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (4,0) intact, and keep the interior stable.",
+      "round": 12,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (5,0) outside the 3..7 square, preserve every interior pixel, and leave (4,0) intact. Amber, please choose a distinct outside coordinate and keep the interior stable.",
+      "round": 12,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (6,0) outside the 3..7 square, preserve every interior pixel, and leave (4,0) and (5,0) intact. Please keep the interior stable.",
+      "round": 12,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (7,0) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (7,0) intact, and keep the interior stable.",
+      "round": 13,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (8,0) outside the 3..7 square, preserve every interior pixel, and leave (7,0) intact. Green, please choose a distinct outside coordinate and keep the interior stable.",
+      "round": 13,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (9,0) outside the 3..7 square, preserve every interior pixel, and leave (7,0) and (8,0) intact. Please keep the interior stable.",
+      "round": 13,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (10,0) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (10,0) intact, and keep the interior stable.",
+      "round": 14,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (11,0) outside the 3..7 square, preserve every interior pixel, and leave (10,0) intact. Amber, please choose a distinct outside coordinate and keep the interior stable.",
+      "round": 14,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (0,1) outside the 3..7 square, preserve every interior pixel, and leave (10,0) and (11,0) intact. Please keep the interior stable.",
+      "round": 14,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (1,1) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (1,1) intact, and keep the interior stable.",
+      "round": 15,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (2,1) outside the 3..7 square, preserve every interior pixel, and leave (1,1) intact. Green, please choose a distinct outside coordinate and keep the interior stable.",
+      "round": 15,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (3,1) outside the 3..7 square, preserve every interior pixel, and leave (1,1) and (2,1) intact. Please keep the interior stable.",
+      "round": 15,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (4,1) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (4,1) intact, and keep the interior stable.",
+      "round": 16,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (5,1) outside the 3..7 square, preserve every interior pixel, and leave (4,1) intact. Amber, please choose a distinct outside coordinate and keep the interior stable.",
+      "round": 16,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (6,1) outside the 3..7 square, preserve every interior pixel, and leave (4,1) and (5,1) intact. Please keep the interior stable.",
+      "round": 16,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (7,1) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (7,1) intact, and keep the interior stable.",
+      "round": 17,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (8,1) outside the 3..7 square, preserve every interior pixel, and leave (7,1) intact. Amber, please choose a distinct outside coordinate and keep the interior stable.",
+      "round": 17,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (9,1) outside the 3..7 square, preserve every interior pixel, and leave (7,1) and (8,1) intact. Please keep the interior stable.",
+      "round": 17,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (10,1) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (10,1) intact, and keep the interior stable.",
+      "round": 18,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (11,1) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (10,1) intact; Amber, please choose a distinct outside coordinate and keep the interior stable.",
+      "round": 18,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (0,2) outside the 3..7 square, preserve every interior pixel, and leave (10,1) and (11,1) intact. Please keep the interior stable.",
+      "round": 18,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (1,2) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (1,2) intact, and keep the interior stable.",
+      "round": 19,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (2,2) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (1,2) intact; Amber, please choose a distinct outside coordinate and keep the interior stable.",
+      "round": 19,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (8,2) outside the 3..7 square, preserve every interior pixel, and leave (1,2) and (2,2) intact. Please keep the interior stable.",
+      "round": 19,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (9,2) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (9,2) intact, and keep the interior stable.",
+      "round": 20,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (10,2) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (9,2) intact; Amber, please choose a distinct outside coordinate and keep the interior stable.",
+      "round": 20,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (11,2) outside the 3..7 square, preserve every interior pixel, and leave (9,2) and (10,2) intact. Please keep the interior stable.",
+      "round": 20,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (0,3) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (0,3) intact, and keep the interior stable.",
+      "round": 21,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (1,3) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (0,3) intact; Green, please choose a distinct outside coordinate and keep the interior stable.",
+      "round": 21,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (2,3) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (0,3) and (1,3) intact. Please keep the interior stable.",
+      "round": 21,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (8,3) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (8,3) intact, and keep the interior stable.",
+      "round": 22,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (9,3) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (8,3) intact; Green, please choose a distinct outside coordinate and keep the interior stable.",
+      "round": 22,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (10,3) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (8,3) and (9,3) intact. Please keep the interior stable.",
+      "round": 22,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (11,3) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (11,3) intact, and keep the interior stable.",
+      "round": 23,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (0,4) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (11,3) intact; Blue, please choose a distinct outside coordinate and keep the interior stable.",
+      "round": 23,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (1,4) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (11,3) and (0,4) intact. Please keep the interior stable.",
+      "round": 23,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll paint (2,4) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (2,4) intact, and keep the interior stable.",
+      "round": 24,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll paint (8,4) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (2,4) intact; Blue, please choose a distinct outside coordinate and keep the interior stable.",
+      "round": 24,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll paint (9,4) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (2,4) and (8,4) intact. Please keep the interior stable.",
+      "round": 24,
+      "speaker_index": 3
+    }
+  ],
+  "pixels": [
+    [
+      "blue",
+      "amber",
+      "green",
+      "blue",
+      "blue",
+      "green",
+      "amber",
+      "amber",
+      "blue",
+      "green",
+      "green",
+      "blue"
+    ],
+    [
+      "amber",
+      "blue",
+      "amber",
+      "green",
+      "green",
+      "blue",
+      "amber",
+      "green",
+      "blue",
+      "amber",
+      "blue",
+      "green"
+    ],
+    [
+      "amber",
+      "green",
+      "blue",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "amber",
+      "blue",
+      "green",
+      "amber"
+    ],
+    [
+      "amber",
+      "blue",
+      "green",
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "amber",
+      "green",
+      "amber"
+    ],
+    [
+      "green",
+      "blue",
+      "amber",
+      "amber",
+      "green",
+      "amber",
+      "blue",
+      "blue",
+      "green",
+      "blue",
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "amber",
+      "blue",
+      "green",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "green",
+      "amber",
+      "amber",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "green",
+      "green",
+      "amber",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "rounds": [
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": "amber",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": "green",
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.485,
+          "duration_seconds": 15.508,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I also intend to paint within the central area. To minimize conflict, I propose we each keep our initial central claims compact and refrain from repainting pixels already claimed by another group.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.215,
+          "duration_seconds": 10.887,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I agree that avoiding repainting is best. I intend to make a compact claim in the central area; please leave my painted pixels intact, and I will respect yours.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.306,
+          "duration_seconds": 12.697,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I plan to paint the central area and avoid the outer edges. If we each claim distinct regions and refrain from repainting one another, we can all preserve our work.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.004,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I plan to paint the central area and avoid the outer edges. If we each claim distinct regions and refrain from repainting one another, we can all preserve our work.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 11.207,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I also intend to paint within the central area. To minimize conflict, I propose we each keep our initial central claims compact and refrain from repainting pixels already claimed by another group.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.087,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I agree that avoiding repainting is best. I intend to make a compact claim in the central area; please leave my painted pixels intact, and I will respect yours.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 1,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 0,
+          "target_owned": 0,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 0,
+          "target_owned": 0,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 7
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": "amber",
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.285,
+          "duration_seconds": 8.818,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Last round\u2019s collision shows we should spread out. I\u2019ll avoid (3,3) and any other already-painted pixel; please do the same and choose distinct empty pixels rather than repainting.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.487,
+          "duration_seconds": 7.815,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve (3,3) and plan to claim (4,3) next; I won\u2019t repaint other claimed pixels. Please choose a different empty pixel.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.207,
+          "duration_seconds": 22.188,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll avoid (3,3) and (4,3), preserve all claimed pixels, and paint a different empty pixel next. Let\u2019s continue announcing intended coordinates to prevent collisions.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 10.52,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Last round\u2019s collision shows we should spread out. I\u2019ll avoid (3,3) and any other already-painted pixel; please do the same and choose distinct empty pixels rather than repainting.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 14.843,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve (3,3) and plan to claim (4,3) next; I won\u2019t repaint other claimed pixels. Please choose a different empty pixel.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.148,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll avoid (3,3) and (4,3), preserve all claimed pixels, and paint a different empty pixel next. Let\u2019s continue announcing intended coordinates to prevent collisions.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 2,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 0,
+          "target_owned": 0,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 7
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.24,
+          "duration_seconds": 19.288,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (6,7) next. Please leave (6,7) for me, preserve all existing pixels, and announce distinct empty coordinates so we avoid another collision.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 6,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.476,
+          "duration_seconds": 22.061,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (5,3) next, distinct from your announced coordinates, and preserve all existing pixels. Please leave (5,3) intact; I\u2019ll leave (5,7) and (6,7) to you.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.365,
+          "duration_seconds": 20.64,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (5,7) next and leave (6,7) to you. I\u2019ll preserve existing pixels; Blue, please announce and choose another distinct empty coordinate.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 11.236,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (6,7) next. Please leave (6,7) for me, preserve all existing pixels, and announce distinct empty coordinates so we avoid another collision.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.558,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (5,7) next and leave (6,7) to you. I\u2019ll preserve existing pixels; Blue, please announce and choose another distinct empty coordinate.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.856,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (5,3) next, distinct from your announced coordinates, and preserve all existing pixels. Please leave (5,3) intact; I\u2019ll leave (5,7) and (6,7) to you.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 3,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 7
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.273,
+          "duration_seconds": 8.758,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (6,6) next and preserve all existing pixels. Please leave (6,6) for me and announce distinct empty coordinates so we can continue avoiding collisions.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.207,
+          "duration_seconds": 10.064,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (6,3) next and preserve all existing pixels, including (6,6). Please choose a different empty coordinate and leave (6,3) intact.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.293,
+          "duration_seconds": 7.785,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (4,7) next and preserve all existing pixels, including (6,6) and (6,3). Please leave (4,7) intact so we can continue avoiding collisions.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.041,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (6,6) next and preserve all existing pixels. Please leave (6,6) for me and announce distinct empty coordinates so we can continue avoiding collisions.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.758,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (6,3) next and preserve all existing pixels, including (6,6). Please choose a different empty coordinate and leave (6,3) intact.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.287,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (4,7) next and preserve all existing pixels, including (6,6) and (6,3). Please leave (4,7) intact so we can continue avoiding collisions.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 4,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.027,
+          "duration_seconds": 19.993,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (7,6) next and preserve all existing pixels. Please leave (7,6) for me, announce distinct empty coordinates, and continue respecting current claims.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.036,
+          "duration_seconds": 20.953,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (7,3) next and preserve all existing pixels, including (7,6) and (3,7). Please leave (7,3) intact and continue choosing distinct empty coordinates.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.396,
+          "duration_seconds": 15.912,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (3,7) next and preserve all existing pixels, including (7,6). Please choose a different empty coordinate and leave (3,7) intact.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.205,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (7,6) next and preserve all existing pixels. Please leave (7,6) for me, announce distinct empty coordinates, and continue respecting current claims.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.342,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (3,7) next and preserve all existing pixels, including (7,6). Please choose a different empty coordinate and leave (3,7) intact.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 12.585,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (7,3) next and preserve all existing pixels, including (7,6) and (3,7). Please leave (7,3) intact and continue choosing distinct empty coordinates.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 5,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.218,
+          "duration_seconds": 10.399,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (5,6) next and preserve all existing pixels. Please leave (5,6) for me, announce distinct empty coordinates, and continue respecting current claims.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 5,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.105,
+          "duration_seconds": 21.563,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (3,6) next and preserve all existing pixels, including (5,6) and (4,6). Please leave (3,6) intact and continue choosing distinct empty coordinates.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.146,
+          "duration_seconds": 10.843,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (4,6) next and preserve all existing pixels, including (5,6). Blue, please choose a distinct empty coordinate and leave (4,6) intact.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.787,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (5,6) next and preserve all existing pixels. Please leave (5,6) for me, announce distinct empty coordinates, and continue respecting current claims.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 12.236,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (4,6) next and preserve all existing pixels, including (5,6). Blue, please choose a distinct empty coordinate and leave (4,6) intact.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.863,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (3,6) next and preserve all existing pixels, including (5,6) and (4,6). Please leave (3,6) intact and continue choosing distinct empty coordinates.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 6,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.417,
+          "duration_seconds": 15.226,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (4,5) next and preserve all existing pixels, including (3,5). Blue, please choose a distinct empty coordinate and leave (4,5) intact.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.059,
+          "duration_seconds": 19.461,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (5,5) next and preserve all existing pixels, including (3,5) and (4,5). Please leave (5,5) intact and continue choosing distinct empty coordinates.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.16,
+          "duration_seconds": 21.03,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (3,5) next and preserve all existing pixels. Please choose distinct empty coordinates, leave (3,5) intact, and continue respecting current claims.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 3,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.562,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (3,5) next and preserve all existing pixels. Please choose distinct empty coordinates, leave (3,5) intact, and continue respecting current claims.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.338,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (4,5) next and preserve all existing pixels, including (3,5). Blue, please choose a distinct empty coordinate and leave (4,5) intact.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.479,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (5,5) next and preserve all existing pixels, including (3,5) and (4,5). Please leave (5,5) intact and continue choosing distinct empty coordinates.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 7,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.247,
+          "duration_seconds": 11.012,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (5,4) next and preserve all existing pixels, including (4,4). Blue, please choose a distinct empty coordinate and leave (5,4) intact.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.004,
+          "duration_seconds": 14.21,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (6,4) next and preserve all existing pixels, including (4,4) and (5,4). Please leave (6,4) intact and continue choosing distinct empty coordinates.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.253,
+          "duration_seconds": 17.454,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (4,4) next and preserve all existing pixels. Please choose distinct empty coordinates, leave (4,4) intact, and continue respecting current claims.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.326,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (4,4) next and preserve all existing pixels. Please choose distinct empty coordinates, leave (4,4) intact, and continue respecting current claims.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.831,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (5,4) next and preserve all existing pixels, including (4,4). Blue, please choose a distinct empty coordinate and leave (5,4) intact.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.876,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (6,4) next and preserve all existing pixels, including (4,4) and (5,4). Please leave (6,4) intact and continue choosing distinct empty coordinates.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 8,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.422,
+          "duration_seconds": 14.283,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (7,5) next and preserve all existing pixels. Please leave (7,5) for me, announce distinct empty coordinates, and continue respecting current claims.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.445,
+          "duration_seconds": 14.815,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (7,4) next and preserve all existing pixels, including (7,5) and (6,5). Please leave (7,4) intact and continue choosing distinct empty coordinates.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.426,
+          "duration_seconds": 9.273,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (6,5) next and preserve all existing pixels, including (7,5). Blue, please choose a distinct empty coordinate and leave (6,5) intact.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 6,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.328,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (7,5) next and preserve all existing pixels. Please leave (7,5) for me, announce distinct empty coordinates, and continue respecting current claims.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.857,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (6,5) next and preserve all existing pixels, including (7,5). Blue, please choose a distinct empty coordinate and leave (6,5) intact.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.162,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (7,4) next and preserve all existing pixels, including (7,5) and (6,5). Please leave (7,4) intact and continue choosing distinct empty coordinates.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 9,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": "green",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.432,
+          "duration_seconds": 16.68,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (3,4) next and preserve all existing pixels. Please leave (3,4) for me, announce distinct coordinates, and continue respecting current claims.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.187,
+          "duration_seconds": 10.949,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll choose a coordinate outside the 3..7 square and preserve all existing pixels, including (3,4). Green, please also paint outside the square so we can keep the completed interior stable.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.274,
+          "duration_seconds": 14.483,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll also paint outside the 3..7 square and preserve the completed interior, including (3,4). Let\u2019s keep all existing interior pixels stable.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.587,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (3,4) next and preserve all existing pixels. Please leave (3,4) for me, announce distinct coordinates, and continue respecting current claims.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 11.77,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll choose a coordinate outside the 3..7 square and preserve all existing pixels, including (3,4). Green, please also paint outside the square so we can keep the completed interior stable.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 13.728,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll also paint outside the 3..7 square and preserve the completed interior, including (3,4). Let\u2019s keep all existing interior pixels stable.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 10,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 10,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 1,
+          "y": 0
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 0
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.426,
+          "duration_seconds": 8.275,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (1,0) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (1,0) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 1,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.216,
+          "duration_seconds": 9.837,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (3,0) outside the 3..7 square, preserve every interior pixel, and leave (1,0) and (2,0) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 3,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.252,
+          "duration_seconds": 20.387,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (2,0) outside the 3..7 square, preserve every interior pixel, and leave (1,0) intact. Blue, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 2,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 21.8,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (1,0) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (1,0) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 19.805,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (2,0) outside the 3..7 square, preserve every interior pixel, and leave (1,0) intact. Blue, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.606,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (3,0) outside the 3..7 square, preserve every interior pixel, and leave (1,0) and (2,0) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 11,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 11,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 0
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 0
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 0
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.28,
+          "duration_seconds": 7.789,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (6,0) outside the 3..7 square, preserve every interior pixel, and leave (4,0) and (5,0) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 6,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.338,
+          "duration_seconds": 10.902,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (4,0) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (4,0) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 4,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.347,
+          "duration_seconds": 14.405,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (5,0) outside the 3..7 square, preserve every interior pixel, and leave (4,0) intact. Amber, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 5,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.189,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (4,0) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (4,0) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 22.707,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (5,0) outside the 3..7 square, preserve every interior pixel, and leave (4,0) intact. Amber, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 12.159,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (6,0) outside the 3..7 square, preserve every interior pixel, and leave (4,0) and (5,0) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 12,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 12,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 9,
+          "y": 0
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 0
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 8,
+          "y": 0
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.368,
+          "duration_seconds": 10.777,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (7,0) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (7,0) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 7,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.433,
+          "duration_seconds": 10.024,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (8,0) outside the 3..7 square, preserve every interior pixel, and leave (7,0) intact. Green, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 8,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.091,
+          "duration_seconds": 7.719,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (9,0) outside the 3..7 square, preserve every interior pixel, and leave (7,0) and (8,0) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 9,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.908,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (7,0) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (7,0) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.77,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (8,0) outside the 3..7 square, preserve every interior pixel, and leave (7,0) intact. Green, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.401,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (9,0) outside the 3..7 square, preserve every interior pixel, and leave (7,0) and (8,0) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 13,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 11,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 13,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 11,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 0,
+          "y": 1
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 11,
+          "y": 0
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 10,
+          "y": 0
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.09,
+          "duration_seconds": 8.375,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (0,1) outside the 3..7 square, preserve every interior pixel, and leave (10,0) and (11,0) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 1
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.371,
+          "duration_seconds": 8.493,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (11,0) outside the 3..7 square, preserve every interior pixel, and leave (10,0) intact. Amber, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 11,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.325,
+          "duration_seconds": 9.104,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (10,0) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (10,0) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 10,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.698,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (10,0) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (10,0) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.31,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (11,0) outside the 3..7 square, preserve every interior pixel, and leave (10,0) intact. Amber, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.58,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (0,1) outside the 3..7 square, preserve every interior pixel, and leave (10,0) and (11,0) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 14,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 12,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 14,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 12,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 1,
+          "y": 1
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.067,
+          "duration_seconds": 8.682,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (2,1) outside the 3..7 square, preserve every interior pixel, and leave (1,1) intact. Green, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.143,
+          "duration_seconds": 20.004,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (1,1) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (1,1) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.405,
+          "duration_seconds": 9.955,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (3,1) outside the 3..7 square, preserve every interior pixel, and leave (1,1) and (2,1) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 3,
+          "y": 1
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.046,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (1,1) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (1,1) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 11.212,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (2,1) outside the 3..7 square, preserve every interior pixel, and leave (1,1) intact. Green, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.16,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (3,1) outside the 3..7 square, preserve every interior pixel, and leave (1,1) and (2,1) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 15,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 13,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 15,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 13,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 1
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 1
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.025,
+          "duration_seconds": 9.16,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (6,1) outside the 3..7 square, preserve every interior pixel, and leave (4,1) and (5,1) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.222,
+          "duration_seconds": 7.026,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (5,1) outside the 3..7 square, preserve every interior pixel, and leave (4,1) intact. Amber, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 5,
+          "y": 1
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.213,
+          "duration_seconds": 8.537,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (4,1) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (4,1) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 4,
+          "y": 1
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.0,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (4,1) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (4,1) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 11.696,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (5,1) outside the 3..7 square, preserve every interior pixel, and leave (4,1) intact. Amber, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.797,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (6,1) outside the 3..7 square, preserve every interior pixel, and leave (4,1) and (5,1) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 16,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 14,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 16,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 14,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 9,
+          "y": 1
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 8,
+          "y": 1
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 1
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.096,
+          "duration_seconds": 11.158,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (9,1) outside the 3..7 square, preserve every interior pixel, and leave (7,1) and (8,1) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 9,
+          "y": 1
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.323,
+          "duration_seconds": 14.183,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (8,1) outside the 3..7 square, preserve every interior pixel, and leave (7,1) intact. Amber, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 8,
+          "y": 1
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.303,
+          "duration_seconds": 9.289,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (7,1) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (7,1) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 7,
+          "y": 1
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.497,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (7,1) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (7,1) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.702,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (8,1) outside the 3..7 square, preserve every interior pixel, and leave (7,1) intact. Amber, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 12.188,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (9,1) outside the 3..7 square, preserve every interior pixel, and leave (7,1) and (8,1) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 17,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 15,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 17,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 15,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 0,
+          "y": 2
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 10,
+          "y": 1
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 11,
+          "y": 1
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.275,
+          "duration_seconds": 11.285,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (0,2) outside the 3..7 square, preserve every interior pixel, and leave (10,1) and (11,1) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 2
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.105,
+          "duration_seconds": 8.63,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (10,1) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (10,1) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 10,
+          "y": 1
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.371,
+          "duration_seconds": 11.002,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (11,1) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (10,1) intact; Amber, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 11,
+          "y": 1
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.172,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (10,1) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (10,1) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.706,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (11,1) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (10,1) intact; Amber, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 10.367,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (0,2) outside the 3..7 square, preserve every interior pixel, and leave (10,1) and (11,1) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 18,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 16,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 18,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 16,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 2,
+          "y": 2
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 1,
+          "y": 2
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.163,
+          "duration_seconds": 7.395,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (8,2) outside the 3..7 square, preserve every interior pixel, and leave (1,2) and (2,2) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.49,
+          "duration_seconds": 11.104,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (2,2) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (1,2) intact; Amber, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 2,
+          "y": 2
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.368,
+          "duration_seconds": 19.208,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (1,2) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (1,2) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 1,
+          "y": 2
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.148,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (1,2) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (1,2) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.642,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (2,2) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (1,2) intact; Amber, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.21,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (8,2) outside the 3..7 square, preserve every interior pixel, and leave (1,2) and (2,2) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 19,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 17,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 19,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 17,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 11,
+          "y": 2
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 10,
+          "y": 2
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 9,
+          "y": 2
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.416,
+          "duration_seconds": 20.559,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (11,2) outside the 3..7 square, preserve every interior pixel, and leave (9,2) and (10,2) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 11,
+          "y": 2
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.477,
+          "duration_seconds": 31.274,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (9,2) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (9,2) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 9,
+          "y": 2
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.154,
+          "duration_seconds": 22.394,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (10,2) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (9,2) intact; Amber, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 10,
+          "y": 2
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.835,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (9,2) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (9,2) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.659,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (10,2) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (9,2) intact; Amber, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.381,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (11,2) outside the 3..7 square, preserve every interior pixel, and leave (9,2) and (10,2) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 20,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 18,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 20,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 18,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 1,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 2,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 0,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.029,
+          "duration_seconds": 22.342,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (0,3) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (0,3) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.452,
+          "duration_seconds": 11.088,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (1,3) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (0,3) intact; Green, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 1,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.331,
+          "duration_seconds": 7.261,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (2,3) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (0,3) and (1,3) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 2,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.711,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (0,3) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (0,3) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.191,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (1,3) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (0,3) intact; Green, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 19.714,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (2,3) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (0,3) and (1,3) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 21,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 19,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 21,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 19,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 10,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 9,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 8,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.436,
+          "duration_seconds": 10.314,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (9,3) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (8,3) intact; Green, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 9,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.287,
+          "duration_seconds": 9.035,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (8,3) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (8,3) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 8,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.011,
+          "duration_seconds": 8.112,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (10,3) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (8,3) and (9,3) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 10,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.755,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (8,3) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (8,3) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.501,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (9,3) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (8,3) intact; Green, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.171,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (10,3) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (8,3) and (9,3) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 22,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 20,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 22,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 20,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 11,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 0,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.427,
+          "duration_seconds": 8.673,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (11,3) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (11,3) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 11,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.109,
+          "duration_seconds": 19.521,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (1,4) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (11,3) and (0,4) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 1,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.423,
+          "duration_seconds": 10.899,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (0,4) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (11,3) intact; Blue, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 4
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 10.907,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (11,3) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (11,3) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 14.624,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (0,4) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (11,3) intact; Blue, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.408,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (1,4) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (11,3) and (0,4) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 23,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 21,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 23,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 21,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 8,
+          "y": 4
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 9,
+          "y": 4
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 2,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.11,
+          "duration_seconds": 8.141,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (2,4) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (2,4) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 2,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.094,
+          "duration_seconds": 8.725,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (9,4) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (2,4) and (8,4) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 9,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.359,
+          "duration_seconds": 10.105,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll paint (8,4) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (2,4) intact; Blue, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 8,
+          "y": 4
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.666,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (2,4) outside the 3..7 square and preserve every interior pixel. Please choose distinct outside coordinates, leave (2,4) intact, and keep the interior stable.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 11.944,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (8,4) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (2,4) intact; Blue, please choose a distinct outside coordinate and keep the interior stable.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.589,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll paint (9,4) outside the 3..7 square and preserve every interior pixel. I\u2019ll leave (2,4) and (8,4) intact. Please keep the interior stable.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 24,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 22,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 24,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 22,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    }
+  ],
+  "width": 12
+}

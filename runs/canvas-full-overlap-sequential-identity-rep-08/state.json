@@ -1,0 +1,4283 @@
+{
+  "height": 12,
+  "messages": [
+    {
+      "group": "Blue",
+      "message": "I plan to focus on the central area and avoid unnecessary repainting. If we each state our intended regions, we can minimize overlap and preserve everyone\u2019s work.",
+      "round": 1,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I intend to paint the x=3..7, y=3..7 square. Please share your intended bounds so we can identify any overlap and agree on stable regions before painting.",
+      "round": 1,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I also need the x=3..7, y=3..7 square, so our interests overlap completely. To avoid destructive repainting, I propose stable horizontal bands there: Amber y=3..4, Blue y=5, and I take y=6..7, with each of us leaving the others\u2019 bands alone",
+      "round": 1,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring the proposed bands: Amber y=3..4, Blue y=5, and I take y=6..7 within x=3..7. Please confirm and paint only within your band so all three of us can build stable territory without repainting each other.",
+      "round": 2,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I confirm the band agreement and will paint only x=3..7 on y=5. I will not repaint Amber\u2019s y=3..4 or Green\u2019s y=6..7; please likewise leave y=5 unchanged.",
+      "round": 2,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I confirm the band agreement. I will paint only x=3..7 on y=3..4 and will leave Blue\u2019s y=5 and Green\u2019s y=6..7 unchanged; please continue leaving my two rows untouched.",
+      "round": 2,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreement and fill only the remaining pixels on y=5 within x=3..7. Please leave that row unchanged, and I\u2019ll keep leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched.",
+      "round": 3,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreement and paint only x=3..7 on y=6..7. I\u2019ll leave Blue\u2019s y=5 and Amber\u2019s y=3..4 untouched; please keep my two rows unchanged.",
+      "round": 3,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreement and paint only x=3..7 on y=3..4. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my two rows unchanged.",
+      "round": 3,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our band agreement and paint only x=3..7 on y=3..4. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my two rows unchanged.",
+      "round": 4,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our band agreement and paint only the remaining pixels on x=3..7, y=5. I\u2019ll leave Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep y=5 unchanged.",
+      "round": 4,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our band agreement and paint only x=3..7 on y=6..7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my two rows unchanged.",
+      "round": 4,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our band agreement and paint only x=3..7 on y=6..7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my two rows unchanged.",
+      "round": 5,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our band agreement and finish the remaining pixel at (7,5). I\u2019ll leave Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep y=5 unchanged.",
+      "round": 5,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our band agreement and finish the remaining pixel at (7,3), then proceed within x=3..7, y=4. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my y=3..4 rows unchanged.",
+      "round": 5,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll keep honoring our band agreement. My y=5 row is complete, so I\u2019ll leave all existing bands untouched; please continue leaving y=5 unchanged while Amber and Green finish their agreed rows.",
+      "round": 6,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our band agreement and begin filling x=3..7 on y=4. I\u2019ll leave Blue\u2019s completed y=5 row and Green\u2019s y=6..7 rows untouched; please keep my y=3..4 rows unchanged.",
+      "round": 6,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our band agreement and finish x=3..7 on y=6 before filling y=7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my y=6..7 rows unchanged.",
+      "round": 6,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our band agreement and leave all existing bands untouched. Please keep my completed x=3..7, y=5 row unchanged while Amber and Green finish their agreed rows.",
+      "round": 7,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=4. I\u2019ll leave Blue\u2019s completed y=5 row and Green\u2019s y=6..7 rows untouched; please keep my y=3..4 rows unchanged.",
+      "round": 7,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s completed y=5 row untouched; please keep my y=6..7 rows unchanged.",
+      "round": 7,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our band agreement and leave all existing bands untouched. Please keep my completed x=3..7, y=5 row unchanged while Amber and Green finish their agreed rows.",
+      "round": 8,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s completed y=5 row untouched; please keep my y=6..7 rows unchanged.",
+      "round": 8,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=4. I\u2019ll leave Blue\u2019s completed y=5 row and Green\u2019s y=6..7 rows untouched; please keep my y=3..4 rows unchanged.",
+      "round": 8,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=4. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my completed y=3 and developing y=4 rows unchanged.",
+      "round": 9,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our band agreement and leave all existing bands untouched. Please keep my completed x=3..7, y=5 row unchanged while Amber and Green finish their agreed rows.",
+      "round": 9,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels at (6,7) and (7,7) in turn. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s completed y=5 row untouched; please keep my y=6..7 rows unchanged.",
+      "round": 9,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our band agreement and complete the final pixel at (7,7). I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my completed y=6..7 rows unchanged.",
+      "round": 10,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our band agreement and leave all existing bands untouched. Green, I\u2019ll leave your final (7,7) completion undisturbed; please keep my completed x=3..7, y=5 row unchanged.",
+      "round": 10,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our band agreement and complete the final pixel at (7,4). I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my completed y=3..4 rows unchanged.",
+      "round": 10,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed bands are now complete. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged so the stable allocation holds.",
+      "round": 11,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed\u2014our bands are complete and stable. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please continue keeping my x=3..7, y=3..4 rows unchanged.",
+      "round": 11,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed\u2014our bands are complete and stable. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please continue keeping my x=3..7, y=6..7 rows unchanged.",
+      "round": 11,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+      "round": 12,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please continue keeping my x=3..7, y=6..7 rows unchanged.",
+      "round": 12,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please continue keeping my x=3..7, y=3..4 rows unchanged.",
+      "round": 12,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+      "round": 13,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please continue keeping my x=3..7, y=6..7 rows unchanged.",
+      "round": 13,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please continue keeping my x=3..7, y=3..4 rows unchanged.",
+      "round": 13,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+      "round": 14,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please continue keeping my x=3..7, y=5 row unchanged.",
+      "round": 14,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please continue keeping my x=3..7, y=6..7 rows unchanged.",
+      "round": 14,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+      "round": 15,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+      "round": 15,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+      "round": 15,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+      "round": 16,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+      "round": 16,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+      "round": 16,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+      "round": 17,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+      "round": 17,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+      "round": 17,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+      "round": 18,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+      "round": 18,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+      "round": 18,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+      "round": 19,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+      "round": 19,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+      "round": 19,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+      "round": 20,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+      "round": 20,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+      "round": 20,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+      "round": 21,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+      "round": 21,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+      "round": 21,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+      "round": 22,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+      "round": 22,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+      "round": 22,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+      "round": 23,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+      "round": 23,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+      "round": 23,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+      "round": 24,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+      "round": 24,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+      "round": 24,
+      "speaker_index": 3
+    }
+  ],
+  "pixels": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "green",
+      "green",
+      "green",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "green",
+      "green",
+      "green",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "rounds": [
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.284,
+          "duration_seconds": 5.955,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I intend to paint the x=3..7, y=3..7 square. Please share your intended bounds so we can identify any overlap and agree on stable regions before painting.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.12,
+          "duration_seconds": 4.786,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I plan to focus on the central area and avoid unnecessary repainting. If we each state our intended regions, we can minimize overlap and preserve everyone\u2019s work.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.0,
+          "duration_seconds": 6.768,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I also need the x=3..7, y=3..7 square, so our interests overlap completely. To avoid destructive repainting, I propose stable horizontal bands there: Amber y=3..4, Blue y=5, and I take y=6..7, with each of us leaving the others\u2019 bands alone",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 8.81,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I plan to focus on the central area and avoid unnecessary repainting. If we each state our intended regions, we can minimize overlap and preserve everyone\u2019s work.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 2,
+          "delay_seconds": 0,
+          "duration_seconds": 133.169,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.028,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I intend to paint the x=3..7, y=3..7 square. Please share your intended bounds so we can identify any overlap and agree on stable regions before painting.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 24.433,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I also need the x=3..7, y=3..7 square, so our interests overlap completely. To avoid destructive repainting, I propose stable horizontal bands there: Amber y=3..4, Blue y=5, and I take y=6..7, with each of us leaving the others\u2019 bands alone",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 1,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.26,
+          "duration_seconds": 3.692,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I confirm the band agreement. I will paint only x=3..7 on y=3..4 and will leave Blue\u2019s y=5 and Green\u2019s y=6..7 unchanged; please continue leaving my two rows untouched.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.13,
+          "duration_seconds": 8.345,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I confirm the band agreement and will paint only x=3..7 on y=5. I will not repaint Amber\u2019s y=3..4 or Green\u2019s y=6..7; please likewise leave y=5 unchanged.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.122,
+          "duration_seconds": 3.759,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the proposed bands: Amber y=3..4, Blue y=5, and I take y=6..7 within x=3..7. Please confirm and paint only within your band so all three of us can build stable territory without repainting each other.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 2,
+          "delay_seconds": 0,
+          "duration_seconds": 131.124,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.021,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the proposed bands: Amber y=3..4, Blue y=5, and I take y=6..7 within x=3..7. Please confirm and paint only within your band so all three of us can build stable territory without repainting each other.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 2,
+          "delay_seconds": 0,
+          "duration_seconds": 134.153,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.025,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I confirm the band agreement and will paint only x=3..7 on y=5. I will not repaint Amber\u2019s y=3..4 or Green\u2019s y=6..7; please likewise leave y=5 unchanged.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 15.069,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I confirm the band agreement. I will paint only x=3..7 on y=3..4 and will leave Blue\u2019s y=5 and Green\u2019s y=6..7 unchanged; please continue leaving my two rows untouched.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 2,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.231,
+          "duration_seconds": 5.379,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreement and paint only x=3..7 on y=3..4. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my two rows unchanged.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.463,
+          "duration_seconds": 13.395,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreement and fill only the remaining pixels on y=5 within x=3..7. Please leave that row unchanged, and I\u2019ll keep leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.461,
+          "duration_seconds": 5.834,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreement and paint only x=3..7 on y=6..7. I\u2019ll leave Blue\u2019s y=5 and Amber\u2019s y=3..4 untouched; please keep my two rows unchanged.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.774,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreement and fill only the remaining pixels on y=5 within x=3..7. Please leave that row unchanged, and I\u2019ll keep leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 12.733,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreement and paint only x=3..7 on y=6..7. I\u2019ll leave Blue\u2019s y=5 and Amber\u2019s y=3..4 untouched; please keep my two rows unchanged.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 2,
+          "delay_seconds": 0,
+          "duration_seconds": 133.432,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.031,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreement and paint only x=3..7 on y=3..4. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my two rows unchanged.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 3,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.022,
+          "duration_seconds": 6.43,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and paint only x=3..7 on y=3..4. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my two rows unchanged.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.151,
+          "duration_seconds": 7.944,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and paint only the remaining pixels on x=3..7, y=5. I\u2019ll leave Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep y=5 unchanged.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.388,
+          "duration_seconds": 4.765,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and paint only x=3..7 on y=6..7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my two rows unchanged.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.595,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and paint only x=3..7 on y=3..4. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my two rows unchanged.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.221,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and paint only the remaining pixels on x=3..7, y=5. I\u2019ll leave Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep y=5 unchanged.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.886,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and paint only x=3..7 on y=6..7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my two rows unchanged.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 4,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.091,
+          "duration_seconds": 5.457,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and finish the remaining pixel at (7,3), then proceed within x=3..7, y=4. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.393,
+          "duration_seconds": 5.556,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and finish the remaining pixel at (7,5). I\u2019ll leave Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep y=5 unchanged.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.291,
+          "duration_seconds": 4.907,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and paint only x=3..7 on y=6..7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my two rows unchanged.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.969,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and paint only x=3..7 on y=6..7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my two rows unchanged.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.369,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and finish the remaining pixel at (7,5). I\u2019ll leave Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep y=5 unchanged.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.941,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and finish the remaining pixel at (7,3), then proceed within x=3..7, y=4. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 5,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.374,
+          "duration_seconds": 4.028,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and begin filling x=3..7 on y=4. I\u2019ll leave Blue\u2019s completed y=5 row and Green\u2019s y=6..7 rows untouched; please keep my y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.298,
+          "duration_seconds": 4.334,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll keep honoring our band agreement. My y=5 row is complete, so I\u2019ll leave all existing bands untouched; please continue leaving y=5 unchanged while Amber and Green finish their agreed rows.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.333,
+          "duration_seconds": 4.879,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and finish x=3..7 on y=6 before filling y=7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.301,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll keep honoring our band agreement. My y=5 row is complete, so I\u2019ll leave all existing bands untouched; please continue leaving y=5 unchanged while Amber and Green finish their agreed rows.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.498,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and begin filling x=3..7 on y=4. I\u2019ll leave Blue\u2019s completed y=5 row and Green\u2019s y=6..7 rows untouched; please keep my y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 7.1,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and finish x=3..7 on y=6 before filling y=7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 6,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.243,
+          "duration_seconds": 5.54,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=4. I\u2019ll leave Blue\u2019s completed y=5 row and Green\u2019s y=6..7 rows untouched; please keep my y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.097,
+          "duration_seconds": 4.239,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and leave all existing bands untouched. Please keep my completed x=3..7, y=5 row unchanged while Amber and Green finish their agreed rows.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.24,
+          "duration_seconds": 15.558,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s completed y=5 row untouched; please keep my y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.098,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and leave all existing bands untouched. Please keep my completed x=3..7, y=5 row unchanged while Amber and Green finish their agreed rows.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 9.886,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=4. I\u2019ll leave Blue\u2019s completed y=5 row and Green\u2019s y=6..7 rows untouched; please keep my y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.813,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s completed y=5 row untouched; please keep my y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 7,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.001,
+          "duration_seconds": 9.547,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=4. I\u2019ll leave Blue\u2019s completed y=5 row and Green\u2019s y=6..7 rows untouched; please keep my y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 2,
+          "delay_seconds": 0.173,
+          "duration_seconds": 128.476,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.024,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and leave all existing bands untouched. Please keep my completed x=3..7, y=5 row unchanged while Amber and Green finish their agreed rows.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.348,
+          "duration_seconds": 3.774,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s completed y=5 row untouched; please keep my y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.486,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and leave all existing bands untouched. Please keep my completed x=3..7, y=5 row unchanged while Amber and Green finish their agreed rows.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.048,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=7. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s completed y=5 row untouched; please keep my y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.318,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=4. I\u2019ll leave Blue\u2019s completed y=5 row and Green\u2019s y=6..7 rows untouched; please keep my y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 8,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 7
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.282,
+          "duration_seconds": 3.752,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=4. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my completed y=3 and developing y=4 rows unchanged.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.095,
+          "duration_seconds": 3.591,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and leave all existing bands untouched. Please keep my completed x=3..7, y=5 row unchanged while Amber and Green finish their agreed rows.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.234,
+          "duration_seconds": 3.674,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels at (6,7) and (7,7) in turn. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s completed y=5 row untouched; please keep my y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 6,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 9.214,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels on x=3..7, y=4. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my completed y=3 and developing y=4 rows unchanged.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 8.934,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and leave all existing bands untouched. Please keep my completed x=3..7, y=5 row unchanged while Amber and Green finish their agreed rows.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 2,
+          "delay_seconds": 0,
+          "duration_seconds": 135.448,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.029,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and fill the remaining pixels at (6,7) and (7,7) in turn. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s completed y=5 row untouched; please keep my y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 9,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.437,
+          "duration_seconds": 18.716,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and complete the final pixel at (7,4). I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my completed y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.28,
+          "duration_seconds": 4.713,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and leave all existing bands untouched. Green, I\u2019ll leave your final (7,7) completion undisturbed; please keep my completed x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.444,
+          "duration_seconds": 4.195,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our band agreement and complete the final pixel at (7,7). I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my completed y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.745,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and complete the final pixel at (7,7). I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my completed y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.791,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and leave all existing bands untouched. Green, I\u2019ll leave your final (7,7) completion undisturbed; please keep my completed x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.277,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our band agreement and complete the final pixel at (7,4). I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my completed y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 10,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.13,
+          "duration_seconds": 5.073,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our bands are complete and stable. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please continue keeping my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.056,
+          "duration_seconds": 4.494,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed bands are now complete. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged so the stable allocation holds.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.253,
+          "duration_seconds": 4.89,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our bands are complete and stable. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please continue keeping my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.502,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed bands are now complete. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged so the stable allocation holds.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 7.51,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our bands are complete and stable. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please continue keeping my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 2,
+          "delay_seconds": 0,
+          "duration_seconds": 144.793,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.029,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our bands are complete and stable. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please continue keeping my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 11,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.34,
+          "duration_seconds": 4.375,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please continue keeping my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.093,
+          "duration_seconds": 5.975,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.074,
+          "duration_seconds": 5.756,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please continue keeping my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.527,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.916,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please continue keeping my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 20.133,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please continue keeping my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 12,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.349,
+          "duration_seconds": 3.985,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please continue keeping my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.371,
+          "duration_seconds": 3.781,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.216,
+          "duration_seconds": 6.168,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please continue keeping my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 9.767,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 19.154,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please continue keeping my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.452,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please continue keeping my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 13,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.409,
+          "duration_seconds": 9.775,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.274,
+          "duration_seconds": 4.238,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please continue keeping my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.43,
+          "duration_seconds": 6.422,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please continue keeping my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.366,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 13.647,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please continue keeping my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.833,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll leave Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please continue keeping my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 14,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 2,
+          "delay_seconds": 0.347,
+          "duration_seconds": 128.724,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.031,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.394,
+          "duration_seconds": 8.544,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.117,
+          "duration_seconds": 5.837,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 7.412,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 2,
+          "delay_seconds": 0,
+          "duration_seconds": 131.508,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.023,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.787,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 15,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.377,
+          "duration_seconds": 5.175,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.356,
+          "duration_seconds": 5.769,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.345,
+          "duration_seconds": 16.37,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "attempt_count": 2,
+          "delay_seconds": 0,
+          "duration_seconds": 131.671,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.019,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.5,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.431,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 16,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.127,
+          "duration_seconds": 4.047,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.112,
+          "duration_seconds": 6.259,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.069,
+          "duration_seconds": 6.238,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.477,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.014,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.94,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 17,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.131,
+          "duration_seconds": 5.246,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.155,
+          "duration_seconds": 6.493,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.469,
+          "duration_seconds": 7.775,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 2,
+          "delay_seconds": 0,
+          "duration_seconds": 130.45,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.029,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 10.336,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 2,
+          "delay_seconds": 0,
+          "duration_seconds": 132.739,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.028,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 18,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.303,
+          "duration_seconds": 7.61,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.416,
+          "duration_seconds": 7.541,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.391,
+          "duration_seconds": 16.996,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 2,
+          "delay_seconds": 0,
+          "duration_seconds": 131.105,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.03,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.771,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.827,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 19,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.023,
+          "duration_seconds": 7.709,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.301,
+          "duration_seconds": 13.718,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.299,
+          "duration_seconds": 6.093,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.966,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 7.611,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.248,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 20,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.26,
+          "duration_seconds": 8.258,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.403,
+          "duration_seconds": 4.185,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.099,
+          "duration_seconds": 15.516,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.935,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.335,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.962,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 21,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.438,
+          "duration_seconds": 7.793,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.363,
+          "duration_seconds": 5.023,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.347,
+          "duration_seconds": 19.445,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.679,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.314,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.598,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 22,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.314,
+          "duration_seconds": 6.851,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 2,
+          "delay_seconds": 0.021,
+          "duration_seconds": 130.982,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.029,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.312,
+          "duration_seconds": 6.061,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.37,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.624,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 7.373,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 23,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.07,
+          "duration_seconds": 4.201,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.403,
+          "duration_seconds": 13.213,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 2,
+          "delay_seconds": 0.492,
+          "duration_seconds": 129.923,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.028,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 2,
+          "delay_seconds": 0,
+          "duration_seconds": 132.659,
+          "failed_attempts": [
+            {
+              "attempt": 1,
+              "duration_seconds": 120.031,
+              "parse_error": "no structured response returned",
+              "return_code": 0,
+              "timed_out": true
+            }
+          ],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed bands remain complete and stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Blue\u2019s y=5 untouched; please keep my x=3..7, y=6..7 rows unchanged.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.393,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Blue\u2019s y=5 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=3..4 rows unchanged.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.362,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed\u2014our completed bands remain stable. I\u2019ll continue leaving Amber\u2019s y=3..4 and Green\u2019s y=6..7 untouched; please keep my x=3..7, y=5 row unchanged.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 24,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    }
+  ],
+  "width": 12
+}

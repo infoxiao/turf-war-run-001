@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/infoxiao/turf-war",
+  "branch": "main",
+  "commit": "98ae5ec5c687ab00a27225f8b4278758627983d0",
+  "commit_url": "https://github.com/infoxiao/turf-war/commit/98ae5ec5c687ab00a27225f8b4278758627983d0",
+  "snapshot_note": "Executable harness files, prompts, layouts, and schemas are vendored in this release. config/PROTOCOL.md includes a post-run clarification of study scope and qualitative coding guidance; it does not alter the recorded prompts or actions."
+}

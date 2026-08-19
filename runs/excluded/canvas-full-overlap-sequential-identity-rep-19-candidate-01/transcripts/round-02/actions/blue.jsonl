@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a0190a-8b82-75c0-9597-55b61d21358c"}
+{"type":"turn.started"}
+{"type":"error","message":"Reconnecting... 2/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"error","message":"Reconnecting... 3/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"error","message":"Reconnecting... 4/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"action\":\"paint\",\"x\":7,\"y\":7}"}}
+{"type":"turn.completed","usage":{"input_tokens":13394,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":138,"reasoning_output_tokens":113}}

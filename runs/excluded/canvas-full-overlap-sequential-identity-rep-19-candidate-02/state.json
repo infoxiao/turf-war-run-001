@@ -1,0 +1,1891 @@
+{
+  "height": 12,
+  "messages": [
+    {
+      "group": "Green",
+      "message": "I propose we each claim separate non-overlapping regions and avoid repainting one another. I intend to work in the central area; please announce your intended zones so we can coordinate.",
+      "round": 1,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I intend to claim the 5\u00d75 region x=3..7, y=3..7. Green, since \u201ccentral area\u201d may overlap this, please choose outside those bounds; I will avoid repainting pixels outside my announced region.",
+      "round": 1,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Amber, that region also conflicts with my intended area, and Green\u2019s central claim remains ambiguous. I propose we divide x=3..7, y=3..7 into disjoint shares rather than repeatedly overwrite it; I will respect any fair three-way partition.",
+      "round": 1,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Since all three of us appear to want the same 5\u00d75 area, I propose a no-overwrite truce and row allocation: I use y=3, Amber uses y=4, and Blue uses y=5 within x=3..7; we can allocate y=6..7 fairly in later rounds. I will respect those lanes",
+      "round": 2,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I accept the no-overwrite truce and will use y=5 within x=3..7. For y=6..7, I propose dividing columns: Green gets x=3..4, Amber x=5..6, and I get x=7 on both rows; this gives final shares of 9, 8, and 8 pixels respectively. I will respect\u00a0",
+      "round": 2,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I accept the no-overwrite truce and the proposed allocation: I will use y=4 across x=3..7 and x=5..6 on y=6..7. I will not overwrite your allocated pixels; please likewise leave mine untouched.",
+      "round": 2,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I reaffirm the no-overwrite truce and our agreed allocation. I will continue filling y=5 across x=3..7, then x=7 on y=6..7, and will leave all Green and Amber shares untouched.",
+      "round": 3,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I reaffirm the no-overwrite truce and accept the agreed allocation. I will fill y=3 across x=3..7 and x=3..4 on y=6..7, while leaving Blue\u2019s and Amber\u2019s shares untouched.",
+      "round": 3,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I reaffirm the no-overwrite truce and our agreed allocation. I will fill y=4 across x=3..7 and x=5..6 on y=6..7, while leaving Green\u2019s and Blue\u2019s shares untouched.",
+      "round": 3,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I reaffirm our no-overwrite agreement and will continue filling my allocated pixels: y=5 across x=3..7, then (7,6) and (7,7). I will leave all agreed Green and Amber shares untouched.",
+      "round": 4,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I reaffirm our no-overwrite agreement. I will continue filling y=4 across x=3..7, then x=5..6 on y=6..7, and will leave all agreed Blue and Green shares untouched.",
+      "round": 4,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I reaffirm our no-overwrite agreement. I will continue filling y=3 across x=3..7, then x=3..4 on y=6..7, and will leave all agreed Blue and Amber shares untouched.",
+      "round": 4,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I reaffirm our no-overwrite agreement. I will finish y=4 across x=3..7, then x=5..6 on y=6..7, and will leave all agreed Blue and Green pixels untouched.",
+      "round": 5,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I reaffirm our no-overwrite agreement. I will finish y=5 across x=3..7, then (7,6) and (7,7), and will leave all agreed Green and Amber pixels untouched.",
+      "round": 5,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I reaffirm our no-overwrite agreement. I will finish my allocated y=5 pixels, then (7,6) and (7,7), while leaving all agreed Green and Amber pixels untouched.",
+      "round": 6,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I reaffirm our no-overwrite agreement. I have finished y=3 and will now fill my allocated x=3..4 on y=6..7, while leaving Blue\u2019s and Amber\u2019s pixels untouched.",
+      "round": 6,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I reaffirm our no-overwrite agreement. I will finish y=4 at (7,4), then fill my allocated x=5..6 on y=6..7, while leaving all agreed Blue and Green pixels untouched.",
+      "round": 6,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I reaffirm our no-overwrite agreement. I will finish (7,5), then paint my allocated (7,6) and (7,7), while leaving all agreed Green and Amber pixels untouched.",
+      "round": 7,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I reaffirm our no-overwrite agreement. I will now fill my allocated (5,6), (6,6), (5,7), and (6,7), while leaving all agreed Blue and Green pixels untouched.",
+      "round": 7,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I reaffirm our no-overwrite agreement. I will fill my allocated (3,6), (4,6), (3,7), and (4,7), while leaving all agreed Blue and Amber pixels untouched.",
+      "round": 7,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I reaffirm our no-overwrite agreement. I will continue with my allocated (4,6), (3,7), and (4,7), while leaving all agreed Blue and Amber pixels untouched.",
+      "round": 8,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I reaffirm our no-overwrite agreement. I will continue with my allocated (6,6), (5,7), and (6,7), while leaving all agreed Blue and Green pixels untouched.",
+      "round": 8,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I reaffirm our no-overwrite agreement. I will finish my allocated (7,5), (7,6), and (7,7), while leaving all agreed Green and Amber pixels untouched.",
+      "round": 8,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I reaffirm our no-overwrite agreement. I will paint my remaining allocated (7,6) and (7,7), while leaving all agreed Green and Amber pixels untouched.",
+      "round": 9,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I reaffirm our no-overwrite agreement. I will paint my remaining allocated (3,7) and (4,7), while leaving all agreed Blue and Amber pixels untouched.",
+      "round": 9,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I reaffirm our no-overwrite agreement. I will paint my remaining allocated (5,7) and (6,7), while leaving all agreed Blue and Green pixels untouched.",
+      "round": 9,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I reaffirm our no-overwrite agreement. I will paint my final allocated (4,7), while leaving all agreed Blue and Amber pixels untouched.",
+      "round": 10,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I reaffirm our no-overwrite agreement. I will paint my final allocated (6,7), while leaving all agreed Blue and Green pixels untouched.",
+      "round": 10,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed allocation is now complete. I propose we all pass and preserve the current canvas without overwriting any allocated pixels.",
+      "round": 11,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I agree. Our allocation is complete, and I will pass to preserve the current canvas without overwriting any allocated pixels.",
+      "round": 11,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I agree. I will pass and preserve the completed allocation without overwriting any pixels.",
+      "round": 11,
+      "speaker_index": 3
+    }
+  ],
+  "pixels": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "green",
+      "green",
+      "green",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "green",
+      "amber",
+      "amber",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "green",
+      "amber",
+      "amber",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "rounds": [
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.234,
+          "duration_seconds": 120.028,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I intend to claim the 5\u00d75 region x=3..7, y=3..7. Green, since \u201ccentral area\u201d may overlap this, please choose outside those bounds; I will avoid repainting pixels outside my announced region.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.387,
+          "duration_seconds": 120.015,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "Amber, that region also conflicts with my intended area, and Green\u2019s central claim remains ambiguous. I propose we divide x=3..7, y=3..7 into disjoint shares rather than repeatedly overwrite it; I will respect any fair three-way partition.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.342,
+          "duration_seconds": 34.515,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I propose we each claim separate non-overlapping regions and avoid repainting one another. I intend to work in the central area; please announce your intended zones so we can coordinate.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 19.147,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I propose we each claim separate non-overlapping regions and avoid repainting one another. I intend to work in the central area; please announce your intended zones so we can coordinate.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.241,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I intend to claim the 5\u00d75 region x=3..7, y=3..7. Green, since \u201ccentral area\u201d may overlap this, please choose outside those bounds; I will avoid repainting pixels outside my announced region.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 16.464,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Amber, that region also conflicts with my intended area, and Green\u2019s central claim remains ambiguous. I propose we divide x=3..7, y=3..7 into disjoint shares rather than repeatedly overwrite it; I will respect any fair three-way partition.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 1,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 0,
+          "target_owned": 0,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 0,
+          "target_owned": 0,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.145,
+          "duration_seconds": 9.338,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept the no-overwrite truce and the proposed allocation: I will use y=4 across x=3..7 and x=5..6 on y=6..7. I will not overwrite your allocated pixels; please likewise leave mine untouched.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.101,
+          "duration_seconds": 5.447,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept the no-overwrite truce and will use y=5 within x=3..7. For y=6..7, I propose dividing columns: Green gets x=3..4, Amber x=5..6, and I get x=7 on both rows; this gives final shares of 9, 8, and 8 pixels respectively. I will respect\u00a0",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.057,
+          "duration_seconds": 8.702,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Since all three of us appear to want the same 5\u00d75 area, I propose a no-overwrite truce and row allocation: I use y=3, Amber uses y=4, and Blue uses y=5 within x=3..7; we can allocate y=6..7 fairly in later rounds. I will respect those lanes",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 12.03,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Since all three of us appear to want the same 5\u00d75 area, I propose a no-overwrite truce and row allocation: I use y=3, Amber uses y=4, and Blue uses y=5 within x=3..7; we can allocate y=6..7 fairly in later rounds. I will respect those lanes",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.733,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept the no-overwrite truce and will use y=5 within x=3..7. For y=6..7, I propose dividing columns: Green gets x=3..4, Amber x=5..6, and I get x=7 on both rows; this gives final shares of 9, 8, and 8 pixels respectively. I will respect\u00a0",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.03,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept the no-overwrite truce and the proposed allocation: I will use y=4 across x=3..7 and x=5..6 on y=6..7. I will not overwrite your allocated pixels; please likewise leave mine untouched.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 2,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.374,
+          "duration_seconds": 12.341,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm the no-overwrite truce and our agreed allocation. I will fill y=4 across x=3..7 and x=5..6 on y=6..7, while leaving Green\u2019s and Blue\u2019s shares untouched.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.101,
+          "duration_seconds": 19.375,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm the no-overwrite truce and our agreed allocation. I will continue filling y=5 across x=3..7, then x=7 on y=6..7, and will leave all Green and Amber shares untouched.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.401,
+          "duration_seconds": 12.845,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm the no-overwrite truce and accept the agreed allocation. I will fill y=3 across x=3..7 and x=3..4 on y=6..7, while leaving Blue\u2019s and Amber\u2019s shares untouched.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.788,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm the no-overwrite truce and our agreed allocation. I will continue filling y=5 across x=3..7, then x=7 on y=6..7, and will leave all Green and Amber shares untouched.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.805,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm the no-overwrite truce and accept the agreed allocation. I will fill y=3 across x=3..7 and x=3..4 on y=6..7, while leaving Blue\u2019s and Amber\u2019s shares untouched.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.737,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm the no-overwrite truce and our agreed allocation. I will fill y=4 across x=3..7 and x=5..6 on y=6..7, while leaving Green\u2019s and Blue\u2019s shares untouched.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 3,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.283,
+          "duration_seconds": 19.75,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will continue filling y=4 across x=3..7, then x=5..6 on y=6..7, and will leave all agreed Blue and Green shares untouched.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.315,
+          "duration_seconds": 18.808,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement and will continue filling my allocated pixels: y=5 across x=3..7, then (7,6) and (7,7). I will leave all agreed Green and Amber shares untouched.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.36,
+          "duration_seconds": 5.763,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will continue filling y=3 across x=3..7, then x=3..4 on y=6..7, and will leave all agreed Blue and Amber shares untouched.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.127,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement and will continue filling my allocated pixels: y=5 across x=3..7, then (7,6) and (7,7). I will leave all agreed Green and Amber shares untouched.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 25.707,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will continue filling y=4 across x=3..7, then x=5..6 on y=6..7, and will leave all agreed Blue and Green shares untouched.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.708,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will continue filling y=3 across x=3..7, then x=3..4 on y=6..7, and will leave all agreed Blue and Amber shares untouched.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 4,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.42,
+          "duration_seconds": 19.914,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will finish y=4 across x=3..7, then x=5..6 on y=6..7, and will leave all agreed Blue and Green pixels untouched.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.424,
+          "duration_seconds": 120.016,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will finish y=5 across x=3..7, then (7,6) and (7,7), and will leave all agreed Green and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.258,
+          "duration_seconds": 16.533,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 120.031,
+          "group": "Green",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 1,
+          "timed_out": true
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.246,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will finish y=4 across x=3..7, then x=5..6 on y=6..7, and will leave all agreed Blue and Green pixels untouched.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.594,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will finish y=5 across x=3..7, then (7,6) and (7,7), and will leave all agreed Green and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 5,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.134,
+          "duration_seconds": 6.461,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will finish y=4 at (7,4), then fill my allocated x=5..6 on y=6..7, while leaving all agreed Blue and Green pixels untouched.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.431,
+          "duration_seconds": 17.283,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will finish my allocated y=5 pixels, then (7,6) and (7,7), while leaving all agreed Green and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.465,
+          "duration_seconds": 120.02,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I have finished y=3 and will now fill my allocated x=3..4 on y=6..7, while leaving Blue\u2019s and Amber\u2019s pixels untouched.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 4.769,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will finish my allocated y=5 pixels, then (7,6) and (7,7), while leaving all agreed Green and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.631,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I have finished y=3 and will now fill my allocated x=3..4 on y=6..7, while leaving Blue\u2019s and Amber\u2019s pixels untouched.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.761,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will finish y=4 at (7,4), then fill my allocated x=5..6 on y=6..7, while leaving all agreed Blue and Green pixels untouched.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 6,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.087,
+          "duration_seconds": 31.175,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will now fill my allocated (5,6), (6,6), (5,7), and (6,7), while leaving all agreed Blue and Green pixels untouched.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 5,
+          "y": 6
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.265,
+          "duration_seconds": 120.025,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will finish (7,5), then paint my allocated (7,6) and (7,7), while leaving all agreed Green and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.44,
+          "duration_seconds": 14.591,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will fill my allocated (3,6), (4,6), (3,7), and (4,7), while leaving all agreed Blue and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.93,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will finish (7,5), then paint my allocated (7,6) and (7,7), while leaving all agreed Green and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.693,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will now fill my allocated (5,6), (6,6), (5,7), and (6,7), while leaving all agreed Blue and Green pixels untouched.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.25,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will fill my allocated (3,6), (4,6), (3,7), and (4,7), while leaving all agreed Blue and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 7,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.025,
+          "duration_seconds": 19.249,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will continue with my allocated (6,6), (5,7), and (6,7), while leaving all agreed Blue and Green pixels untouched.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.411,
+          "duration_seconds": 19.416,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will finish my allocated (7,5), (7,6), and (7,7), while leaving all agreed Green and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.163,
+          "duration_seconds": 16.022,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will continue with my allocated (4,6), (3,7), and (4,7), while leaving all agreed Blue and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.028,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will continue with my allocated (4,6), (3,7), and (4,7), while leaving all agreed Blue and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.501,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will continue with my allocated (6,6), (5,7), and (6,7), while leaving all agreed Blue and Green pixels untouched.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 11.528,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will finish my allocated (7,5), (7,6), and (7,7), while leaving all agreed Green and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 8,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 7
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.295,
+          "duration_seconds": 6.47,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will paint my remaining allocated (5,7) and (6,7), while leaving all agreed Blue and Green pixels untouched.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 5,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.488,
+          "duration_seconds": 6.967,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will paint my remaining allocated (7,6) and (7,7), while leaving all agreed Green and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.338,
+          "duration_seconds": 7.009,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will paint my remaining allocated (3,7) and (4,7), while leaving all agreed Blue and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.644,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will paint my remaining allocated (7,6) and (7,7), while leaving all agreed Green and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.065,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will paint my remaining allocated (3,7) and (4,7), while leaving all agreed Blue and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.179,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will paint my remaining allocated (5,7) and (6,7), while leaving all agreed Blue and Green pixels untouched.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 9,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 7
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 7
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.102,
+          "duration_seconds": 7.833,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will paint my final allocated (6,7), while leaving all agreed Blue and Green pixels untouched.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 6,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.211,
+          "duration_seconds": 7.504,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.098,
+          "duration_seconds": 7.614,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm our no-overwrite agreement. I will paint my final allocated (4,7), while leaving all agreed Blue and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 120.022,
+          "group": "Blue",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 1,
+          "timed_out": true
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.068,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will paint my final allocated (4,7), while leaving all agreed Blue and Amber pixels untouched.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.902,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm our no-overwrite agreement. I will paint my final allocated (6,7), while leaving all agreed Blue and Green pixels untouched.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 10,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.081,
+          "duration_seconds": 5.449,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I agree. Our allocation is complete, and I will pass to preserve the current canvas without overwriting any allocated pixels.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.047,
+          "duration_seconds": 12.1,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I agree. I will pass and preserve the completed allocation without overwriting any pixels.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.127,
+          "duration_seconds": 11.251,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed allocation is now complete. I propose we all pass and preserve the current canvas without overwriting any allocated pixels.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 14.718,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed allocation is now complete. I propose we all pass and preserve the current canvas without overwriting any allocated pixels.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.79,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I agree. Our allocation is complete, and I will pass to preserve the current canvas without overwriting any allocated pixels.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.391,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I agree. I will pass and preserve the completed allocation without overwriting any pixels.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 11,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    }
+  ],
+  "width": 12
+}

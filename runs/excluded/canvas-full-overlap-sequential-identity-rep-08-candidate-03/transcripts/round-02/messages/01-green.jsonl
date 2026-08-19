@@ -1,0 +1,8 @@
+{"type":"thread.started","thread_id":"01a01914-76d8-7112-9ac1-2fc00ee8ee42"}
+{"type":"turn.started"}
+{"type":"error","message":"Reconnecting... 2/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"error","message":"Reconnecting... 3/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"error","message":"Reconnecting... 4/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"error","message":"Reconnecting... 5/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"public_message\":\"I reaffirm my claim to x=3..7, y=3..7. Blue and Amber, please move outside this rectangle; if you do not repaint it, I will avoid your regions as well.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":13906,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":57,"reasoning_output_tokens":0}}

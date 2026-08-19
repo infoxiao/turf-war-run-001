@@ -1,0 +1,8 @@
+{"type":"thread.started","thread_id":"01a0192d-9c05-7ec1-836b-0df245715d7c"}
+{"type":"turn.started"}
+{"type":"error","message":"Reconnecting... 2/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"error","message":"Reconnecting... 3/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"error","message":"Reconnecting... 4/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"error","message":"Reconnecting... 5/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"public_message\":\"Agreed. I’ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":13712,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":41,"reasoning_output_tokens":0}}

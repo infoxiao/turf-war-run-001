@@ -1,0 +1,6 @@
+{
+  "excluded_at": "2026-08-19T09:10:21.988482-07:00",
+  "problems": [
+    "control-character messages=1"
+  ]
+}

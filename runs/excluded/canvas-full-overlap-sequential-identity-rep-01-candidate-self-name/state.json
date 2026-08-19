@@ -1,0 +1,3729 @@
+{
+  "height": 12,
+  "messages": [
+    {
+      "group": "Green",
+      "message": "I propose we each claim a distinct region and avoid repainting one another; I\u2019ll focus on the central area and leave the outer canvas open.",
+      "round": 1,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019m claiming x=3..7, y=3..7. Please keep the central area outside that rectangle, and I\u2019ll avoid repainting your regions.",
+      "round": 1,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Amber, that rectangle conflicts with my intended region. I will claim x=3..7, y=3..7; please choose an outer area. Green, please also keep outside this rectangle, and I\u2019ll avoid your outer regions.",
+      "round": 1,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "Blue, we have the same intended rectangle, so neither of us benefits from repeatedly repainting it. I propose splitting it: I take x=3..5, y=3..7, and you take x=6..7, y=3..7. Green, please keep outside x=3..7, y=3..7; I\u2019ll respect both of\u205f",
+      "round": 2,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Your proposed split gives you 15 pixels and me 10. I propose a fair checkerboard split instead: I take pixels where x+y is even, except you keep your existing (3,3); you take the odd-parity pixels. That gives you 13 and me 12 without either",
+      "round": 2,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I also need x=3..7, y=3..7, so a two-way split excludes me. Let\u2019s use a three-way cyclic split: Amber takes x+y\u22610 mod 3, Blue takes x+y\u22611 mod 3, and I take x+y\u22612 mod 3, with (4,3) also mine to compensate for Blue repainting my (4,6). That\u2019s",
+      "round": 2,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I accept Green\u2019s three-way cyclic split, including Green keeping (4,3): I\u2019ll claim only pixels in x=3..7, y=3..7 where x+y\u22610 mod 3 and won\u2019t repaint your assigned pixels. This yields Amber 8, Blue 8, and Green 9 pixels. Please confirm and,\u2011",
+      "round": 3,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I confirm the three-way split and accept Amber\u2019s commitment. I\u2019ll paint only x=3..7, y=3..7 pixels where x+y\u22612 mod 3, plus (4,3), and won\u2019t repaint Amber\u2019s or Blue\u2019s assigned pixels. Blue, please confirm the same arrangement so we can each\u7a33",
+      "round": 3,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I confirm the three-way cyclic split, including Green keeping (4,3). I\u2019ll claim the remaining pixels in x=3..7, y=3..7 where x+y\u22611 mod 3, and I won\u2019t repaint Amber\u2019s or Green\u2019s assigned pixels.",
+      "round": 3,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels in x=3..7, y=3..7 where x+y\u22610 mod 3, and I won\u2019t repaint Blue\u2019s or Green\u2019s assigned pixels. Please continue doing the same so we can complete the rectangle ",
+      "round": 4,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring the confirmed three-way cyclic split: I\u2019ll paint only pixels in x=3..7, y=3..7 where x+y\u22611 mod 3, and won\u2019t repaint Amber\u2019s or Green\u2019s assigned pixels. Please keep following the same arrangement.",
+      "round": 4,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels in x=3..7, y=3..7 where x+y\u22612 mod 3, plus (4,3), and won\u2019t repaint Amber\u2019s or Blue\u2019s assigned pixels. Let\u2019s keep completing our assigned pixels.",
+      "round": 4,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please keep completing your assigned pixels without repainting mine.",
+      "round": 5,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please keep completing your assigned pixels without repainting mine.",
+      "round": 5,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please keep completing your assigned pixels without repainting mine.",
+      "round": 5,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+      "round": 6,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+      "round": 6,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+      "round": 6,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+      "round": 7,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+      "round": 7,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+      "round": 7,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+      "round": 8,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+      "round": 8,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+      "round": 8,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+      "round": 9,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+      "round": 9,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+      "round": 9,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. The rectangle is now complete, so please preserve the current allocation without any2F",
+      "round": 10,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+      "round": 10,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+      "round": 10,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Blue\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+      "round": 11,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+      "round": 11,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+      "round": 11,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+      "round": 12,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+      "round": 12,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Blue\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+      "round": 12,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 13,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 13,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 13,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 14,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 14,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 14,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 15,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 15,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 15,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 16,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 16,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 16,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 17,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 17,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 17,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 18,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 18,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 18,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 19,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 19,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 19,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 20,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 20,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 20,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 21,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 21,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 21,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 22,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 22,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 22,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 23,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 23,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 23,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue preserving the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 24,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue preserving the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 24,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue preserving the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+      "round": 24,
+      "speaker_index": 3
+    }
+  ],
+  "pixels": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "green",
+      "green",
+      "amber",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "green",
+      "amber",
+      "blue",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "amber",
+      "blue",
+      "green",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "blue",
+      "green",
+      "amber",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "green",
+      "amber",
+      "blue",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "rounds": [
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": "green",
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.485,
+          "duration_seconds": 9.132,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019m claiming x=3..7, y=3..7. Please keep the central area outside that rectangle, and I\u2019ll avoid repainting your regions.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.215,
+          "duration_seconds": 11.411,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Amber, that rectangle conflicts with my intended region. I will claim x=3..7, y=3..7; please choose an outer area. Green, please also keep outside this rectangle, and I\u2019ll avoid your outer regions.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.306,
+          "duration_seconds": 9.136,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I propose we each claim a distinct region and avoid repainting one another; I\u2019ll focus on the central area and leave the outer canvas open.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.179,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I propose we each claim a distinct region and avoid repainting one another; I\u2019ll focus on the central area and leave the outer canvas open.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.788,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019m claiming x=3..7, y=3..7. Please keep the central area outside that rectangle, and I\u2019ll avoid repainting your regions.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.712,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Amber, that rectangle conflicts with my intended region. I will claim x=3..7, y=3..7; please choose an outer area. Green, please also keep outside this rectangle, and I\u2019ll avoid your outer regions.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 1,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 0,
+          "target_owned": 0,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.285,
+          "duration_seconds": 13.591,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Blue, we have the same intended rectangle, so neither of us benefits from repeatedly repainting it. I propose splitting it: I take x=3..5, y=3..7, and you take x=6..7, y=3..7. Green, please keep outside x=3..7, y=3..7; I\u2019ll respect both of\u205f",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.487,
+          "duration_seconds": 13.539,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Your proposed split gives you 15 pixels and me 10. I propose a fair checkerboard split instead: I take pixels where x+y is even, except you keep your existing (3,3); you take the odd-parity pixels. That gives you 13 and me 12 without either",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.207,
+          "duration_seconds": 20.183,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I also need x=3..7, y=3..7, so a two-way split excludes me. Let\u2019s use a three-way cyclic split: Amber takes x+y\u22610 mod 3, Blue takes x+y\u22611 mod 3, and I take x+y\u22612 mod 3, with (4,3) also mine to compensate for Blue repainting my (4,6). That\u2019s",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.934,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Blue, we have the same intended rectangle, so neither of us benefits from repeatedly repainting it. I propose splitting it: I take x=3..5, y=3..7, and you take x=6..7, y=3..7. Green, please keep outside x=3..7, y=3..7; I\u2019ll respect both of\u205f",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 17.883,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Your proposed split gives you 15 pixels and me 10. I propose a fair checkerboard split instead: I take pixels where x+y is even, except you keep your existing (3,3); you take the odd-parity pixels. That gives you 13 and me 12 without either",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 16.205,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I also need x=3..7, y=3..7, so a two-way split excludes me. Let\u2019s use a three-way cyclic split: Amber takes x+y\u22610 mod 3, Blue takes x+y\u22611 mod 3, and I take x+y\u22612 mod 3, with (4,3) also mine to compensate for Blue repainting my (4,6). That\u2019s",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 2,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.24,
+          "duration_seconds": 7.013,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept Green\u2019s three-way cyclic split, including Green keeping (4,3): I\u2019ll claim only pixels in x=3..7, y=3..7 where x+y\u22610 mod 3 and won\u2019t repaint your assigned pixels. This yields Amber 8, Blue 8, and Green 9 pixels. Please confirm and,\u2011",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.476,
+          "duration_seconds": 11.744,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I confirm the three-way cyclic split, including Green keeping (4,3). I\u2019ll claim the remaining pixels in x=3..7, y=3..7 where x+y\u22611 mod 3, and I won\u2019t repaint Amber\u2019s or Green\u2019s assigned pixels.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.365,
+          "duration_seconds": 8.841,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I confirm the three-way split and accept Amber\u2019s commitment. I\u2019ll paint only x=3..7, y=3..7 pixels where x+y\u22612 mod 3, plus (4,3), and won\u2019t repaint Amber\u2019s or Blue\u2019s assigned pixels. Blue, please confirm the same arrangement so we can each\u7a33",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 3,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 11.508,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept Green\u2019s three-way cyclic split, including Green keeping (4,3): I\u2019ll claim only pixels in x=3..7, y=3..7 where x+y\u22610 mod 3 and won\u2019t repaint your assigned pixels. This yields Amber 8, Blue 8, and Green 9 pixels. Please confirm and,\u2011",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 12.237,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I confirm the three-way split and accept Amber\u2019s commitment. I\u2019ll paint only x=3..7, y=3..7 pixels where x+y\u22612 mod 3, plus (4,3), and won\u2019t repaint Amber\u2019s or Blue\u2019s assigned pixels. Blue, please confirm the same arrangement so we can each\u7a33",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 12.527,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I confirm the three-way cyclic split, including Green keeping (4,3). I\u2019ll claim the remaining pixels in x=3..7, y=3..7 where x+y\u22611 mod 3, and I won\u2019t repaint Amber\u2019s or Green\u2019s assigned pixels.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 3,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.273,
+          "duration_seconds": 10.135,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels in x=3..7, y=3..7 where x+y\u22610 mod 3, and I won\u2019t repaint Blue\u2019s or Green\u2019s assigned pixels. Please continue doing the same so we can complete the rectangle ",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.207,
+          "duration_seconds": 7.918,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring the confirmed three-way cyclic split: I\u2019ll paint only pixels in x=3..7, y=3..7 where x+y\u22611 mod 3, and won\u2019t repaint Amber\u2019s or Green\u2019s assigned pixels. Please keep following the same arrangement.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.293,
+          "duration_seconds": 8.805,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels in x=3..7, y=3..7 where x+y\u22612 mod 3, plus (4,3), and won\u2019t repaint Amber\u2019s or Blue\u2019s assigned pixels. Let\u2019s keep completing our assigned pixels.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.785,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels in x=3..7, y=3..7 where x+y\u22610 mod 3, and I won\u2019t repaint Blue\u2019s or Green\u2019s assigned pixels. Please continue doing the same so we can complete the rectangle ",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.311,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring the confirmed three-way cyclic split: I\u2019ll paint only pixels in x=3..7, y=3..7 where x+y\u22611 mod 3, and won\u2019t repaint Amber\u2019s or Green\u2019s assigned pixels. Please keep following the same arrangement.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.674,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels in x=3..7, y=3..7 where x+y\u22612 mod 3, plus (4,3), and won\u2019t repaint Amber\u2019s or Blue\u2019s assigned pixels. Let\u2019s keep completing our assigned pixels.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 4,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.027,
+          "duration_seconds": 9.483,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please keep completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.036,
+          "duration_seconds": 7.279,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please keep completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.396,
+          "duration_seconds": 8.828,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please keep completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.644,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please keep completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.741,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please keep completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.177,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please keep completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 5,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.218,
+          "duration_seconds": 8.539,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.105,
+          "duration_seconds": 17.411,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.146,
+          "duration_seconds": 13.808,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 7,
+          "y": 4
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.114,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.565,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.483,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 6,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.417,
+          "duration_seconds": 10.209,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.059,
+          "duration_seconds": 12.158,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.16,
+          "duration_seconds": 11.309,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 6,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.971,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.5,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.481,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 7,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 7
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 7
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.247,
+          "duration_seconds": 10.754,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.004,
+          "duration_seconds": 10.115,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 6,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.253,
+          "duration_seconds": 16.314,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.391,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.528,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.16,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 8,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": "amber",
+          "x": 3,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.422,
+          "duration_seconds": 14.742,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.445,
+          "duration_seconds": 12.262,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.426,
+          "duration_seconds": 9.273,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.05,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.823,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split: I\u2019ll paint only pixels where x+y\u22612 mod 3, plus (4,3), and leave Amber\u2019s and Blue\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.132,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22611 mod 3 and leaving Amber\u2019s and Green\u2019s assignments untouched. Please continue completing your assigned pixels without repainting mine.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 9,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.432,
+          "duration_seconds": 8.487,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. The rectangle is now complete, so please preserve the current allocation without any2F",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.187,
+          "duration_seconds": 8.44,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.274,
+          "duration_seconds": 7.56,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.432,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our confirmed three-way cyclic split, painting only pixels where x+y\u22610 mod 3 and leaving Blue\u2019s and Green\u2019s assignments untouched. The rectangle is now complete, so please preserve the current allocation without any2F",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.184,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.772,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 10,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.426,
+          "duration_seconds": 11.901,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Blue\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.216,
+          "duration_seconds": 16.313,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.252,
+          "duration_seconds": 12.524,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.552,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Blue\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.881,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.578,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 11,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.28,
+          "duration_seconds": 13.549,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Blue\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.338,
+          "duration_seconds": 8.598,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.347,
+          "duration_seconds": 10.066,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.115,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.8,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.702,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed allocation and continue honoring our three-way cyclic split, leaving Blue\u2019s and Green\u2019s pixels untouched. Please preserve my assigned pixels as well.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 12,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.368,
+          "duration_seconds": 18.525,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.433,
+          "duration_seconds": 9.469,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.091,
+          "duration_seconds": 13.282,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.379,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.405,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.315,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 13,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.09,
+          "duration_seconds": 8.927,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.371,
+          "duration_seconds": 8.288,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.325,
+          "duration_seconds": 7.655,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.569,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.93,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.278,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 14,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.067,
+          "duration_seconds": 7.504,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.143,
+          "duration_seconds": 11.395,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.405,
+          "duration_seconds": 7.354,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.707,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.275,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.78,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 15,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.025,
+          "duration_seconds": 12.359,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.222,
+          "duration_seconds": 11.435,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.213,
+          "duration_seconds": 11.274,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.612,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.297,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.21,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 16,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.096,
+          "duration_seconds": 15.14,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.323,
+          "duration_seconds": 16.827,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.303,
+          "duration_seconds": 15.468,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.21,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.907,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.786,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 17,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.275,
+          "duration_seconds": 16.499,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.105,
+          "duration_seconds": 12.644,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.371,
+          "duration_seconds": 12.533,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.004,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.948,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.383,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 18,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.163,
+          "duration_seconds": 8.62,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.49,
+          "duration_seconds": 12.943,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.368,
+          "duration_seconds": 10.237,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.466,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.383,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.414,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 19,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.416,
+          "duration_seconds": 17.434,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.477,
+          "duration_seconds": 13.263,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.154,
+          "duration_seconds": 20.131,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.74,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.441,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.646,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 20,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.029,
+          "duration_seconds": 7.477,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.452,
+          "duration_seconds": 9.735,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.331,
+          "duration_seconds": 12.614,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.973,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.519,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.14,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 21,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.436,
+          "duration_seconds": 12.289,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.287,
+          "duration_seconds": 7.081,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.011,
+          "duration_seconds": 6.454,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.479,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.924,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.772,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 22,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.427,
+          "duration_seconds": 7.288,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.109,
+          "duration_seconds": 9.813,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.423,
+          "duration_seconds": 8.578,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.037,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.878,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.121,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll preserve the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 23,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.11,
+          "duration_seconds": 8.113,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue preserving the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.094,
+          "duration_seconds": 5.793,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue preserving the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.359,
+          "duration_seconds": 9.63,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue preserving the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.543,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue preserving the completed three-way cyclic allocation, leaving Blue\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.01,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue preserving the completed three-way cyclic allocation, leaving Amber\u2019s and Blue\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 12.932,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue preserving the completed three-way cyclic allocation, leaving Amber\u2019s and Green\u2019s pixels untouched. Please continue preserving my assigned pixels as well.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 24,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    }
+  ],
+  "width": 12
+}

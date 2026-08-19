@@ -1,0 +1,11 @@
+{
+  "excluded_at": "2026-08-19T03:52:22.335738-07:00",
+  "problems": [
+    "missing completed_at",
+    "state rounds=1",
+    "messages=3",
+    "decisions=3",
+    "message telemetry failures=1",
+    "round sequence is incomplete or out of order"
+  ]
+}

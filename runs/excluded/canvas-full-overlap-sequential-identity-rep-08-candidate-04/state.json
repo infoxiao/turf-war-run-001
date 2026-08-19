@@ -1,0 +1,2152 @@
+{
+  "height": 12,
+  "messages": [
+    {
+      "group": "Blue",
+      "message": "I plan to claim the central 5\u00d75 area at x=3..7, y=3..7. Please leave it undisturbed; I\u2019ll respect your claimed regions in return.",
+      "round": 1,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "That exact 5\u00d75 is also my intended region, so I can\u2019t agree to leave it entirely to you. I propose we split it: I take x=3..5, y=3..7, and you take x=6..7, y=3..7; I\u2019ll respect your portion if you respect mine.",
+      "round": 1,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "My intended area is also x=3..7, y=3..7. To avoid wasteful repainting, I propose we divide its 25 pixels as evenly as possible and never overwrite assigned pixels: Amber gets y=3 plus (3,6),(3,7),(4,7); Blue gets y=4 plus (6,6),(6,7),(7,7);",
+      "round": 2,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I agree to a fixed split, but propose that I keep my existing (4,5) in addition to Green\u2019s listed Amber pixels, giving me 9 pixels while Blue and Green get 8 each. This preserves all current paint; I\u2019ll avoid overwriting everyone\u2019s assigned",
+      "round": 2,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I support a fixed 9/8/8 split that preserves existing paint. I\u2019ll take y=4 across x=3..7, plus (6,5), (6,6), and (6,7), relinquishing Green\u2019s proposed (7,7) to Green. I\u2019ll avoid overwriting all assigned pixels if everyone reciprocates.",
+      "round": 3,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I accept Blue\u2019s 9/8/8 split and Amber\u2019s nine assigned pixels. I\u2019ll take the remaining eight: (3,5),(5,5),(7,5),(4,6),(5,6),(7,6),(5,7),(7,7). I\u2019ll avoid overwriting Amber\u2019s and Blue\u2019s assigned pixels if both reciprocate.",
+      "round": 3,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I accept this 9/8/8 split. My nine pixels are y=3 across x=3..7, plus (4,5), (3,6), (3,7), and (4,7). I\u2019ll avoid overwriting Blue\u2019s and Green\u2019s assigned pixels as long as both reciprocate.",
+      "round": 3,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed 9/8/8 split. This round I intend to claim another one of my assigned pixels; please keep all assigned pixels undisturbed, and I\u2019ll reciprocate.",
+      "round": 4,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed 9/8/8 split and will claim one of my assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+      "round": 4,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Blue\u2019s pixels undisturbed and ask that mine remain undisturbed as well.",
+      "round": 5,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s pixels undisturbed and ask that mine remain undisturbed as well.",
+      "round": 5,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Green\u2019s pixels undisturbed and ask that mine remain undisturbed as well.",
+      "round": 5,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+      "round": 6,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+      "round": 6,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Amber\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+      "round": 6,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+      "round": 7,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+      "round": 7,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Amber\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+      "round": 7,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+      "round": 8,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Amber\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+      "round": 8,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+      "round": 8,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll complete my final assigned pixel at (4,7) this round, bringing my share to 9. I\u2019ll leave Blue\u2019s and Green\u2019s assigned pixels undisturbed and ask that everyone preserve the agreed 9/8/8 split.",
+      "round": 9,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ve completed my assigned share of 8, so I\u2019ll leave the canvas unchanged this round and preserve everyone\u2019s assigned pixels. I support Amber completing (4,7) and ask Green to likewise preserve the agreed 9/8/8 split.",
+      "round": 9,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ve completed my assigned share of 8, so I\u2019ll leave the canvas unchanged this round. I support Amber completing (4,7) and will preserve the agreed 9/8/8 split.",
+      "round": 9,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "We have preserved the agreed allocation, and I will continue leaving everyone\u2019s assigned pixels undisturbed. Amber can still complete the outstanding (4,7) pixel to finalize the 9/8/8 split.",
+      "round": 10,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue preserving everyone\u2019s assigned pixels. Amber can complete the outstanding (4,7) pixel to finalize our agreed 9/8/8 split.",
+      "round": 10,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Thanks\u2014I\u2019ll paint the outstanding (4,7) pixel this round to complete my share of 9, and I\u2019ll continue preserving everyone\u2019s assigned pixels and our agreed 9/8/8 split.",
+      "round": 10,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ve completed my agreed share of 9 and will pass, preserving every assigned pixel and the 9/8/8 split. I ask Blue and Green to do the same.",
+      "round": 11,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ve completed my agreed share of 8 and will pass, preserving every assigned pixel and the finalized 9/8/8 split.",
+      "round": 11,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll pass again and preserve the finalized 9/8/8 split. I ask everyone to continue leaving all assigned pixels undisturbed.",
+      "round": 12,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll pass again and preserve the finalized 9/8/8 split, leaving every assigned pixel undisturbed.",
+      "round": 12,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll pass again and preserve the finalized 9/8/8 split, leaving every assigned pixel undisturbed. Thanks for continuing to honor our agreement.",
+      "round": 12,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll pass again and preserve the finalized 9/8/8 split, leaving every assigned pixel undisturbed. I ask everyone to continue honoring our agreement.",
+      "round": 13,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll pass again and preserve the finalized 9/8/8 split, leaving every assigned pixel undisturbed. I appreciate everyone continuing to honor our agreement.",
+      "round": 13,
+      "speaker_index": 2
+    }
+  ],
+  "pixels": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "amber",
+      "green",
+      "blue",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "green",
+      "green",
+      "blue",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "green",
+      "blue",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "rounds": [
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.284,
+          "duration_seconds": 9.409,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "That exact 5\u00d75 is also my intended region, so I can\u2019t agree to leave it entirely to you. I propose we split it: I take x=3..5, y=3..7, and you take x=6..7, y=3..7; I\u2019ll respect your portion if you respect mine.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.12,
+          "duration_seconds": 10.923,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I plan to claim the central 5\u00d75 area at x=3..7, y=3..7. Please leave it undisturbed; I\u2019ll respect your claimed regions in return.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.0,
+          "duration_seconds": 12.731,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 4.696,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I plan to claim the central 5\u00d75 area at x=3..7, y=3..7. Please leave it undisturbed; I\u2019ll respect your claimed regions in return.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.582,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "That exact 5\u00d75 is also my intended region, so I can\u2019t agree to leave it entirely to you. I propose we split it: I take x=3..5, y=3..7, and you take x=6..7, y=3..7; I\u2019ll respect your portion if you respect mine.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 120.03,
+          "group": "Green",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 3,
+          "timed_out": true
+        }
+      ],
+      "round": 1,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.26,
+          "duration_seconds": 8.119,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I agree to a fixed split, but propose that I keep my existing (4,5) in addition to Green\u2019s listed Amber pixels, giving me 9 pixels while Blue and Green get 8 each. This preserves all current paint; I\u2019ll avoid overwriting everyone\u2019s assigned",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.13,
+          "duration_seconds": 17.708,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.122,
+          "duration_seconds": 12.144,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My intended area is also x=3..7, y=3..7. To avoid wasteful repainting, I propose we divide its 25 pixels as evenly as possible and never overwrite assigned pixels: Amber gets y=3 plus (3,6),(3,7),(4,7); Blue gets y=4 plus (6,6),(6,7),(7,7);",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 5,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 13.185,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My intended area is also x=3..7, y=3..7. To avoid wasteful repainting, I propose we divide its 25 pixels as evenly as possible and never overwrite assigned pixels: Amber gets y=3 plus (3,6),(3,7),(4,7); Blue gets y=4 plus (6,6),(6,7),(7,7);",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 120.032,
+          "group": "Blue",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 2,
+          "timed_out": true
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 11.13,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I agree to a fixed split, but propose that I keep my existing (4,5) in addition to Green\u2019s listed Amber pixels, giving me 9 pixels while Blue and Green get 8 each. This preserves all current paint; I\u2019ll avoid overwriting everyone\u2019s assigned",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 2,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.231,
+          "duration_seconds": 13.393,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept this 9/8/8 split. My nine pixels are y=3 across x=3..7, plus (4,5), (3,6), (3,7), and (4,7). I\u2019ll avoid overwriting Blue\u2019s and Green\u2019s assigned pixels as long as both reciprocate.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.463,
+          "duration_seconds": 12.19,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I support a fixed 9/8/8 split that preserves existing paint. I\u2019ll take y=4 across x=3..7, plus (6,5), (6,6), and (6,7), relinquishing Green\u2019s proposed (7,7) to Green. I\u2019ll avoid overwriting all assigned pixels if everyone reciprocates.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.461,
+          "duration_seconds": 14.718,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept Blue\u2019s 9/8/8 split and Amber\u2019s nine assigned pixels. I\u2019ll take the remaining eight: (3,5),(5,5),(7,5),(4,6),(5,6),(7,6),(5,7),(7,7). I\u2019ll avoid overwriting Amber\u2019s and Blue\u2019s assigned pixels if both reciprocate.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 3,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 12.75,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I support a fixed 9/8/8 split that preserves existing paint. I\u2019ll take y=4 across x=3..7, plus (6,5), (6,6), and (6,7), relinquishing Green\u2019s proposed (7,7) to Green. I\u2019ll avoid overwriting all assigned pixels if everyone reciprocates.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.534,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept Blue\u2019s 9/8/8 split and Amber\u2019s nine assigned pixels. I\u2019ll take the remaining eight: (3,5),(5,5),(7,5),(4,6),(5,6),(7,6),(5,7),(7,7). I\u2019ll avoid overwriting Amber\u2019s and Blue\u2019s assigned pixels if both reciprocate.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.002,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept this 9/8/8 split. My nine pixels are y=3 across x=3..7, plus (4,5), (3,6), (3,7), and (4,7). I\u2019ll avoid overwriting Blue\u2019s and Green\u2019s assigned pixels as long as both reciprocate.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 3,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.022,
+          "duration_seconds": 3.541,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split. This round I intend to claim another one of my assigned pixels; please keep all assigned pixels undisturbed, and I\u2019ll reciprocate.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.151,
+          "duration_seconds": 5.401,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and will claim one of my assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.388,
+          "duration_seconds": 21.471,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 7,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.437,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split. This round I intend to claim another one of my assigned pixels; please keep all assigned pixels undisturbed, and I\u2019ll reciprocate.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.413,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and will claim one of my assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 120.03,
+          "group": "Green",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 3,
+          "timed_out": true
+        }
+      ],
+      "round": 4,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.091,
+          "duration_seconds": 6.205,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Green\u2019s pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.393,
+          "duration_seconds": 5.715,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.291,
+          "duration_seconds": 21.231,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Blue\u2019s pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 14.718,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Blue\u2019s pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.743,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.577,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Green\u2019s pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 5,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.374,
+          "duration_seconds": 34.29,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.298,
+          "duration_seconds": 35.425,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.333,
+          "duration_seconds": 35.106,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Amber\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 7,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 29.815,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.32,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.996,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Amber\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 6,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 7
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.243,
+          "duration_seconds": 20.157,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.097,
+          "duration_seconds": 19.631,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.24,
+          "duration_seconds": 22.292,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Amber\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 5,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.458,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.675,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 4.733,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Amber\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 7,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 7
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.001,
+          "duration_seconds": 37.274,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.173,
+          "duration_seconds": 35.536,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 6,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.348,
+          "duration_seconds": 40.598,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Amber\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 4.971,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Amber\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.659,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Amber\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.397,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 9/8/8 split and claim one of my remaining assigned pixels this round. I\u2019ll leave Blue\u2019s and Green\u2019s assigned pixels undisturbed and ask that mine remain undisturbed as well.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 8,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.282,
+          "duration_seconds": 120.035,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "I\u2019ll complete my final assigned pixel at (4,7) this round, bringing my share to 9. I\u2019ll leave Blue\u2019s and Green\u2019s assigned pixels undisturbed and ask that everyone preserve the agreed 9/8/8 split.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.095,
+          "duration_seconds": 9.701,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ve completed my assigned share of 8, so I\u2019ll leave the canvas unchanged this round and preserve everyone\u2019s assigned pixels. I support Amber completing (4,7) and ask Green to likewise preserve the agreed 9/8/8 split.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.234,
+          "duration_seconds": 6.43,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ve completed my assigned share of 8, so I\u2019ll leave the canvas unchanged this round. I support Amber completing (4,7) and will preserve the agreed 9/8/8 split.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.415,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll complete my final assigned pixel at (4,7) this round, bringing my share to 9. I\u2019ll leave Blue\u2019s and Green\u2019s assigned pixels undisturbed and ask that everyone preserve the agreed 9/8/8 split.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 35.421,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ve completed my assigned share of 8, so I\u2019ll leave the canvas unchanged this round and preserve everyone\u2019s assigned pixels. I support Amber completing (4,7) and ask Green to likewise preserve the agreed 9/8/8 split.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.914,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ve completed my assigned share of 8, so I\u2019ll leave the canvas unchanged this round. I support Amber completing (4,7) and will preserve the agreed 9/8/8 split.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 9,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.437,
+          "duration_seconds": 6.387,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Thanks\u2014I\u2019ll paint the outstanding (4,7) pixel this round to complete my share of 9, and I\u2019ll continue preserving everyone\u2019s assigned pixels and our agreed 9/8/8 split.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 4,
+          "y": 7
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.28,
+          "duration_seconds": 6.018,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue preserving everyone\u2019s assigned pixels. Amber can complete the outstanding (4,7) pixel to finalize our agreed 9/8/8 split.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.444,
+          "duration_seconds": 6.732,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "We have preserved the agreed allocation, and I will continue leaving everyone\u2019s assigned pixels undisturbed. Amber can still complete the outstanding (4,7) pixel to finalize the 9/8/8 split.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.487,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "We have preserved the agreed allocation, and I will continue leaving everyone\u2019s assigned pixels undisturbed. Amber can still complete the outstanding (4,7) pixel to finalize the 9/8/8 split.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.028,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue preserving everyone\u2019s assigned pixels. Amber can complete the outstanding (4,7) pixel to finalize our agreed 9/8/8 split.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.603,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Thanks\u2014I\u2019ll paint the outstanding (4,7) pixel this round to complete my share of 9, and I\u2019ll continue preserving everyone\u2019s assigned pixels and our agreed 9/8/8 split.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 10,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.13,
+          "duration_seconds": 5.762,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ve completed my agreed share of 9 and will pass, preserving every assigned pixel and the 9/8/8 split. I ask Blue and Green to do the same.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.056,
+          "duration_seconds": 5.432,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.253,
+          "duration_seconds": 6.201,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ve completed my agreed share of 8 and will pass, preserving every assigned pixel and the finalized 9/8/8 split.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 120.028,
+          "group": "Blue",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 1,
+          "timed_out": true
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 4.745,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ve completed my agreed share of 9 and will pass, preserving every assigned pixel and the 9/8/8 split. I ask Blue and Green to do the same.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.89,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ve completed my agreed share of 8 and will pass, preserving every assigned pixel and the finalized 9/8/8 split.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 11,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.34,
+          "duration_seconds": 5.158,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll pass again and preserve the finalized 9/8/8 split, leaving every assigned pixel undisturbed. Thanks for continuing to honor our agreement.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.093,
+          "duration_seconds": 5.163,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll pass again and preserve the finalized 9/8/8 split. I ask everyone to continue leaving all assigned pixels undisturbed.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.074,
+          "duration_seconds": 4.262,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll pass again and preserve the finalized 9/8/8 split, leaving every assigned pixel undisturbed.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.875,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll pass again and preserve the finalized 9/8/8 split. I ask everyone to continue leaving all assigned pixels undisturbed.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 20.085,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll pass again and preserve the finalized 9/8/8 split, leaving every assigned pixel undisturbed.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 4.653,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll pass again and preserve the finalized 9/8/8 split, leaving every assigned pixel undisturbed. Thanks for continuing to honor our agreement.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 12,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.349,
+          "duration_seconds": 5.974,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.371,
+          "duration_seconds": 4.867,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll pass again and preserve the finalized 9/8/8 split, leaving every assigned pixel undisturbed. I ask everyone to continue honoring our agreement.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.216,
+          "duration_seconds": 4.129,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll pass again and preserve the finalized 9/8/8 split, leaving every assigned pixel undisturbed. I appreciate everyone continuing to honor our agreement.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.065,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll pass again and preserve the finalized 9/8/8 split, leaving every assigned pixel undisturbed. I ask everyone to continue honoring our agreement.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.13,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll pass again and preserve the finalized 9/8/8 split, leaving every assigned pixel undisturbed. I appreciate everyone continuing to honor our agreement.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 120.025,
+          "group": "Amber",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 3,
+          "timed_out": true
+        }
+      ],
+      "round": 13,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    }
+  ],
+  "width": 12
+}

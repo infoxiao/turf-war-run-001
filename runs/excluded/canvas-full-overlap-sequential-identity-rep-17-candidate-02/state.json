@@ -1,0 +1,1274 @@
+{
+  "height": 12,
+  "messages": [
+    {
+      "group": "Green",
+      "message": "I\u2019ll focus on the central area and avoid interfering elsewhere; please leave the center undisturbed.",
+      "round": 1,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I also need part of the center. I propose we divide it: I\u2019ll use x=3..7, y=3..7; please focus outside that area and I\u2019ll avoid interfering elsewhere.",
+      "round": 1,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "We all appear to need the same central 5\u00d75, so repeated overwriting will only waste actions. I propose a stable row split: Blue keeps y=3..4, Green takes y=5, and I take y=6..7, all within x=3..7. I\u2019ll respect those boundaries if you do.",
+      "round": 2,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I accept the stable row split: I\u2019ll keep y=3..4 across x=3..7 and won\u2019t repaint y=5..7 if those boundaries are respected.",
+      "round": 2,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring the row split: I\u2019ll paint only y=3..4 within x=3..7. Please leave those two rows undisturbed, and I\u2019ll leave y=5..7 to you.",
+      "round": 3,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring the split and paint only y=6..7 within x=3..7. Blue, I\u2019ll leave y=3..4 undisturbed; Green, please keep to y=5 and leave y=6..7 to me.",
+      "round": 3,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring the row split and paint only y=5 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Amber\u2019s y=6..7 undisturbed; please keep y=5 for me.",
+      "round": 4,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue honoring the row split and paint only y=6..7 within x=3..7. I\u2019ll leave Green\u2019s y=5 and Blue\u2019s y=3..4 undisturbed; please continue leaving y=6..7 to me.",
+      "round": 4,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll continue honoring the row split and paint only y=3..4 within x=3..7. I\u2019ll leave Green\u2019s y=5 and Amber\u2019s y=6..7 undisturbed; please continue leaving y=3..4 to me.",
+      "round": 4,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring the row split and paint only y=3..4 within x=3..7. I\u2019ll leave y=5 to Green and y=6..7 to Amber; please continue leaving y=3..4 undisturbed.",
+      "round": 5,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue honoring the row split and paint only y=6..7 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Green\u2019s y=5 undisturbed; please continue leaving y=6..7 to me.",
+      "round": 5,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue honoring the row split and paint only y=5 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Amber\u2019s y=6..7 undisturbed; please continue leaving y=5 to me.",
+      "round": 5,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring the row split and paint only y=3..4 within x=3..7. I\u2019ll leave y=5 to Green and y=6..7 to Amber; please continue leaving y=3..4 undisturbed.",
+      "round": 6,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue honoring the row split and paint only y=5 within x=3..7. I\u2019ll leave your y=3..4 and Amber\u2019s y=6..7 undisturbed; please continue leaving y=5 to me.",
+      "round": 6,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue honoring the row split and paint only y=6..7 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Green\u2019s y=5 undisturbed; please continue leaving y=6..7 to me.",
+      "round": 6,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring the row split and keep only y=5 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Amber\u2019s y=6..7 undisturbed; please continue leaving y=5 to me.",
+      "round": 7,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll continue honoring the row split and paint only y=3..4 within x=3..7. I\u2019ll leave y=5 to you and y=6..7 to Amber; please continue leaving y=3..4 undisturbed.",
+      "round": 7,
+      "speaker_index": 3
+    }
+  ],
+  "pixels": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "green",
+      "green",
+      "green",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "rounds": [
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": "amber",
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.313,
+          "duration_seconds": 5.127,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.489,
+          "duration_seconds": 4.178,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I also need part of the center. I propose we divide it: I\u2019ll use x=3..7, y=3..7; please focus outside that area and I\u2019ll avoid interfering elsewhere.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.28,
+          "duration_seconds": 4.917,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll focus on the central area and avoid interfering elsewhere; please leave the center undisturbed.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 5,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 120.028,
+          "group": "Amber",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 1,
+          "timed_out": true
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.855,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll focus on the central area and avoid interfering elsewhere; please leave the center undisturbed.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 17.348,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I also need part of the center. I propose we divide it: I\u2019ll use x=3..7, y=3..7; please focus outside that area and I\u2019ll avoid interfering elsewhere.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 1,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 0,
+          "target_owned": 0,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.364,
+          "duration_seconds": 6.895,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "We all appear to need the same central 5\u00d75, so repeated overwriting will only waste actions. I propose a stable row split: Blue keeps y=3..4, Green takes y=5, and I take y=6..7, all within x=3..7. I\u2019ll respect those boundaries if you do.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.358,
+          "duration_seconds": 5.441,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept the stable row split: I\u2019ll keep y=3..4 across x=3..7 and won\u2019t repaint y=5..7 if those boundaries are respected.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.439,
+          "duration_seconds": 5.001,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 3,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 12.068,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "We all appear to need the same central 5\u00d75, so repeated overwriting will only waste actions. I propose a stable row split: Blue keeps y=3..4, Green takes y=5, and I take y=6..7, all within x=3..7. I\u2019ll respect those boundaries if you do.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 120.031,
+          "group": "Green",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 2,
+          "timed_out": true
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.238,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept the stable row split: I\u2019ll keep y=3..4 across x=3..7 and won\u2019t repaint y=5..7 if those boundaries are respected.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 2,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 6
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.435,
+          "duration_seconds": 5.922,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring the split and paint only y=6..7 within x=3..7. Blue, I\u2019ll leave y=3..4 undisturbed; Green, please keep to y=5 and leave y=6..7 to me.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.403,
+          "duration_seconds": 4.188,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring the row split: I\u2019ll paint only y=3..4 within x=3..7. Please leave those two rows undisturbed, and I\u2019ll leave y=5..7 to you.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.009,
+          "duration_seconds": 5.107,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 4,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.849,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring the row split: I\u2019ll paint only y=3..4 within x=3..7. Please leave those two rows undisturbed, and I\u2019ll leave y=5..7 to you.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 10.78,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring the split and paint only y=6..7 within x=3..7. Blue, I\u2019ll leave y=3..4 undisturbed; Green, please keep to y=5 and leave y=6..7 to me.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 120.022,
+          "group": "Green",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 3,
+          "timed_out": true
+        }
+      ],
+      "round": 3,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.043,
+          "duration_seconds": 5.934,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue honoring the row split and paint only y=6..7 within x=3..7. I\u2019ll leave Green\u2019s y=5 and Blue\u2019s y=3..4 undisturbed; please continue leaving y=6..7 to me.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 5,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.178,
+          "duration_seconds": 6.249,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue honoring the row split and paint only y=3..4 within x=3..7. I\u2019ll leave Green\u2019s y=5 and Amber\u2019s y=6..7 undisturbed; please continue leaving y=3..4 to me.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.491,
+          "duration_seconds": 5.34,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring the row split and paint only y=5 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Amber\u2019s y=6..7 undisturbed; please keep y=5 for me.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.3,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring the row split and paint only y=5 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Amber\u2019s y=6..7 undisturbed; please keep y=5 for me.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 10.144,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue honoring the row split and paint only y=6..7 within x=3..7. I\u2019ll leave Green\u2019s y=5 and Blue\u2019s y=3..4 undisturbed; please continue leaving y=6..7 to me.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 16.098,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue honoring the row split and paint only y=3..4 within x=3..7. I\u2019ll leave Green\u2019s y=5 and Amber\u2019s y=6..7 undisturbed; please continue leaving y=3..4 to me.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 4,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.383,
+          "duration_seconds": 5.454,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue honoring the row split and paint only y=6..7 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Green\u2019s y=5 undisturbed; please continue leaving y=6..7 to me.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.094,
+          "duration_seconds": 4.041,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring the row split and paint only y=3..4 within x=3..7. I\u2019ll leave y=5 to Green and y=6..7 to Amber; please continue leaving y=3..4 undisturbed.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.485,
+          "duration_seconds": 3.832,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue honoring the row split and paint only y=5 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Amber\u2019s y=6..7 undisturbed; please continue leaving y=5 to me.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.18,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring the row split and paint only y=3..4 within x=3..7. I\u2019ll leave y=5 to Green and y=6..7 to Amber; please continue leaving y=3..4 undisturbed.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.514,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue honoring the row split and paint only y=6..7 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Green\u2019s y=5 undisturbed; please continue leaving y=6..7 to me.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.828,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue honoring the row split and paint only y=5 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Amber\u2019s y=6..7 undisturbed; please continue leaving y=5 to me.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 5,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.116,
+          "duration_seconds": 5.79,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue honoring the row split and paint only y=6..7 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Green\u2019s y=5 undisturbed; please continue leaving y=6..7 to me.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.497,
+          "duration_seconds": 9.522,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring the row split and paint only y=3..4 within x=3..7. I\u2019ll leave y=5 to Green and y=6..7 to Amber; please continue leaving y=3..4 undisturbed.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.469,
+          "duration_seconds": 10.544,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue honoring the row split and paint only y=5 within x=3..7. I\u2019ll leave your y=3..4 and Amber\u2019s y=6..7 undisturbed; please continue leaving y=5 to me.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 19.836,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring the row split and paint only y=3..4 within x=3..7. I\u2019ll leave y=5 to Green and y=6..7 to Amber; please continue leaving y=3..4 undisturbed.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.366,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue honoring the row split and paint only y=5 within x=3..7. I\u2019ll leave your y=3..4 and Amber\u2019s y=6..7 undisturbed; please continue leaving y=5 to me.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.16,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue honoring the row split and paint only y=6..7 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Green\u2019s y=5 undisturbed; please continue leaving y=6..7 to me.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 6,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.129,
+          "duration_seconds": 7.003,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.089,
+          "duration_seconds": 6.614,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue honoring the row split and paint only y=3..4 within x=3..7. I\u2019ll leave y=5 to you and y=6..7 to Amber; please continue leaving y=3..4 undisturbed.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.132,
+          "duration_seconds": 9.339,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring the row split and keep only y=5 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Amber\u2019s y=6..7 undisturbed; please continue leaving y=5 to me.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 120.026,
+          "group": "Amber",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 1,
+          "timed_out": true
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.518,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring the row split and keep only y=5 within x=3..7. I\u2019ll leave Blue\u2019s y=3..4 and Amber\u2019s y=6..7 undisturbed; please continue leaving y=5 to me.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.562,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue honoring the row split and paint only y=3..4 within x=3..7. I\u2019ll leave y=5 to you and y=6..7 to Amber; please continue leaving y=3..4 undisturbed.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 7,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    }
+  ],
+  "width": 12
+}

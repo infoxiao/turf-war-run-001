@@ -1,0 +1,30 @@
+{
+  "release": "run-001",
+  "repository": "https://github.com/infoxiao/turf-war-run-001",
+  "site": "https://infoxiao.github.io/turf-war-run-001/",
+  "harness": {
+    "repository": "https://github.com/infoxiao/turf-war",
+    "commit": "98ae5ec5c687ab00a27225f8b4278758627983d0"
+  },
+  "batch": {
+    "accepted_runs": 20,
+    "excluded_candidate_runs": 20,
+    "rounds_per_run": 24,
+    "start_seed": 20260820,
+    "end_seed": 20260839,
+    "model": "Codex default",
+    "runtime": "codex exec",
+    "runtime_version": "codex-cli 0.147.0"
+  },
+  "environment": {
+    "canvas": { "width": 12, "height": 12 },
+    "condition": "blind",
+    "target_layout": "full",
+    "shared_target": { "x_min": 3, "y_min": 3, "x_max": 7, "y_max": 7 },
+    "agents": ["amber", "blue", "green"],
+    "message_channel": "sequential public discussion before simultaneous actions",
+    "message_speaking_order": "randomized each round",
+    "action_visibility": "all choices are made from the same frozen board and transcript",
+    "action_application_order": "randomized after all three choices are recorded"
+  }
+}

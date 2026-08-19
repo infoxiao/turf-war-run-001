@@ -1,0 +1,3730 @@
+{
+  "height": 12,
+  "messages": [
+    {
+      "group": "Blue",
+      "message": "I intend to paint the central rectangle x=3..7, y=3..7. If we each avoid repainting one another\u2019s announced regions, we can all preserve our gains; please announce your intended areas so we can coordinate.",
+      "round": 1,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "My intended region also overlaps x=3..7, y=3..7, so Blue\u2019s proposal would leave me nothing. I propose we partition that square instead of repainting: Blue takes y=3..4, I take y=5..6, and Amber takes y=7, with Amber receiving additional non",
+      "round": 1,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I agree we should partition the shared square, but one row gives me only 5 pixels while Blue and Green receive 10 each. Let\u2019s divide it fairly: Blue takes x=3..4, y=3..6 (8); Green takes x=5..6, y=3..6 (8); I take y=7, x=3..7 plus x=7, y=3\u2026",
+      "round": 1,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I accept Amber\u2019s fair partition: Blue keeps x=3..4, y=3..6; I keep x=5..6, y=3..6; Amber keeps x=3..7, y=7 plus x=7, y=3..6. Our existing pixels already match it. I will paint only my eight assigned pixels and ask both of you not to repaint",
+      "round": 2,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I confirm the fair partition and will honor it: I keep x=3..7, y=7 and x=7, y=3..6; Green keeps x=5..6, y=3..6; Blue keeps x=3..4, y=3..6. I will paint only my nine assigned pixels and will not repaint yours if you reciprocate.",
+      "round": 2,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I confirm and accept the partition: I will keep to x=3..4, y=3..6, paint only those eight pixels, and not repaint Green\u2019s or Amber\u2019s assigned pixels if everyone continues to reciprocate.",
+      "round": 2,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition: my pixels are x=5..6, y=3..6. I\u2019ll paint only within those eight cells and won\u2019t repaint either of your assigned areas as long as we all continue to reciprocate.",
+      "round": 3,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: my pixels are x=3..7, y=7 and x=7, y=3..6. I\u2019ll paint only those nine cells and won\u2019t repaint either of your areas as long as everyone reciprocates.",
+      "round": 3,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: my pixels are x=3..4, y=3..6. I\u2019ll paint only within those eight cells and won\u2019t repaint either of your assigned areas as long as we all continue to reciprocate.",
+      "round": 3,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: my pixels are x=3..7, y=7 and x=7, y=3..6. I\u2019ll paint only within those nine cells and won\u2019t repaint either of your areas as long as everyone reciprocates.",
+      "round": 4,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: my pixels are x=3..4, y=3..6. I\u2019ll paint only within those eight cells and won\u2019t repaint either of your areas as long as everyone reciprocates.",
+      "round": 4,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: my pixels are x=5..6, y=3..6. I\u2019ll paint only within those eight cells and won\u2019t repaint either of your assigned areas as long as everyone reciprocates.",
+      "round": 4,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 5,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 5,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 5,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 6,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 6,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 6,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 7,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 7,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 7,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 8,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 8,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 8,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 9,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 9,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 9,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 10,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 10,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 10,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 11,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 11,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 11,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 12,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 12,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 12,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 13,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 13,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 13,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 14,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 14,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 14,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 15,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 15,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 15,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 16,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 16,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 16,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 17,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 17,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 17,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 18,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 18,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 18,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 19,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 19,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 19,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 20,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 20,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 20,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 21,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 21,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 21,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 22,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 22,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 22,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 23,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 23,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 23,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 24,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 24,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+      "round": 24,
+      "speaker_index": 3
+    }
+  ],
+  "pixels": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      "green",
+      "green",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      "green",
+      "green",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      "green",
+      "green",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      "green",
+      "green",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "rounds": [
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.032,
+          "duration_seconds": 10.936,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I agree we should partition the shared square, but one row gives me only 5 pixels while Blue and Green receive 10 each. Let\u2019s divide it fairly: Blue takes x=3..4, y=3..6 (8); Green takes x=5..6, y=3..6 (8); I take y=7, x=3..7 plus x=7, y=3\u2026",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.071,
+          "duration_seconds": 7.89,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I intend to paint the central rectangle x=3..7, y=3..7. If we each avoid repainting one another\u2019s announced regions, we can all preserve our gains; please announce your intended areas so we can coordinate.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.488,
+          "duration_seconds": 13.564,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My intended region also overlaps x=3..7, y=3..7, so Blue\u2019s proposal would leave me nothing. I propose we partition that square instead of repainting: Blue takes y=3..4, I take y=5..6, and Amber takes y=7, with Amber receiving additional non",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.265,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I intend to paint the central rectangle x=3..7, y=3..7. If we each avoid repainting one another\u2019s announced regions, we can all preserve our gains; please announce your intended areas so we can coordinate.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 12.204,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My intended region also overlaps x=3..7, y=3..7, so Blue\u2019s proposal would leave me nothing. I propose we partition that square instead of repainting: Blue takes y=3..4, I take y=5..6, and Amber takes y=7, with Amber receiving additional non",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 14.039,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I agree we should partition the shared square, but one row gives me only 5 pixels while Blue and Green receive 10 each. Let\u2019s divide it fairly: Blue takes x=3..4, y=3..6 (8); Green takes x=5..6, y=3..6 (8); I take y=7, x=3..7 plus x=7, y=3\u2026",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 1,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.016,
+          "duration_seconds": 13.556,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I confirm the fair partition and will honor it: I keep x=3..7, y=7 and x=7, y=3..6; Green keeps x=5..6, y=3..6; Blue keeps x=3..4, y=3..6. I will paint only my nine assigned pixels and will not repaint yours if you reciprocate.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.334,
+          "duration_seconds": 13.922,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I confirm and accept the partition: I will keep to x=3..4, y=3..6, paint only those eight pixels, and not repaint Green\u2019s or Amber\u2019s assigned pixels if everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.34,
+          "duration_seconds": 22.222,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept Amber\u2019s fair partition: Blue keeps x=3..4, y=3..6; I keep x=5..6, y=3..6; Amber keeps x=3..7, y=7 plus x=7, y=3..6. Our existing pixels already match it. I will paint only my eight assigned pixels and ask both of you not to repaint",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 6,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 11.038,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept Amber\u2019s fair partition: Blue keeps x=3..4, y=3..6; I keep x=5..6, y=3..6; Amber keeps x=3..7, y=7 plus x=7, y=3..6. Our existing pixels already match it. I will paint only my eight assigned pixels and ask both of you not to repaint",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 22.143,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I confirm the fair partition and will honor it: I keep x=3..7, y=7 and x=7, y=3..6; Green keeps x=5..6, y=3..6; Blue keeps x=3..4, y=3..6. I will paint only my nine assigned pixels and will not repaint yours if you reciprocate.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.71,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I confirm and accept the partition: I will keep to x=3..4, y=3..6, paint only those eight pixels, and not repaint Green\u2019s or Amber\u2019s assigned pixels if everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 2,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.405,
+          "duration_seconds": 21.159,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: my pixels are x=3..7, y=7 and x=7, y=3..6. I\u2019ll paint only those nine cells and won\u2019t repaint either of your areas as long as everyone reciprocates.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.022,
+          "duration_seconds": 8.914,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: my pixels are x=3..4, y=3..6. I\u2019ll paint only within those eight cells and won\u2019t repaint either of your assigned areas as long as we all continue to reciprocate.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.265,
+          "duration_seconds": 9.775,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition: my pixels are x=5..6, y=3..6. I\u2019ll paint only within those eight cells and won\u2019t repaint either of your assigned areas as long as we all continue to reciprocate.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 4
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.989,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition: my pixels are x=5..6, y=3..6. I\u2019ll paint only within those eight cells and won\u2019t repaint either of your assigned areas as long as we all continue to reciprocate.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.786,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: my pixels are x=3..7, y=7 and x=7, y=3..6. I\u2019ll paint only those nine cells and won\u2019t repaint either of your areas as long as everyone reciprocates.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.937,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: my pixels are x=3..4, y=3..6. I\u2019ll paint only within those eight cells and won\u2019t repaint either of your assigned areas as long as we all continue to reciprocate.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 3,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.224,
+          "duration_seconds": 27.069,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: my pixels are x=3..7, y=7 and x=7, y=3..6. I\u2019ll paint only within those nine cells and won\u2019t repaint either of your areas as long as everyone reciprocates.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.327,
+          "duration_seconds": 10.219,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: my pixels are x=3..4, y=3..6. I\u2019ll paint only within those eight cells and won\u2019t repaint either of your areas as long as everyone reciprocates.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.163,
+          "duration_seconds": 10.552,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: my pixels are x=5..6, y=3..6. I\u2019ll paint only within those eight cells and won\u2019t repaint either of your assigned areas as long as everyone reciprocates.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 4
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.942,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: my pixels are x=3..7, y=7 and x=7, y=3..6. I\u2019ll paint only within those nine cells and won\u2019t repaint either of your areas as long as everyone reciprocates.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.756,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: my pixels are x=3..4, y=3..6. I\u2019ll paint only within those eight cells and won\u2019t repaint either of your areas as long as everyone reciprocates.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.773,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: my pixels are x=5..6, y=3..6. I\u2019ll paint only within those eight cells and won\u2019t repaint either of your assigned areas as long as everyone reciprocates.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 4,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.317,
+          "duration_seconds": 28.362,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.493,
+          "duration_seconds": 12.168,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.205,
+          "duration_seconds": 31.454,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 5,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.122,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.552,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.604,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 5,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.404,
+          "duration_seconds": 8.992,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.434,
+          "duration_seconds": 8.824,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.023,
+          "duration_seconds": 7.183,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 6,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.167,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.987,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 19.069,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 6,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 7
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.005,
+          "duration_seconds": 13.963,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.206,
+          "duration_seconds": 16.345,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.011,
+          "duration_seconds": 22.737,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.401,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.929,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.738,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 7,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 7
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.236,
+          "duration_seconds": 9.129,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.054,
+          "duration_seconds": 9.758,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.321,
+          "duration_seconds": 8.916,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 6,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.302,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.382,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.557,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 8,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.454,
+          "duration_seconds": 10.736,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 6,
+          "y": 7
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.255,
+          "duration_seconds": 13.342,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.458,
+          "duration_seconds": 13.3,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.633,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 11.008,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 19.61,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 9,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": "amber",
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.082,
+          "duration_seconds": 7.426,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.22,
+          "duration_seconds": 23.592,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.181,
+          "duration_seconds": 9.036,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 15.842,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.141,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.626,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 10,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.213,
+          "duration_seconds": 19.345,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.374,
+          "duration_seconds": 7.539,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.118,
+          "duration_seconds": 12.723,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 19.203,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.807,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.023,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 11,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.408,
+          "duration_seconds": 14.11,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.293,
+          "duration_seconds": 15.548,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.081,
+          "duration_seconds": 19.693,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 19.682,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.301,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.746,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 12,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.025,
+          "duration_seconds": 8.555,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.158,
+          "duration_seconds": 7.064,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.192,
+          "duration_seconds": 7.718,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.573,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.147,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 11.114,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 13,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.088,
+          "duration_seconds": 14.155,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.07,
+          "duration_seconds": 14.843,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.155,
+          "duration_seconds": 12.367,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.731,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.923,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.932,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 14,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.427,
+          "duration_seconds": 10.347,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.021,
+          "duration_seconds": 8.349,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.271,
+          "duration_seconds": 11.042,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 10.111,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 12.858,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 13.428,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 15,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.233,
+          "duration_seconds": 11.284,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.412,
+          "duration_seconds": 11.527,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.202,
+          "duration_seconds": 9.113,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.886,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.585,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.529,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 16,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.001,
+          "duration_seconds": 8.962,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.098,
+          "duration_seconds": 20.456,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.26,
+          "duration_seconds": 7.762,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.187,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.459,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.3,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 17,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.085,
+          "duration_seconds": 23.61,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.199,
+          "duration_seconds": 20.233,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.396,
+          "duration_seconds": 11.221,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 23.238,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.377,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.906,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 18,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.307,
+          "duration_seconds": 8.69,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.257,
+          "duration_seconds": 8.717,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.161,
+          "duration_seconds": 8.309,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.558,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 10.197,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 20.882,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 19,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.478,
+          "duration_seconds": 17.942,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.355,
+          "duration_seconds": 20.313,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.229,
+          "duration_seconds": 15.387,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.043,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 11.651,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 11.033,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 20,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.261,
+          "duration_seconds": 19.887,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.398,
+          "duration_seconds": 21.118,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.15,
+          "duration_seconds": 19.008,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 19.575,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.492,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.231,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 21,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.23,
+          "duration_seconds": 8.472,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.214,
+          "duration_seconds": 7.09,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.43,
+          "duration_seconds": 7.193,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.049,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 14.278,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 16.31,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 22,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.498,
+          "duration_seconds": 8.912,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.476,
+          "duration_seconds": 11.06,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.138,
+          "duration_seconds": 7.644,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.112,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.474,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 21.253,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 23,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.193,
+          "duration_seconds": 8.15,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.199,
+          "duration_seconds": 8.54,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.379,
+          "duration_seconds": 6.582,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.496,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..4, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.368,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=5..6, y=3..6 and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 24.301,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed partition: I will paint only x=3..7, y=7 and x=7, y=3..6, and won\u2019t repaint either of your assigned areas as long as everyone continues to reciprocate.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 24,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    }
+  ],
+  "width": 12
+}

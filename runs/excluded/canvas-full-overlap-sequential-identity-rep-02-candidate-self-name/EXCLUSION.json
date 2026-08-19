@@ -1,0 +1,7 @@
+{
+  "excluded_at": "2026-08-19T09:17:00-07:00",
+  "problems": [
+    "third-person self-name messages=10"
+  ],
+  "note": "Audit metadata added after the candidate was archived."
+}

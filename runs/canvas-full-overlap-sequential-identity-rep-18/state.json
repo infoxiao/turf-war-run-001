@@ -1,0 +1,4155 @@
+{
+  "height": 12,
+  "messages": [
+    {
+      "group": "Blue",
+      "message": "I propose we each claim a compact 5\u00d75 region and avoid repainting one another; I\u2019ll work in the central area around x=3..7, y=3..7. Please announce your intended regions so we can keep boundaries clear.",
+      "round": 1,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I also need the central x=3..7, y=3..7 area, so that allocation conflicts. Blue, please shift to a non-overlapping 5\u00d75 region, such as x=0..4, y=0..4; I\u2019ll avoid repainting outside the central square.",
+      "round": 1,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I also need the central x=3..7, y=3..7 square. Since all three of us appear to overlap, exclusive claims are impossible; I propose we divide it into stable bands: I take y=3..4, Blue y=5, and Green y=6..7, all across x=3..7, with no repaint",
+      "round": 1,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "The band split remains the clearest stable compromise: I\u2019ll use y=3..4, Blue y=5, and Green y=6..7 within x=3..7. I\u2019ll avoid repainting your assigned bands if you both avoid mine; please continue filling your own band this round.",
+      "round": 2,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I accept the stable band split: I\u2019ll paint only y=6..7 across x=3..7 and won\u2019t repaint Amber\u2019s or Blue\u2019s bands, provided you both continue respecting mine.",
+      "round": 2,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I accept the stable band split. I\u2019ll paint only y=5 across x=3..7 and won\u2019t repaint either of your bands, provided we all continue respecting the agreement.",
+      "round": 2,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "The band agreement is working. I\u2019ll continue filling y=3..4 across x=3..7 without repainting Blue\u2019s y=5 or Green\u2019s y=6..7; please keep filling only your agreed bands.",
+      "round": 3,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll continue filling only y=5 across x=3..7 and won\u2019t repaint Amber\u2019s or Green\u2019s bands, provided everyone keeps respecting the split.",
+      "round": 3,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue filling only y=6..7 across x=3..7 and won\u2019t repaint Amber\u2019s or Blue\u2019s bands, provided everyone keeps respecting the split.",
+      "round": 3,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The band agreement remains stable. I\u2019ll continue filling y=5 across x=3..7 and won\u2019t repaint Amber\u2019s or Green\u2019s bands, provided everyone keeps respecting the split.",
+      "round": 4,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue filling only my y=3..4 band across x=3..7 and won\u2019t repaint Blue\u2019s y=5 or Green\u2019s y=6..7, provided we all keep respecting the split.",
+      "round": 4,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue filling only my y=6..7 band across x=3..7 and won\u2019t repaint Amber\u2019s or Blue\u2019s bands, provided we all keep respecting the split.",
+      "round": 4,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The band agreement remains stable. I\u2019ll finish my y=5 row at x=7 and continue avoiding Amber\u2019s and Green\u2019s bands; please keep respecting the split.",
+      "round": 5,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll finish my y=3 row at x=7, then fill y=4 across x=3..7, while continuing to avoid Blue\u2019s y=5 and Green\u2019s y=6..7 bands. Please keep respecting the split.",
+      "round": 5,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll finish my y=6 row at x=7, then fill y=7 across x=3..7, while continuing to avoid Blue\u2019s y=5 and Amber\u2019s y=3..4 bands. Please keep respecting the split.",
+      "round": 5,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "The band agreement remains stable. I\u2019ll begin filling y=4 across x=3..7 and continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7 bands; please keep respecting the split.",
+      "round": 6,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. My y=5 row is complete, so I\u2019ll preserve the current split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my y=5 row.",
+      "round": 6,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll begin filling y=7 across x=3..7 and continue avoiding Amber\u2019s y=3..4 and Blue\u2019s y=5 bands. Please keep respecting my y=6..7 band.",
+      "round": 6,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The band agreement remains stable. My y=5 row is complete, so I\u2019ll continue preserving the split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my y=5 row.",
+      "round": 7,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue filling y=4 across x=4..7 and avoid repainting Blue\u2019s y=5 or Green\u2019s y=6..7 bands. Please keep respecting the split.",
+      "round": 7,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue filling y=7 across x=4..7 and avoid repainting Amber\u2019s y=3..4 or Blue\u2019s y=5 bands. Please keep respecting the split.",
+      "round": 7,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The band agreement remains stable. I\u2019ll continue preserving the split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my completed y=5 row.",
+      "round": 8,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue filling y=7 across x=5..7 and avoid repainting Amber\u2019s y=3..4 or Blue\u2019s y=5. Please keep respecting my y=6..7 band.",
+      "round": 8,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue filling y=4 across x=5..7 and avoid repainting Blue\u2019s y=5 or Green\u2019s y=6..7 bands. Please keep respecting my y=3..4 band.",
+      "round": 8,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The band agreement remains stable. I\u2019ll continue preserving the split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my completed y=5 row.",
+      "round": 9,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue filling y=4 at x=6..7 and avoid repainting Blue\u2019s y=5 or Green\u2019s y=6..7 bands. Please keep respecting my y=3..4 band.",
+      "round": 9,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue filling y=7 at x=6..7 and avoid repainting Amber\u2019s y=3..4 or Blue\u2019s y=5. Please keep respecting my y=6..7 band.",
+      "round": 9,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The band agreement remains stable. I\u2019ll continue preserving the split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my completed y=5 row while you finish your remaining y=4 and y=7 pixels.",
+      "round": 10,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll finish my remaining y=7 pixel at (7,7) and continue avoiding Amber\u2019s y=3..4 and Blue\u2019s y=5 bands. Please keep respecting my y=6..7 band.",
+      "round": 10,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll finish my remaining y=4 pixel at (7,4) and continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7 bands. Please keep respecting my y=3..4 band.",
+      "round": 10,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The agreed bands are now complete: Amber y=3..4, mine y=5, and Green y=6..7. I\u2019ll continue preserving this split and pass rather than repainting your pixels. Please keep respecting my y=5 row.",
+      "round": 11,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. My y=6..7 band is complete, so I\u2019ll preserve the established split and pass rather than repainting Amber\u2019s or Blue\u2019s pixels. Please continue respecting my band.",
+      "round": 11,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. My y=3..4 band is complete, so I\u2019ll preserve the established split and pass rather than repainting Blue\u2019s or Green\u2019s pixels. Please continue respecting my band.",
+      "round": 11,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The agreed bands remain complete. I\u2019ll continue preserving the split and pass rather than repainting Amber\u2019s or Blue\u2019s pixels. Please continue respecting my y=6..7 band.",
+      "round": 12,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s or Green\u2019s pixels. Please continue respecting my y=5 row.",
+      "round": 12,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s or Green\u2019s pixels. Please continue respecting my y=3..4 band.",
+      "round": 12,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "The completed band split remains stable. I\u2019ll continue respecting Blue\u2019s y=5 and Green\u2019s y=6..7 pixels and pass rather than repainting them. Please continue respecting my y=3..4 band.",
+      "round": 13,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s or Blue\u2019s pixels. Please continue respecting my y=6..7 band.",
+      "round": 13,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s or Green\u2019s pixels. Please continue respecting my y=5 row.",
+      "round": 13,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 and Green\u2019s y=6..7 bands and pass rather than repainting them. Please continue respecting my y=5 row.",
+      "round": 14,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 or Green\u2019s y=6..7 pixels. Please continue respecting my y=3..4 band.",
+      "round": 14,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Blue\u2019s y=5 pixels. Please continue respecting my y=6..7 band.",
+      "round": 14,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 and Green\u2019s y=6..7 bands and pass rather than repainting them. Please continue respecting my y=5 row.",
+      "round": 15,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 or Green\u2019s y=6..7 pixels. Please continue respecting my y=3..4 band.",
+      "round": 15,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Blue\u2019s y=5 pixels. Please continue respecting my y=6..7 band.",
+      "round": 15,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "The completed band split remains stable. I\u2019ll continue respecting Blue\u2019s y=5 row and Green\u2019s y=6..7 band and pass rather than repainting them. Please continue respecting my y=3..4 band.",
+      "round": 16,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+      "round": 16,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Blue\u2019s y=5 pixels. Please continue respecting my y=6..7 band.",
+      "round": 16,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+      "round": 17,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+      "round": 17,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+      "round": 17,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+      "round": 18,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+      "round": 18,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+      "round": 18,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+      "round": 19,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+      "round": 19,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+      "round": 19,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+      "round": 20,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+      "round": 20,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+      "round": 20,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Green\u2019s y=6..7 band and pass rather than repainting them. Please continue respecting my y=5 row.",
+      "round": 21,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+      "round": 21,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 band or Blue\u2019s y=5 row. Please continue respecting my y=6..7 band.",
+      "round": 21,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+      "round": 22,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+      "round": 22,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 band or Green\u2019s y=6..7 band. Please continue respecting my y=5 row.",
+      "round": 22,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+      "round": 23,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 band or Green\u2019s y=6..7 band. Please continue respecting my y=5 row.",
+      "round": 23,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+      "round": 23,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+      "round": 24,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+      "round": 24,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 band or Green\u2019s y=6..7 band. Please continue respecting my y=5 row.",
+      "round": 24,
+      "speaker_index": 3
+    }
+  ],
+  "pixels": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "green",
+      "green",
+      "green",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "green",
+      "green",
+      "green",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "rounds": [
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.057,
+          "duration_seconds": 5.342,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I also need the central x=3..7, y=3..7 square. Since all three of us appear to overlap, exclusive claims are impossible; I propose we divide it into stable bands: I take y=3..4, Blue y=5, and Green y=6..7, all across x=3..7, with no repaint",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.269,
+          "duration_seconds": 5.331,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I propose we each claim a compact 5\u00d75 region and avoid repainting one another; I\u2019ll work in the central area around x=3..7, y=3..7. Please announce your intended regions so we can keep boundaries clear.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.132,
+          "duration_seconds": 3.796,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I also need the central x=3..7, y=3..7 area, so that allocation conflicts. Blue, please shift to a non-overlapping 5\u00d75 region, such as x=0..4, y=0..4; I\u2019ll avoid repainting outside the central square.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.832,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I propose we each claim a compact 5\u00d75 region and avoid repainting one another; I\u2019ll work in the central area around x=3..7, y=3..7. Please announce your intended regions so we can keep boundaries clear.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.995,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I also need the central x=3..7, y=3..7 area, so that allocation conflicts. Blue, please shift to a non-overlapping 5\u00d75 region, such as x=0..4, y=0..4; I\u2019ll avoid repainting outside the central square.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.085,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I also need the central x=3..7, y=3..7 square. Since all three of us appear to overlap, exclusive claims are impossible; I propose we divide it into stable bands: I take y=3..4, Blue y=5, and Green y=6..7, all across x=3..7, with no repaint",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 1,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.065,
+          "duration_seconds": 4.454,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The band split remains the clearest stable compromise: I\u2019ll use y=3..4, Blue y=5, and Green y=6..7 within x=3..7. I\u2019ll avoid repainting your assigned bands if you both avoid mine; please continue filling your own band this round.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.174,
+          "duration_seconds": 4.023,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept the stable band split. I\u2019ll paint only y=5 across x=3..7 and won\u2019t repaint either of your bands, provided we all continue respecting the agreement.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.333,
+          "duration_seconds": 4.859,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept the stable band split: I\u2019ll paint only y=6..7 across x=3..7 and won\u2019t repaint Amber\u2019s or Blue\u2019s bands, provided you both continue respecting mine.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.602,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The band split remains the clearest stable compromise: I\u2019ll use y=3..4, Blue y=5, and Green y=6..7 within x=3..7. I\u2019ll avoid repainting your assigned bands if you both avoid mine; please continue filling your own band this round.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.231,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept the stable band split: I\u2019ll paint only y=6..7 across x=3..7 and won\u2019t repaint Amber\u2019s or Blue\u2019s bands, provided you both continue respecting mine.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.524,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept the stable band split. I\u2019ll paint only y=5 across x=3..7 and won\u2019t repaint either of your bands, provided we all continue respecting the agreement.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 2,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.487,
+          "duration_seconds": 3.954,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The band agreement is working. I\u2019ll continue filling y=3..4 across x=3..7 without repainting Blue\u2019s y=5 or Green\u2019s y=6..7; please keep filling only your agreed bands.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.324,
+          "duration_seconds": 3.432,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue filling only y=5 across x=3..7 and won\u2019t repaint Amber\u2019s or Green\u2019s bands, provided everyone keeps respecting the split.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.385,
+          "duration_seconds": 3.859,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue filling only y=6..7 across x=3..7 and won\u2019t repaint Amber\u2019s or Blue\u2019s bands, provided everyone keeps respecting the split.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.211,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The band agreement is working. I\u2019ll continue filling y=3..4 across x=3..7 without repainting Blue\u2019s y=5 or Green\u2019s y=6..7; please keep filling only your agreed bands.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.396,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue filling only y=5 across x=3..7 and won\u2019t repaint Amber\u2019s or Green\u2019s bands, provided everyone keeps respecting the split.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.077,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue filling only y=6..7 across x=3..7 and won\u2019t repaint Amber\u2019s or Blue\u2019s bands, provided everyone keeps respecting the split.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 3,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.198,
+          "duration_seconds": 5.654,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue filling only my y=3..4 band across x=3..7 and won\u2019t repaint Blue\u2019s y=5 or Green\u2019s y=6..7, provided we all keep respecting the split.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.374,
+          "duration_seconds": 4.229,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The band agreement remains stable. I\u2019ll continue filling y=5 across x=3..7 and won\u2019t repaint Amber\u2019s or Green\u2019s bands, provided everyone keeps respecting the split.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.229,
+          "duration_seconds": 3.545,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue filling only my y=6..7 band across x=3..7 and won\u2019t repaint Amber\u2019s or Blue\u2019s bands, provided we all keep respecting the split.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.402,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The band agreement remains stable. I\u2019ll continue filling y=5 across x=3..7 and won\u2019t repaint Amber\u2019s or Green\u2019s bands, provided everyone keeps respecting the split.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.978,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue filling only my y=3..4 band across x=3..7 and won\u2019t repaint Blue\u2019s y=5 or Green\u2019s y=6..7, provided we all keep respecting the split.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 3.844,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue filling only my y=6..7 band across x=3..7 and won\u2019t repaint Amber\u2019s or Blue\u2019s bands, provided we all keep respecting the split.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 4,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.301,
+          "duration_seconds": 3.937,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll finish my y=3 row at x=7, then fill y=4 across x=3..7, while continuing to avoid Blue\u2019s y=5 and Green\u2019s y=6..7 bands. Please keep respecting the split.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.488,
+          "duration_seconds": 3.876,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The band agreement remains stable. I\u2019ll finish my y=5 row at x=7 and continue avoiding Amber\u2019s and Green\u2019s bands; please keep respecting the split.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.352,
+          "duration_seconds": 3.911,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll finish my y=6 row at x=7, then fill y=7 across x=3..7, while continuing to avoid Blue\u2019s y=5 and Amber\u2019s y=3..4 bands. Please keep respecting the split.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.306,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The band agreement remains stable. I\u2019ll finish my y=5 row at x=7 and continue avoiding Amber\u2019s and Green\u2019s bands; please keep respecting the split.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.19,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll finish my y=3 row at x=7, then fill y=4 across x=3..7, while continuing to avoid Blue\u2019s y=5 and Green\u2019s y=6..7 bands. Please keep respecting the split.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.108,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll finish my y=6 row at x=7, then fill y=7 across x=3..7, while continuing to avoid Blue\u2019s y=5 and Amber\u2019s y=3..4 bands. Please keep respecting the split.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 5,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.157,
+          "duration_seconds": 4.247,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The band agreement remains stable. I\u2019ll begin filling y=4 across x=3..7 and continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7 bands; please keep respecting the split.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.284,
+          "duration_seconds": 3.387,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. My y=5 row is complete, so I\u2019ll preserve the current split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.175,
+          "duration_seconds": 3.795,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll begin filling y=7 across x=3..7 and continue avoiding Amber\u2019s y=3..4 and Blue\u2019s y=5 bands. Please keep respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.06,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The band agreement remains stable. I\u2019ll begin filling y=4 across x=3..7 and continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7 bands; please keep respecting the split.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.709,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. My y=5 row is complete, so I\u2019ll preserve the current split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.372,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll begin filling y=7 across x=3..7 and continue avoiding Amber\u2019s y=3..4 and Blue\u2019s y=5 bands. Please keep respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 6,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 7
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.447,
+          "duration_seconds": 3.922,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue filling y=4 across x=4..7 and avoid repainting Blue\u2019s y=5 or Green\u2019s y=6..7 bands. Please keep respecting the split.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.023,
+          "duration_seconds": 3.924,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The band agreement remains stable. My y=5 row is complete, so I\u2019ll continue preserving the split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.191,
+          "duration_seconds": 3.714,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue filling y=7 across x=4..7 and avoid repainting Amber\u2019s y=3..4 or Blue\u2019s y=5 bands. Please keep respecting the split.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.373,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The band agreement remains stable. My y=5 row is complete, so I\u2019ll continue preserving the split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.788,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue filling y=4 across x=4..7 and avoid repainting Blue\u2019s y=5 or Green\u2019s y=6..7 bands. Please keep respecting the split.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.361,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue filling y=7 across x=4..7 and avoid repainting Amber\u2019s y=3..4 or Blue\u2019s y=5 bands. Please keep respecting the split.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 7,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 7
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.362,
+          "duration_seconds": 3.519,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue filling y=4 across x=5..7 and avoid repainting Blue\u2019s y=5 or Green\u2019s y=6..7 bands. Please keep respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.08,
+          "duration_seconds": 5.676,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The band agreement remains stable. I\u2019ll continue preserving the split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my completed y=5 row.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.032,
+          "duration_seconds": 4.516,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue filling y=7 across x=5..7 and avoid repainting Amber\u2019s y=3..4 or Blue\u2019s y=5. Please keep respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.095,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The band agreement remains stable. I\u2019ll continue preserving the split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my completed y=5 row.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.284,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue filling y=7 across x=5..7 and avoid repainting Amber\u2019s y=3..4 or Blue\u2019s y=5. Please keep respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.578,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue filling y=4 across x=5..7 and avoid repainting Blue\u2019s y=5 or Green\u2019s y=6..7 bands. Please keep respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 8,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.162,
+          "duration_seconds": 5.443,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue filling y=4 at x=6..7 and avoid repainting Blue\u2019s y=5 or Green\u2019s y=6..7 bands. Please keep respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.192,
+          "duration_seconds": 4.634,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The band agreement remains stable. I\u2019ll continue preserving the split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my completed y=5 row.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.198,
+          "duration_seconds": 4.778,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue filling y=7 at x=6..7 and avoid repainting Amber\u2019s y=3..4 or Blue\u2019s y=5. Please keep respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 6,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.206,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The band agreement remains stable. I\u2019ll continue preserving the split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my completed y=5 row.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.769,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue filling y=4 at x=6..7 and avoid repainting Blue\u2019s y=5 or Green\u2019s y=6..7 bands. Please keep respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.324,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue filling y=7 at x=6..7 and avoid repainting Amber\u2019s y=3..4 or Blue\u2019s y=5. Please keep respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 9,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.135,
+          "duration_seconds": 3.731,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll finish my remaining y=4 pixel at (7,4) and continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7 bands. Please keep respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.294,
+          "duration_seconds": 5.533,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The band agreement remains stable. I\u2019ll continue preserving the split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my completed y=5 row while you finish your remaining y=4 and y=7 pixels.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.363,
+          "duration_seconds": 4.396,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll finish my remaining y=7 pixel at (7,7) and continue avoiding Amber\u2019s y=3..4 and Blue\u2019s y=5 bands. Please keep respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.032,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The band agreement remains stable. I\u2019ll continue preserving the split and avoid repainting Amber\u2019s or Green\u2019s bands. Please continue respecting my completed y=5 row while you finish your remaining y=4 and y=7 pixels.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.149,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll finish my remaining y=7 pixel at (7,7) and continue avoiding Amber\u2019s y=3..4 and Blue\u2019s y=5 bands. Please keep respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.14,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll finish my remaining y=4 pixel at (7,4) and continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7 bands. Please keep respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 10,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.499,
+          "duration_seconds": 3.917,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. My y=3..4 band is complete, so I\u2019ll preserve the established split and pass rather than repainting Blue\u2019s or Green\u2019s pixels. Please continue respecting my band.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.283,
+          "duration_seconds": 3.765,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The agreed bands are now complete: Amber y=3..4, mine y=5, and Green y=6..7. I\u2019ll continue preserving this split and pass rather than repainting your pixels. Please keep respecting my y=5 row.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.386,
+          "duration_seconds": 4.237,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. My y=6..7 band is complete, so I\u2019ll preserve the established split and pass rather than repainting Amber\u2019s or Blue\u2019s pixels. Please continue respecting my band.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.913,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The agreed bands are now complete: Amber y=3..4, mine y=5, and Green y=6..7. I\u2019ll continue preserving this split and pass rather than repainting your pixels. Please keep respecting my y=5 row.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.039,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. My y=6..7 band is complete, so I\u2019ll preserve the established split and pass rather than repainting Amber\u2019s or Blue\u2019s pixels. Please continue respecting my band.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.272,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. My y=3..4 band is complete, so I\u2019ll preserve the established split and pass rather than repainting Blue\u2019s or Green\u2019s pixels. Please continue respecting my band.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 11,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.155,
+          "duration_seconds": 4.155,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s or Green\u2019s pixels. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.236,
+          "duration_seconds": 3.491,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s or Green\u2019s pixels. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.24,
+          "duration_seconds": 4.252,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The agreed bands remain complete. I\u2019ll continue preserving the split and pass rather than repainting Amber\u2019s or Blue\u2019s pixels. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.742,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The agreed bands remain complete. I\u2019ll continue preserving the split and pass rather than repainting Amber\u2019s or Blue\u2019s pixels. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.807,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s or Green\u2019s pixels. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.185,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s or Green\u2019s pixels. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 12,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.082,
+          "duration_seconds": 3.151,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Blue\u2019s y=5 and Green\u2019s y=6..7 pixels and pass rather than repainting them. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.395,
+          "duration_seconds": 3.682,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s or Green\u2019s pixels. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.194,
+          "duration_seconds": 3.385,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s or Blue\u2019s pixels. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.525,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Blue\u2019s y=5 and Green\u2019s y=6..7 pixels and pass rather than repainting them. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.517,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s or Blue\u2019s pixels. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.756,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s or Green\u2019s pixels. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 13,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.077,
+          "duration_seconds": 4.158,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 or Green\u2019s y=6..7 pixels. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.383,
+          "duration_seconds": 3.505,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 and Green\u2019s y=6..7 bands and pass rather than repainting them. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.485,
+          "duration_seconds": 3.738,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Blue\u2019s y=5 pixels. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.445,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 and Green\u2019s y=6..7 bands and pass rather than repainting them. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.385,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 or Green\u2019s y=6..7 pixels. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.173,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Blue\u2019s y=5 pixels. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 14,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.369,
+          "duration_seconds": 4.135,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 or Green\u2019s y=6..7 pixels. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.19,
+          "duration_seconds": 3.497,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 and Green\u2019s y=6..7 bands and pass rather than repainting them. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.106,
+          "duration_seconds": 3.486,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Blue\u2019s y=5 pixels. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.037,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 and Green\u2019s y=6..7 bands and pass rather than repainting them. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.306,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 or Green\u2019s y=6..7 pixels. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.489,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Blue\u2019s y=5 pixels. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 15,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.185,
+          "duration_seconds": 4.159,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Blue\u2019s y=5 row and Green\u2019s y=6..7 band and pass rather than repainting them. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.343,
+          "duration_seconds": 5.207,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.053,
+          "duration_seconds": 4.485,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Blue\u2019s y=5 pixels. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.144,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Blue\u2019s y=5 row and Green\u2019s y=6..7 band and pass rather than repainting them. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.979,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.288,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Blue\u2019s y=5 pixels. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 16,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.224,
+          "duration_seconds": 5.471,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.449,
+          "duration_seconds": 6.13,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.167,
+          "duration_seconds": 3.362,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.507,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.485,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.762,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 17,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.335,
+          "duration_seconds": 3.613,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.356,
+          "duration_seconds": 4.574,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.347,
+          "duration_seconds": 4.071,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.405,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.288,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.096,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 18,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.212,
+          "duration_seconds": 3.514,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.051,
+          "duration_seconds": 8.991,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.393,
+          "duration_seconds": 5.942,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.139,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.484,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.324,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 19,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.162,
+          "duration_seconds": 3.791,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.348,
+          "duration_seconds": 4.071,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.136,
+          "duration_seconds": 3.589,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.692,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.398,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 or Green\u2019s y=6..7 pixels. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.533,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 20,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.465,
+          "duration_seconds": 4.714,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.248,
+          "duration_seconds": 3.62,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Green\u2019s y=6..7 band and pass rather than repainting them. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.018,
+          "duration_seconds": 4.032,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 band or Blue\u2019s y=5 row. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.729,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Green\u2019s y=6..7 band and pass rather than repainting them. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.0,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.396,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 band or Blue\u2019s y=5 row. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 21,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.065,
+          "duration_seconds": 5.163,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.248,
+          "duration_seconds": 4.028,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 band or Green\u2019s y=6..7 band. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.449,
+          "duration_seconds": 4.676,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 5.175,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.22,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 6.352,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 band or Green\u2019s y=6..7 band. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 22,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.227,
+          "duration_seconds": 4.976,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.276,
+          "duration_seconds": 5.378,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 band or Green\u2019s y=6..7 band. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.313,
+          "duration_seconds": 3.781,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.079,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.293,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 band or Green\u2019s y=6..7 band. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.251,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 23,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0.344,
+          "duration_seconds": 3.904,
+          "failed_attempts": [],
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0.199,
+          "duration_seconds": 7.733,
+          "failed_attempts": [],
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 band or Green\u2019s y=6..7 band. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0.317,
+          "duration_seconds": 3.522,
+          "failed_attempts": [],
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 4.606,
+          "failed_attempts": [],
+          "group": "Green",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The completed band split remains stable. I\u2019ll continue respecting Amber\u2019s y=3..4 band and Blue\u2019s y=5 row and pass rather than repainting them. Please continue respecting my y=6..7 band.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 7.642,
+          "failed_attempts": [],
+          "group": "Amber",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Blue\u2019s y=5 row or Green\u2019s y=6..7 band. Please continue respecting my y=3..4 band.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "attempt_count": 1,
+          "delay_seconds": 0,
+          "duration_seconds": 8.317,
+          "failed_attempts": [],
+          "group": "Blue",
+          "identity_attempt_count": 1,
+          "identity_failures": [],
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue preserving the completed split and pass rather than repainting Amber\u2019s y=3..4 band or Green\u2019s y=6..7 band. Please continue respecting my y=5 row.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 24,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    }
+  ],
+  "width": 12
+}

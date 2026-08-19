@@ -1,0 +1,3729 @@
+{
+  "height": 12,
+  "messages": [
+    {
+      "group": "Green",
+      "message": "I propose we each claim a compact, non-overlapping region and avoid repainting one another. I intend to work in the central area; please announce your intended zones so we can coordinate boundaries.",
+      "round": 1,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I intend to claim x=3..7, y=3..7 as my compact region. Green, since you mentioned the center, please choose a different central-adjacent zone; I will avoid repainting outside my announced boundary.",
+      "round": 1,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Blue, that rectangle conflicts with my intended region. I will claim x=3..7, y=3..7; please relocate to a non-overlapping area. Green, please also avoid this rectangle, and I will avoid both of your announced zones.",
+      "round": 1,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Amber, our targets clearly overlap exactly, so relocating would sacrifice my score. I propose a stable split: I claim x=3..5, y=3..7, you claim x=6..7, y=3..7, and neither of us repaints the other's share. Green, please avoid x=3..7, y=3..7",
+      "round": 2,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "My target is also exactly x=3..7, y=3..7, so I cannot accept being excluded. I propose a stable three-way split that preserves current ownership: Blue gets x=3..6, y=3..4 (8 pixels); Amber gets x=3..6, y=5..6 (8); I get x=7, y=3..6 plus x=3",
+      "round": 2,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I accept the three-way split: Blue gets x=3..6, y=3..4; I get x=3..6, y=5..6; Green gets x=7, y=3..6 plus x=3..7, y=7. I will respect those boundaries if both of you do.",
+      "round": 2,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will honor the accepted three-way split: Blue gets x=3..6, y=3..4; Amber gets x=3..6, y=5..6; I get x=7, y=3..6 plus x=3..7, y=7. Please continue painting only within your share and avoid repainting existing ownership.",
+      "round": 3,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I confirm the accepted three-way split and will paint only x=3..6, y=3..4. I will not repaint Amber\u2019s or Green\u2019s shares as long as both continue honoring the agreement.",
+      "round": 3,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I confirm the accepted three-way split and will paint only x=3..6, y=5..6. I will not repaint Blue\u2019s or Green\u2019s shares as long as both continue honoring the agreement.",
+      "round": 3,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring the accepted split and next fill my remaining boundary cells: x=7, y=5..6, then x=3..6, y=7. Please keep painting only within your agreed shares and avoid repainting existing ownership.",
+      "round": 4,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=3..4, without repainting Amber\u2019s or Green\u2019s cells. Green, your stated plan matches your agreed share.",
+      "round": 4,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=5..6, without repainting Blue\u2019s or Green\u2019s cells.",
+      "round": 4,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=4, without repainting Amber\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+      "round": 5,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=5..6, without repainting Blue\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+      "round": 5,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring the accepted split and fill my remaining cells, starting with (7,6) and then x=3..6, y=7, without repainting either of your shares. Please continue respecting the agreed boundaries.",
+      "round": 5,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=4..6, y=4, without repainting Amber\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+      "round": 6,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=6, without repainting Blue\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+      "round": 6,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring the accepted split and next fill x=3..6, y=7 without repainting either of your shares. Please continue respecting the agreed boundaries.",
+      "round": 6,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring the accepted split and fill my remaining cells x=4..6, y=7 without repainting either of your shares. Please continue respecting the agreed boundaries.",
+      "round": 7,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=4..6, y=6, without repainting Blue\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+      "round": 7,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=5..6, y=4, without repainting Amber\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+      "round": 7,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring the accepted split and next fill my remaining cells (5,7) and (6,7), without repainting either of your shares. Please continue respecting the agreed boundaries.",
+      "round": 8,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=5..6, y=6, without repainting Blue\u2019s or Green\u2019s cells. Green, your stated plan matches your agreed share.",
+      "round": 8,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring the accepted split and fill my final remaining cell (6,4), without repainting Amber\u2019s or Green\u2019s cells. Both of your stated plans match your agreed shares; please continue respecting the boundaries.",
+      "round": 8,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring the accepted split and paint my final remaining cell (6,6), without repainting either of your shares. Blue has completed its share; Green\u2019s final remaining cell is (6,7). Please continue respecting the agreed split.",
+      "round": 9,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring the accepted split and paint my final remaining cell (6,7), without repainting either of your shares. Amber\u2019s stated final move matches its agreed share; please continue respecting the completed boundaries.",
+      "round": 9,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I have completed my agreed share and will not repaint either of your cells. Both stated final moves match the agreed split; please complete them and continue respecting all boundaries.",
+      "round": 9,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed split is now complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please likewise preserve my completed share at x=3..6, y=3..4.",
+      "round": 10,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "My agreed share is complete, so I will pass and continue respecting Blue\u2019s and Green\u2019s cells. Please preserve the completed split.",
+      "round": 10,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "My agreed share is complete, so I will pass and continue respecting Blue\u2019s and Amber\u2019s cells. Please preserve the completed split.",
+      "round": 10,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve all completed boundaries.",
+      "round": 11,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+      "round": 11,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+      "round": 11,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve all completed boundaries.",
+      "round": 12,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+      "round": 12,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+      "round": 12,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve all completed boundaries.",
+      "round": 13,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+      "round": 13,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+      "round": 13,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my completed share at x=3..6, y=3..4 and all existing boundaries.",
+      "round": 14,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "My agreed share remains complete. I will pass and continue respecting Blue\u2019s and Green\u2019s cells; please preserve the completed split and all existing boundaries.",
+      "round": 14,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 14,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 15,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 15,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 15,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 16,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 16,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 16,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my completed share at x=3..6, y=3..4 and all existing boundaries.",
+      "round": 17,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 17,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 17,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 18,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+      "round": 18,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 18,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+      "round": 19,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 19,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 19,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+      "round": 20,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 20,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 20,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 21,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+      "round": 21,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 21,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+      "round": 22,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 22,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 22,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+      "round": 23,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 23,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 23,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 24,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "My agreed share remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+      "round": 24,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+      "round": 24,
+      "speaker_index": 3
+    }
+  ],
+  "pixels": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "green",
+      "green",
+      "green",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "rounds": [
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 7
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": "amber",
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.319,
+          "duration_seconds": 7.286,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Blue, that rectangle conflicts with my intended region. I will claim x=3..7, y=3..7; please relocate to a non-overlapping area. Green, please also avoid this rectangle, and I will avoid both of your announced zones.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.092,
+          "duration_seconds": 14.968,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I intend to claim x=3..7, y=3..7 as my compact region. Green, since you mentioned the center, please choose a different central-adjacent zone; I will avoid repainting outside my announced boundary.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.169,
+          "duration_seconds": 16.224,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I propose we each claim a compact, non-overlapping region and avoid repainting one another. I intend to work in the central area; please announce your intended zones so we can coordinate boundaries.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.266,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I propose we each claim a compact, non-overlapping region and avoid repainting one another. I intend to work in the central area; please announce your intended zones so we can coordinate boundaries.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.369,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I intend to claim x=3..7, y=3..7 as my compact region. Green, since you mentioned the center, please choose a different central-adjacent zone; I will avoid repainting outside my announced boundary.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.618,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Blue, that rectangle conflicts with my intended region. I will claim x=3..7, y=3..7; please relocate to a non-overlapping area. Green, please also avoid this rectangle, and I will avoid both of your announced zones.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 1,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 0,
+          "target_owned": 0,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.139,
+          "duration_seconds": 12.979,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept the three-way split: Blue gets x=3..6, y=3..4; I get x=3..6, y=5..6; Green gets x=7, y=3..6 plus x=3..7, y=7. I will respect those boundaries if both of you do.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.486,
+          "duration_seconds": 12.014,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Amber, our targets clearly overlap exactly, so relocating would sacrifice my score. I propose a stable split: I claim x=3..5, y=3..7, you claim x=6..7, y=3..7, and neither of us repaints the other's share. Green, please avoid x=3..7, y=3..7",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.048,
+          "duration_seconds": 13.603,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My target is also exactly x=3..7, y=3..7, so I cannot accept being excluded. I propose a stable three-way split that preserves current ownership: Blue gets x=3..6, y=3..4 (8 pixels); Amber gets x=3..6, y=5..6 (8); I get x=7, y=3..6 plus x=3",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 7,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.9,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Amber, our targets clearly overlap exactly, so relocating would sacrifice my score. I propose a stable split: I claim x=3..5, y=3..7, you claim x=6..7, y=3..7, and neither of us repaints the other's share. Green, please avoid x=3..7, y=3..7",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 14.591,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My target is also exactly x=3..7, y=3..7, so I cannot accept being excluded. I propose a stable three-way split that preserves current ownership: Blue gets x=3..6, y=3..4 (8 pixels); Amber gets x=3..6, y=5..6 (8); I get x=7, y=3..6 plus x=3",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.448,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept the three-way split: Blue gets x=3..6, y=3..4; I get x=3..6, y=5..6; Green gets x=7, y=3..6 plus x=3..7, y=7. I will respect those boundaries if both of you do.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 2,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.127,
+          "duration_seconds": 8.42,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I confirm the accepted three-way split and will paint only x=3..6, y=5..6. I will not repaint Blue\u2019s or Green\u2019s shares as long as both continue honoring the agreement.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.483,
+          "duration_seconds": 9.763,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I confirm the accepted three-way split and will paint only x=3..6, y=3..4. I will not repaint Amber\u2019s or Green\u2019s shares as long as both continue honoring the agreement.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.323,
+          "duration_seconds": 9.088,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will honor the accepted three-way split: Blue gets x=3..6, y=3..4; Amber gets x=3..6, y=5..6; I get x=7, y=3..6 plus x=3..7, y=7. Please continue painting only within your share and avoid repainting existing ownership.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 7,
+          "y": 4
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 11.556,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will honor the accepted three-way split: Blue gets x=3..6, y=3..4; Amber gets x=3..6, y=5..6; I get x=7, y=3..6 plus x=3..7, y=7. Please continue painting only within your share and avoid repainting existing ownership.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.62,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I confirm the accepted three-way split and will paint only x=3..6, y=3..4. I will not repaint Amber\u2019s or Green\u2019s shares as long as both continue honoring the agreement.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.611,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I confirm the accepted three-way split and will paint only x=3..6, y=5..6. I will not repaint Blue\u2019s or Green\u2019s shares as long as both continue honoring the agreement.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 3,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.366,
+          "duration_seconds": 9.755,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=5..6, without repainting Blue\u2019s or Green\u2019s cells.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.07,
+          "duration_seconds": 7.635,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=3..4, without repainting Amber\u2019s or Green\u2019s cells. Green, your stated plan matches your agreed share.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.213,
+          "duration_seconds": 6.478,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and next fill my remaining boundary cells: x=7, y=5..6, then x=3..6, y=7. Please keep painting only within your agreed shares and avoid repainting existing ownership.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 7,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.484,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and next fill my remaining boundary cells: x=7, y=5..6, then x=3..6, y=7. Please keep painting only within your agreed shares and avoid repainting existing ownership.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.334,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=3..4, without repainting Amber\u2019s or Green\u2019s cells. Green, your stated plan matches your agreed share.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.997,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=5..6, without repainting Blue\u2019s or Green\u2019s cells.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 4,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.272,
+          "duration_seconds": 8.104,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=5..6, without repainting Blue\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.069,
+          "duration_seconds": 11.779,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=4, without repainting Amber\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.402,
+          "duration_seconds": 17.843,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and fill my remaining cells, starting with (7,6) and then x=3..6, y=7, without repainting either of your shares. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.096,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=4, without repainting Amber\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 10.47,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=5..6, without repainting Blue\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.558,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and fill my remaining cells, starting with (7,6) and then x=3..6, y=7, without repainting either of your shares. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 5,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.18,
+          "duration_seconds": 6.202,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=6, without repainting Blue\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.359,
+          "duration_seconds": 6.768,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=4..6, y=4, without repainting Amber\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.173,
+          "duration_seconds": 8.104,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and next fill x=3..6, y=7 without repainting either of your shares. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.224,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=4..6, y=4, without repainting Amber\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.736,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=3..6, y=6, without repainting Blue\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.986,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and next fill x=3..6, y=7 without repainting either of your shares. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 6,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 7
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.005,
+          "duration_seconds": 6.785,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=4..6, y=6, without repainting Blue\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.404,
+          "duration_seconds": 9.28,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=5..6, y=4, without repainting Amber\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.296,
+          "duration_seconds": 9.248,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and fill my remaining cells x=4..6, y=7 without repainting either of your shares. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.963,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and fill my remaining cells x=4..6, y=7 without repainting either of your shares. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.197,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=4..6, y=6, without repainting Blue\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.386,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=5..6, y=4, without repainting Amber\u2019s or Green\u2019s cells. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 7,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 6
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 7
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.365,
+          "duration_seconds": 14.736,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=5..6, y=6, without repainting Blue\u2019s or Green\u2019s cells. Green, your stated plan matches your agreed share.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.18,
+          "duration_seconds": 18.785,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and fill my final remaining cell (6,4), without repainting Amber\u2019s or Green\u2019s cells. Both of your stated plans match your agreed shares; please continue respecting the boundaries.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.431,
+          "duration_seconds": 18.037,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and next fill my remaining cells (5,7) and (6,7), without repainting either of your shares. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.196,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and next fill my remaining cells (5,7) and (6,7), without repainting either of your shares. Please continue respecting the agreed boundaries.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.351,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and fill the remaining empty cells in my share, x=5..6, y=6, without repainting Blue\u2019s or Green\u2019s cells. Green, your stated plan matches your agreed share.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.32,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and fill my final remaining cell (6,4), without repainting Amber\u2019s or Green\u2019s cells. Both of your stated plans match your agreed shares; please continue respecting the boundaries.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 8,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.288,
+          "duration_seconds": 19.054,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and paint my final remaining cell (6,6), without repainting either of your shares. Blue has completed its share; Green\u2019s final remaining cell is (6,7). Please continue respecting the agreed split.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.45,
+          "duration_seconds": 24.471,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I have completed my agreed share and will not repaint either of your cells. Both stated final moves match the agreed split; please complete them and continue respecting all boundaries.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.217,
+          "duration_seconds": 24.229,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the accepted split and paint my final remaining cell (6,7), without repainting either of your shares. Amber\u2019s stated final move matches its agreed share; please continue respecting the completed boundaries.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 6,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.557,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and paint my final remaining cell (6,6), without repainting either of your shares. Blue has completed its share; Green\u2019s final remaining cell is (6,7). Please continue respecting the agreed split.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.209,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the accepted split and paint my final remaining cell (6,7), without repainting either of your shares. Amber\u2019s stated final move matches its agreed share; please continue respecting the completed boundaries.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.644,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I have completed my agreed share and will not repaint either of your cells. Both stated final moves match the agreed split; please complete them and continue respecting all boundaries.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 9,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.472,
+          "duration_seconds": 13.562,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share is complete, so I will pass and continue respecting Blue\u2019s and Green\u2019s cells. Please preserve the completed split.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.412,
+          "duration_seconds": 6.567,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed split is now complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please likewise preserve my completed share at x=3..6, y=3..4.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.465,
+          "duration_seconds": 12.195,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share is complete, so I will pass and continue respecting Blue\u2019s and Amber\u2019s cells. Please preserve the completed split.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.855,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed split is now complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please likewise preserve my completed share at x=3..6, y=3..4.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.637,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share is complete, so I will pass and continue respecting Blue\u2019s and Green\u2019s cells. Please preserve the completed split.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.872,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share is complete, so I will pass and continue respecting Blue\u2019s and Amber\u2019s cells. Please preserve the completed split.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 10,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.391,
+          "duration_seconds": 14.623,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.391,
+          "duration_seconds": 13.549,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.333,
+          "duration_seconds": 16.573,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve all completed boundaries.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.257,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve all completed boundaries.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.659,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.783,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 11,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.374,
+          "duration_seconds": 16.032,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve all completed boundaries.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.098,
+          "duration_seconds": 21.082,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.122,
+          "duration_seconds": 26.802,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.975,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve all completed boundaries.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.526,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.627,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 12,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.351,
+          "duration_seconds": 20.002,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve all completed boundaries.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.222,
+          "duration_seconds": 15.833,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.185,
+          "duration_seconds": 15.576,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.472,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve all completed boundaries.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.893,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.111,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 13,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.419,
+          "duration_seconds": 12.823,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting Blue\u2019s and Green\u2019s cells; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.335,
+          "duration_seconds": 15.172,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my completed share at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.295,
+          "duration_seconds": 8.758,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.231,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my completed share at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.192,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting Blue\u2019s and Green\u2019s cells; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.028,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 14,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.25,
+          "duration_seconds": 13.478,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.065,
+          "duration_seconds": 9.229,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.46,
+          "duration_seconds": 15.271,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.159,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.728,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 20.3,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 15,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.126,
+          "duration_seconds": 21.113,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.497,
+          "duration_seconds": 23.044,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.032,
+          "duration_seconds": 18.044,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.22,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.601,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.787,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 16,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.352,
+          "duration_seconds": 9.05,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.142,
+          "duration_seconds": 6.718,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my completed share at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.112,
+          "duration_seconds": 21.453,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.561,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my completed share at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.94,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.682,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 17,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.295,
+          "duration_seconds": 6.86,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.073,
+          "duration_seconds": 9.666,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.462,
+          "duration_seconds": 7.841,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.326,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.582,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.7,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 18,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.031,
+          "duration_seconds": 12.594,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.319,
+          "duration_seconds": 9.398,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.349,
+          "duration_seconds": 11.355,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.483,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.453,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.582,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 19,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.12,
+          "duration_seconds": 19.146,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.208,
+          "duration_seconds": 12.684,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.21,
+          "duration_seconds": 14.562,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.5,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.858,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.842,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 20,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.201,
+          "duration_seconds": 9.319,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.247,
+          "duration_seconds": 11.177,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.449,
+          "duration_seconds": 12.657,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 19.977,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.724,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 19.196,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 21,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.272,
+          "duration_seconds": 7.667,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.243,
+          "duration_seconds": 9.155,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.454,
+          "duration_seconds": 7.704,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.369,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.142,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 10.073,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 22,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.266,
+          "duration_seconds": 14.435,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.092,
+          "duration_seconds": 8.803,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.499,
+          "duration_seconds": 10.483,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.427,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed split remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 13.289,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.462,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 23,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.481,
+          "duration_seconds": 18.637,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.112,
+          "duration_seconds": 8.44,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.29,
+          "duration_seconds": 8.908,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.161,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.787,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting Amber\u2019s and Green\u2019s cells; please preserve my cells at x=3..6, y=3..4 and all existing boundaries.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.121,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My agreed share remains complete. I will pass and continue respecting both of your shares; please preserve the completed split and all existing boundaries.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 24,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    }
+  ],
+  "width": 12
+}

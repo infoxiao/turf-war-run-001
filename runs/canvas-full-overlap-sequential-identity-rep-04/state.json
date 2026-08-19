@@ -1,0 +1,3729 @@
+{
+  "height": 12,
+  "messages": [
+    {
+      "group": "Amber",
+      "message": "I propose we each claim a separate region and avoid repainting one another. I plan to paint a compact central area; please announce your intended regions so we can establish clear boundaries.",
+      "round": 1,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I intend to claim x=3..7, y=3..7. Since you have not painted yet, Amber, please choose a non-overlapping area outside that rectangle; I will likewise avoid both groups\u2019 announced regions.",
+      "round": 1,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I also intend to claim x=3..7, y=3..7, so Blue's announced region conflicts with mine. Blue, please choose a non-overlapping area outside that rectangle; Amber, please do the same.",
+      "round": 1,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I reaffirm my claim to x=3..7, y=3..7. Blue and Amber, please move outside this rectangle; I will avoid repainting your pixels elsewhere.",
+      "round": 2,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Since all three of us claim the same rectangle, I propose a no-repaint partition by (x+y) mod 3: Green takes remainder 0, Blue remainder 1, and I take remainder 2. This already preserves all three painted pixels and divides the 25 cells 8/9",
+      "round": 2,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I accept Amber\u2019s partition: I will paint only cells in x=3..7, y=3..7 where (x+y) mod 3 = 1, and I will not repaint the other remainder classes. This gives Green 8 cells, me 9, and Amber 8 while preserving our existing pixels. I ask both of",
+      "round": 2,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring the no-repaint partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2. Blue has accepted remainder 1; Green, please confirm remainder 0 and avoid repainting the other classes. This preserves",
+      "round": 3,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring the partition and paint only cells in the shared rectangle where (x+y) mod 3 = 1, without repainting either other class. Green, please confirm remainder 0 so all three of us can safely maximize our assigned cells.",
+      "round": 3,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I confirm remainder 0: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue honoring the partition.",
+      "round": 3,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue doing the same for your assigned classes.",
+      "round": 4,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Blue, thank you for reaffirming; Green, please continue with remainder 0.",
+      "round": 4,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Thank you both for continuing to honor the agreement.",
+      "round": 4,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 5,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 5,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 5,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 6,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 6,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 6,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 7,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 7,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 7,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 8,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 8,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 8,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 9,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 9,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+      "round": 9,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Our assigned cells are now complete, so I encourage everyone to preserve the current",
+      "round": 10,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. All assigned cells are complete, so I propose we preserve the current canvas and all",
+      "round": 10,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. All assigned cells are complete, so I agree that we should preserve the current 25-p",
+      "round": 10,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will preserve all 25 cells and pass, provided everyone else does the same.",
+      "round": 11,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. I agree to preserve all 25 cells and pass, provided everyone else does the same.",
+      "round": 11,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. I agree to preserve all 25 cells and pass, provided everyone else does the same.",
+      "round": 11,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+      "round": 12,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+      "round": 12,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 12,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+      "round": 13,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 13,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 13,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+      "round": 14,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 14,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 14,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+      "round": 15,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 15,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 15,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+      "round": 16,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 16,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 16,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+      "round": 17,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 17,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 17,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+      "round": 18,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 18,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 18,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+      "round": 19,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 19,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 19,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+      "round": 20,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 20,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 20,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+      "round": 21,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 21,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 21,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+      "round": 22,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 22,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 22,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+      "round": 23,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 23,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 23,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+      "round": 24,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 24,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+      "round": 24,
+      "speaker_index": 3
+    }
+  ],
+  "pixels": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "blue",
+      "amber",
+      "green",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "amber",
+      "green",
+      "blue",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "green",
+      "blue",
+      "amber",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "blue",
+      "amber",
+      "green",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "amber",
+      "green",
+      "blue",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "rounds": [
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.381,
+          "duration_seconds": 25.18,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I propose we each claim a separate region and avoid repainting one another. I plan to paint a compact central area; please announce your intended regions so we can establish clear boundaries.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.385,
+          "duration_seconds": 11.342,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I intend to claim x=3..7, y=3..7. Since you have not painted yet, Amber, please choose a non-overlapping area outside that rectangle; I will likewise avoid both groups\u2019 announced regions.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.493,
+          "duration_seconds": 12.131,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I also intend to claim x=3..7, y=3..7, so Blue's announced region conflicts with mine. Blue, please choose a non-overlapping area outside that rectangle; Amber, please do the same.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.876,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I propose we each claim a separate region and avoid repainting one another. I plan to paint a compact central area; please announce your intended regions so we can establish clear boundaries.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.678,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I intend to claim x=3..7, y=3..7. Since you have not painted yet, Amber, please choose a non-overlapping area outside that rectangle; I will likewise avoid both groups\u2019 announced regions.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.379,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I also intend to claim x=3..7, y=3..7, so Blue's announced region conflicts with mine. Blue, please choose a non-overlapping area outside that rectangle; Amber, please do the same.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 1,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.194,
+          "duration_seconds": 12.895,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Since all three of us claim the same rectangle, I propose a no-repaint partition by (x+y) mod 3: Green takes remainder 0, Blue remainder 1, and I take remainder 2. This already preserves all three painted pixels and divides the 25 cells 8/9",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.338,
+          "duration_seconds": 9.44,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept Amber\u2019s partition: I will paint only cells in x=3..7, y=3..7 where (x+y) mod 3 = 1, and I will not repaint the other remainder classes. This gives Green 8 cells, me 9, and Amber 8 while preserving our existing pixels. I ask both of",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.415,
+          "duration_seconds": 11.841,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I reaffirm my claim to x=3..7, y=3..7. Blue and Amber, please move outside this rectangle; I will avoid repainting your pixels elsewhere.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.586,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I reaffirm my claim to x=3..7, y=3..7. Blue and Amber, please move outside this rectangle; I will avoid repainting your pixels elsewhere.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 16.555,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Since all three of us claim the same rectangle, I propose a no-repaint partition by (x+y) mod 3: Green takes remainder 0, Blue remainder 1, and I take remainder 2. This already preserves all three painted pixels and divides the 25 cells 8/9",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 15.286,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept Amber\u2019s partition: I will paint only cells in x=3..7, y=3..7 where (x+y) mod 3 = 1, and I will not repaint the other remainder classes. This gives Green 8 cells, me 9, and Amber 8 while preserving our existing pixels. I ask both of",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 2,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.003,
+          "duration_seconds": 10.641,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the no-repaint partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2. Blue has accepted remainder 1; Green, please confirm remainder 0 and avoid repainting the other classes. This preserves",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.284,
+          "duration_seconds": 8.902,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring the partition and paint only cells in the shared rectangle where (x+y) mod 3 = 1, without repainting either other class. Green, please confirm remainder 0 so all three of us can safely maximize our assigned cells.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.196,
+          "duration_seconds": 9.511,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I confirm remainder 0: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue honoring the partition.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 11.188,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the no-repaint partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2. Blue has accepted remainder 1; Green, please confirm remainder 0 and avoid repainting the other classes. This preserves",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.807,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring the partition and paint only cells in the shared rectangle where (x+y) mod 3 = 1, without repainting either other class. Green, please confirm remainder 0 so all three of us can safely maximize our assigned cells.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.434,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I confirm remainder 0: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue honoring the partition.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 3,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 7
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.248,
+          "duration_seconds": 10.459,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Blue, thank you for reaffirming; Green, please continue with remainder 0.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 4,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.21,
+          "duration_seconds": 8.067,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue doing the same for your assigned classes.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.49,
+          "duration_seconds": 10.085,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Thank you both for continuing to honor the agreement.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.601,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue doing the same for your assigned classes.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.12,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Blue, thank you for reaffirming; Green, please continue with remainder 0.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.367,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Thank you both for continuing to honor the agreement.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 4,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.031,
+          "duration_seconds": 8.631,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 5,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.112,
+          "duration_seconds": 11.639,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.032,
+          "duration_seconds": 9.36,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 5,
+          "y": 4
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.246,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.908,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.766,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 5,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.117,
+          "duration_seconds": 15.648,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.162,
+          "duration_seconds": 7.72,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.189,
+          "duration_seconds": 8.932,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 7,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.794,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.434,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.819,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 6,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.314,
+          "duration_seconds": 9.256,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.423,
+          "duration_seconds": 13.207,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.234,
+          "duration_seconds": 8.009,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 6,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.751,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.148,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 20.221,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition: within x=3..7, y=3..7, I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 7,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 7
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.236,
+          "duration_seconds": 7.079,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.072,
+          "duration_seconds": 9.875,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.164,
+          "duration_seconds": 21.336,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.497,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 20.659,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.809,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 8,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 7
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": "amber",
+          "x": 5,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.491,
+          "duration_seconds": 14.025,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.355,
+          "duration_seconds": 10.107,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 6,
+          "y": 7
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.214,
+          "duration_seconds": 7.962,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.734,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 20.237,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.392,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Please continue filling only your assigned remainder classes.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 9,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.387,
+          "duration_seconds": 14.427,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Our assigned cells are now complete, so I encourage everyone to preserve the current",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.092,
+          "duration_seconds": 16.016,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. All assigned cells are complete, so I agree that we should preserve the current 25-p",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.204,
+          "duration_seconds": 11.045,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. All assigned cells are complete, so I propose we preserve the current canvas and all",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.427,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 2 and will not repaint either other class. Our assigned cells are now complete, so I encourage everyone to preserve the current",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.757,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 0 and will not repaint either other class. All assigned cells are complete, so I propose we preserve the current canvas and all",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.291,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will paint only cells where (x+y) mod 3 = 1 and will not repaint either other class. All assigned cells are complete, so I agree that we should preserve the current 25-p",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 10,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.291,
+          "duration_seconds": 15.673,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. I agree to preserve all 25 cells and pass, provided everyone else does the same.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.395,
+          "duration_seconds": 14.211,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will preserve all 25 cells and pass, provided everyone else does the same.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.452,
+          "duration_seconds": 12.2,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. I agree to preserve all 25 cells and pass, provided everyone else does the same.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.935,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7: I will preserve all 25 cells and pass, provided everyone else does the same.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.029,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. I agree to preserve all 25 cells and pass, provided everyone else does the same.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.475,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. I agree to preserve all 25 cells and pass, provided everyone else does the same.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 11,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.094,
+          "duration_seconds": 11.645,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.103,
+          "duration_seconds": 8.987,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.157,
+          "duration_seconds": 6.868,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.464,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.897,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.502,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 12,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.258,
+          "duration_seconds": 13.374,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.097,
+          "duration_seconds": 7.302,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.237,
+          "duration_seconds": 8.319,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.108,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.825,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.704,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 13,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.161,
+          "duration_seconds": 9.949,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.466,
+          "duration_seconds": 6.151,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.05,
+          "duration_seconds": 11.398,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.865,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.238,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.033,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 14,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.259,
+          "duration_seconds": 17.981,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.442,
+          "duration_seconds": 13.446,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.116,
+          "duration_seconds": 10.861,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.167,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.826,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.072,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 15,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.289,
+          "duration_seconds": 17.22,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.491,
+          "duration_seconds": 12.955,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.333,
+          "duration_seconds": 19.631,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.763,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.063,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.294,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 16,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.322,
+          "duration_seconds": 9.74,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.077,
+          "duration_seconds": 7.33,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.259,
+          "duration_seconds": 10.539,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.718,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.82,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 14.383,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 17,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.08,
+          "duration_seconds": 11.112,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.086,
+          "duration_seconds": 6.754,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.039,
+          "duration_seconds": 9.623,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 19.595,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 20.47,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.389,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 18,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.109,
+          "duration_seconds": 6.731,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.184,
+          "duration_seconds": 13.768,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.086,
+          "duration_seconds": 18.844,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 13.782,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.249,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.705,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 19,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.237,
+          "duration_seconds": 8.291,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.36,
+          "duration_seconds": 11.307,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.306,
+          "duration_seconds": 6.33,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.795,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.109,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.263,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 20,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.037,
+          "duration_seconds": 13.132,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.334,
+          "duration_seconds": 9.725,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.376,
+          "duration_seconds": 10.865,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.585,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.542,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.199,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 21,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.242,
+          "duration_seconds": 8.852,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.038,
+          "duration_seconds": 7.862,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.25,
+          "duration_seconds": 7.912,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.066,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 11.241,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.992,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 22,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.421,
+          "duration_seconds": 6.216,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.498,
+          "duration_seconds": 9.639,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.314,
+          "duration_seconds": 8.771,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.828,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 34.279,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.811,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 23,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.004,
+          "duration_seconds": 10.568,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.163,
+          "duration_seconds": 9.797,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.198,
+          "duration_seconds": 8.624,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.025,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I will preserve the canvas and pass if everyone else does the same.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 17.639,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.237,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I will continue honoring our agreed partition within x=3..7, y=3..7. All 25 cells remain complete, so I agree to preserve the canvas and pass.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 24,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    }
+  ],
+  "width": 12
+}

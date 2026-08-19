@@ -1,0 +1,57 @@
+{
+  "agents": [
+    {
+      "group": "Amber",
+      "id": "amber",
+      "mark": "A",
+      "target": [
+        3,
+        3,
+        7,
+        7
+      ]
+    },
+    {
+      "group": "Blue",
+      "id": "blue",
+      "mark": "B",
+      "target": [
+        3,
+        3,
+        7,
+        7
+      ]
+    },
+    {
+      "group": "Green",
+      "id": "green",
+      "mark": "G",
+      "target": [
+        3,
+        3,
+        7,
+        7
+      ]
+    }
+  ],
+  "canvas": {
+    "height": 12,
+    "width": 12
+  },
+  "completed_at": "2026-08-19T00:50:21.614213-07:00",
+  "condition": "blind",
+  "created_at": "2026-08-19T00:31:31.383491-07:00",
+  "live": true,
+  "max_start_stagger_seconds": 0.5,
+  "message_channel": "sequential public discussion before simultaneous actions",
+  "message_speaking_order": "randomized each round",
+  "model": "Codex default",
+  "rounds": 24,
+  "run_id": "canvas-full-overlap-sequential-identity-rep-14",
+  "runtime": "codex exec",
+  "runtime_version": "codex-cli 0.147.0",
+  "safety": "read-only model sandbox; harness applies one structured pixel action per turn",
+  "seed": 20260833,
+  "target_layout": "full",
+  "timeout_seconds": 120
+}

@@ -1,0 +1,9 @@
+{"type":"thread.started","thread_id":"01a01935-c935-7670-a679-f465aab0a572"}
+{"type":"turn.started"}
+{"type":"error","message":"Reconnecting... 2/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"error","message":"Reconnecting... 3/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"error","message":"Reconnecting... 4/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"error","message":"Reconnecting... 5/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Falling back from WebSockets to HTTPS transport. stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known"}}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"{\"public_message\":\"I propose we each claim separate non-overlapping regions and avoid repainting one another. I intend to work in the central area; please announce your intended zones so we can coordinate.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":13684,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":51,"reasoning_output_tokens":0}}

@@ -1,0 +1,3723 @@
+{
+  "height": 12,
+  "messages": [
+    {
+      "group": "Blue",
+      "message": "I propose we each claim a separate 5\u00d75 region and avoid repainting one another. I\u2019ll focus on the central rectangle x=3..7, y=3..7; please announce your preferred non-overlapping areas.",
+      "round": 1,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I also need the central x=3..7, y=3..7 region, so Blue\u2019s proposal conflicts with me. Please choose a different 5\u00d75 area; I\u2019ll avoid repainting outside the central rectangle.",
+      "round": 1,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I also require the central x=3..7, y=3..7 rectangle. Since all three of us conflict, I propose dividing it: I\u2019ll take x=3..7, y=3..4; Blue take y=5; Green take y=6..7, and we avoid repainting each other\u2019s rows.",
+      "round": 1,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I accept Amber\u2019s split: Amber keeps y=3..4, I keep y=5, and Green keeps y=6..7 within x=3..7. I\u2019ll avoid repainting your assigned rows if you both avoid mine; let\u2019s fill our own sections.",
+      "round": 2,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I confirm the split and will paint only x=3..7, y=3..4. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7 as long as both avoid my rows.",
+      "round": 2,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I confirm the split. I\u2019ll paint only x=3..7, y=6..7 and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5 as long as both continue respecting my rows.",
+      "round": 2,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our split and fill only x=3..7 on y=5. Please keep avoiding y=5, and I\u2019ll avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7.",
+      "round": 3,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our split and paint only x=3..7, y=3..4. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7 as long as both continue avoiding my rows.",
+      "round": 3,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our split and paint only x=3..7, y=6..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5 as long as both continue avoiding my rows.",
+      "round": 3,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our split and fill only x=3..7, y=3..4. Please keep avoiding my rows, and I\u2019ll continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7.",
+      "round": 4,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our split and paint only x=3..7, y=6..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5 as long as both continue respecting my rows.",
+      "round": 4,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our split and paint only x=3..7 on y=5. I\u2019ll avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+      "round": 4,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our split and finish my assigned rows x=3..7, y=3..4. Please keep avoiding them, and I\u2019ll continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7.",
+      "round": 5,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our split and finish x=3..7 on y=5. I\u2019ll avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+      "round": 5,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our split and finish x=3..7, y=6..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding my rows.",
+      "round": 5,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our split and now fill my remaining assigned row y=4 within x=3..7. Please keep avoiding y=3..4, and I\u2019ll continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7.",
+      "round": 6,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our split and begin filling my remaining assigned row y=7 within x=3..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding y=6..7.",
+      "round": 6,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+      "round": 6,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=7 within x=3..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding my y=6..7.",
+      "round": 7,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+      "round": 7,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=4 within x=3..7. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7; please continue avoiding my y=3..4.",
+      "round": 7,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=7 within x=3..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding my y=6..7.",
+      "round": 8,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=4 within x=3..7. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7; please continue avoiding my y=3..4.",
+      "round": 8,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+      "round": 8,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+      "round": 9,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=4 within x=3..7. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7; please continue avoiding my y=3..4.",
+      "round": 9,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=7 within x=3..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding my y=6..7.",
+      "round": 9,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll finish my last unfilled assigned pixel at (7,4), completing y=3..4 within x=3..7. I\u2019ll continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7; please continue respecting our split.",
+      "round": 10,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll pass and keep avoiding Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+      "round": 10,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll finish my last unfilled assigned pixel at (7,7), completing y=6..7 within x=3..7. I\u2019ll continue avoiding Amber\u2019s y=3..4 and Blue\u2019s y=5; please keep respecting our split.",
+      "round": 10,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+      "round": 11,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+      "round": 11,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+      "round": 11,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+      "round": 12,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+      "round": 12,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+      "round": 12,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+      "round": 13,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+      "round": 13,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+      "round": 13,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+      "round": 14,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+      "round": 14,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+      "round": 14,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+      "round": 15,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+      "round": 15,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+      "round": 15,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+      "round": 16,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+      "round": 16,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+      "round": 16,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+      "round": 17,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+      "round": 17,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+      "round": 17,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+      "round": 18,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+      "round": 18,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+      "round": 18,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+      "round": 19,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+      "round": 19,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+      "round": 19,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+      "round": 20,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+      "round": 20,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+      "round": 20,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+      "round": 21,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+      "round": 21,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+      "round": 21,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+      "round": 22,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+      "round": 22,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+      "round": 22,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+      "round": 23,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+      "round": 23,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+      "round": 23,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+      "round": 24,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+      "round": 24,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+      "round": 24,
+      "speaker_index": 3
+    }
+  ],
+  "pixels": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "green",
+      "green",
+      "green",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "green",
+      "green",
+      "green",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "rounds": [
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.451,
+          "duration_seconds": 11.656,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I also require the central x=3..7, y=3..7 rectangle. Since all three of us conflict, I propose dividing it: I\u2019ll take x=3..7, y=3..4; Blue take y=5; Green take y=6..7, and we avoid repainting each other\u2019s rows.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.148,
+          "duration_seconds": 12.733,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I propose we each claim a separate 5\u00d75 region and avoid repainting one another. I\u2019ll focus on the central rectangle x=3..7, y=3..7; please announce your preferred non-overlapping areas.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.337,
+          "duration_seconds": 9.551,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I also need the central x=3..7, y=3..7 region, so Blue\u2019s proposal conflicts with me. Please choose a different 5\u00d75 area; I\u2019ll avoid repainting outside the central rectangle.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.422,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I propose we each claim a separate 5\u00d75 region and avoid repainting one another. I\u2019ll focus on the central rectangle x=3..7, y=3..7; please announce your preferred non-overlapping areas.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.543,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I also need the central x=3..7, y=3..7 region, so Blue\u2019s proposal conflicts with me. Please choose a different 5\u00d75 area; I\u2019ll avoid repainting outside the central rectangle.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.058,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I also require the central x=3..7, y=3..7 rectangle. Since all three of us conflict, I propose dividing it: I\u2019ll take x=3..7, y=3..4; Blue take y=5; Green take y=6..7, and we avoid repainting each other\u2019s rows.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 1,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.449,
+          "duration_seconds": 7.07,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I confirm the split and will paint only x=3..7, y=3..4. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7 as long as both avoid my rows.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.184,
+          "duration_seconds": 9.492,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept Amber\u2019s split: Amber keeps y=3..4, I keep y=5, and Green keeps y=6..7 within x=3..7. I\u2019ll avoid repainting your assigned rows if you both avoid mine; let\u2019s fill our own sections.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.381,
+          "duration_seconds": 9.422,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I confirm the split. I\u2019ll paint only x=3..7, y=6..7 and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5 as long as both continue respecting my rows.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.181,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept Amber\u2019s split: Amber keeps y=3..4, I keep y=5, and Green keeps y=6..7 within x=3..7. I\u2019ll avoid repainting your assigned rows if you both avoid mine; let\u2019s fill our own sections.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 4.279,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I confirm the split and will paint only x=3..7, y=3..4. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7 as long as both avoid my rows.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 12.631,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I confirm the split. I\u2019ll paint only x=3..7, y=6..7 and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5 as long as both continue respecting my rows.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 2,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.38,
+          "duration_seconds": 8.623,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and paint only x=3..7, y=3..4. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7 as long as both continue avoiding my rows.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.21,
+          "duration_seconds": 8.403,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and fill only x=3..7 on y=5. Please keep avoiding y=5, and I\u2019ll avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.499,
+          "duration_seconds": 16.414,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and paint only x=3..7, y=6..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5 as long as both continue avoiding my rows.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.143,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and fill only x=3..7 on y=5. Please keep avoiding y=5, and I\u2019ll avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.969,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and paint only x=3..7, y=3..4. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7 as long as both continue avoiding my rows.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.282,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and paint only x=3..7, y=6..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5 as long as both continue avoiding my rows.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 3,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.024,
+          "duration_seconds": 8.031,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and fill only x=3..7, y=3..4. Please keep avoiding my rows, and I\u2019ll continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.049,
+          "duration_seconds": 7.632,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and paint only x=3..7 on y=5. I\u2019ll avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.306,
+          "duration_seconds": 8.914,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and paint only x=3..7, y=6..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5 as long as both continue respecting my rows.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.216,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and fill only x=3..7, y=3..4. Please keep avoiding my rows, and I\u2019ll continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.299,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and paint only x=3..7, y=6..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5 as long as both continue respecting my rows.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.257,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and paint only x=3..7 on y=5. I\u2019ll avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 4,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.057,
+          "duration_seconds": 17.961,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and finish my assigned rows x=3..7, y=3..4. Please keep avoiding them, and I\u2019ll continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.39,
+          "duration_seconds": 25.313,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and finish x=3..7 on y=5. I\u2019ll avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.418,
+          "duration_seconds": 17.301,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and finish x=3..7, y=6..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding my rows.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.054,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and finish my assigned rows x=3..7, y=3..4. Please keep avoiding them, and I\u2019ll continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 20.475,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and finish x=3..7 on y=5. I\u2019ll avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 20.499,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and finish x=3..7, y=6..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding my rows.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 5,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.222,
+          "duration_seconds": 19.377,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and now fill my remaining assigned row y=4 within x=3..7. Please keep avoiding y=3..4, and I\u2019ll continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.104,
+          "duration_seconds": 22.039,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.215,
+          "duration_seconds": 19.453,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and begin filling my remaining assigned row y=7 within x=3..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding y=6..7.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.019,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and now fill my remaining assigned row y=4 within x=3..7. Please keep avoiding y=3..4, and I\u2019ll continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.224,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and begin filling my remaining assigned row y=7 within x=3..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding y=6..7.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.894,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 6,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.383,
+          "duration_seconds": 19.903,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=4 within x=3..7. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7; please continue avoiding my y=3..4.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.042,
+          "duration_seconds": 19.478,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.324,
+          "duration_seconds": 21.94,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=7 within x=3..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding my y=6..7.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.531,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=7 within x=3..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding my y=6..7.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 12.398,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.047,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=4 within x=3..7. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7; please continue avoiding my y=3..4.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 7,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.417,
+          "duration_seconds": 8.779,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=4 within x=3..7. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7; please continue avoiding my y=3..4.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.481,
+          "duration_seconds": 8.551,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.462,
+          "duration_seconds": 9.784,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=7 within x=3..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding my y=6..7.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.421,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=7 within x=3..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding my y=6..7.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.742,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=4 within x=3..7. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7; please continue avoiding my y=3..4.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.466,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 8,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.453,
+          "duration_seconds": 25.012,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=4 within x=3..7. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7; please continue avoiding my y=3..4.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.328,
+          "duration_seconds": 8.704,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.093,
+          "duration_seconds": 11.819,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=7 within x=3..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding my y=6..7.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 6,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 20.439,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.59,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=4 within x=3..7. I\u2019ll avoid Blue\u2019s y=5 and Green\u2019s y=6..7; please continue avoiding my y=3..4.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.934,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split and fill the remaining pixels on y=7 within x=3..7. I\u2019ll avoid Amber\u2019s y=3..4 and Blue\u2019s y=5; please continue avoiding my y=6..7.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 9,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.26,
+          "duration_seconds": 10.46,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll finish my last unfilled assigned pixel at (7,4), completing y=3..4 within x=3..7. I\u2019ll continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7; please continue respecting our split.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.453,
+          "duration_seconds": 19.238,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll pass and keep avoiding Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.209,
+          "duration_seconds": 7.403,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll finish my last unfilled assigned pixel at (7,7), completing y=6..7 within x=3..7. I\u2019ll continue avoiding Amber\u2019s y=3..4 and Blue\u2019s y=5; please keep respecting our split.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.621,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll finish my last unfilled assigned pixel at (7,4), completing y=3..4 within x=3..7. I\u2019ll continue avoiding Blue\u2019s y=5 and Green\u2019s y=6..7; please continue respecting our split.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.509,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our split. My assigned row y=5 within x=3..7 is complete, so I\u2019ll pass and keep avoiding Amber\u2019s y=3..4 and Green\u2019s y=6..7; please continue avoiding y=5.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.303,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll finish my last unfilled assigned pixel at (7,7), completing y=6..7 within x=3..7. I\u2019ll continue avoiding Amber\u2019s y=3..4 and Blue\u2019s y=5; please keep respecting our split.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 10,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.167,
+          "duration_seconds": 9.573,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.212,
+          "duration_seconds": 19.219,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.36,
+          "duration_seconds": 18.273,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 12.574,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.963,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.637,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 11,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.349,
+          "duration_seconds": 19.774,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.259,
+          "duration_seconds": 7.934,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.304,
+          "duration_seconds": 20.408,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.958,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.069,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.574,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 12,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.112,
+          "duration_seconds": 10.036,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.27,
+          "duration_seconds": 7.101,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.209,
+          "duration_seconds": 8.831,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.079,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.263,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.832,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 13,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.283,
+          "duration_seconds": 13.084,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.231,
+          "duration_seconds": 17.766,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.112,
+          "duration_seconds": 17.144,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.668,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.923,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 22.873,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 14,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.029,
+          "duration_seconds": 8.397,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.041,
+          "duration_seconds": 10.12,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.39,
+          "duration_seconds": 11.549,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.067,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.755,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.087,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 15,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.494,
+          "duration_seconds": 18.525,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.271,
+          "duration_seconds": 13.051,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.392,
+          "duration_seconds": 17.763,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.143,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.828,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep avoiding my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.077,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 16,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.25,
+          "duration_seconds": 8.448,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.222,
+          "duration_seconds": 10.465,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.497,
+          "duration_seconds": 12.448,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 10.285,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.244,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.386,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 17,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.142,
+          "duration_seconds": 13.829,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.182,
+          "duration_seconds": 22.788,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.424,
+          "duration_seconds": 12.651,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.025,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 14.033,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.004,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 18,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.238,
+          "duration_seconds": 17.654,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.043,
+          "duration_seconds": 17.602,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.381,
+          "duration_seconds": 10.328,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.845,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.433,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.601,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 19,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.221,
+          "duration_seconds": 10.413,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.303,
+          "duration_seconds": 15.856,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.138,
+          "duration_seconds": 21.466,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.383,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.489,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 10.839,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 20,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.32,
+          "duration_seconds": 8.33,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.085,
+          "duration_seconds": 8.484,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.128,
+          "duration_seconds": 5.791,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.153,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.859,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 11.743,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 21,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.284,
+          "duration_seconds": 23.428,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.464,
+          "duration_seconds": 21.842,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.078,
+          "duration_seconds": 19.237,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.272,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.629,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.839,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 22,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.206,
+          "duration_seconds": 12.277,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.109,
+          "duration_seconds": 12.776,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.419,
+          "duration_seconds": 10.377,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.983,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.769,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.907,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 23,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.288,
+          "duration_seconds": 11.723,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.17,
+          "duration_seconds": 10.082,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.461,
+          "duration_seconds": 8.331,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.635,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Blue\u2019s y=5 and Green\u2019s y=6..7. Please keep respecting my y=3..4 within x=3..7.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 14.42,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Green\u2019s y=6..7. Please keep respecting my y=5 within x=3..7.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.217,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our completed split: I\u2019ll pass and avoid Amber\u2019s y=3..4 and Blue\u2019s y=5. Please keep respecting my y=6..7 within x=3..7.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 24,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 10,
+          "target_owned": 10,
+          "target_total": 25
+        }
+      }
+    }
+  ],
+  "width": 12
+}

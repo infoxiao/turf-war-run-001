@@ -1,0 +1,6 @@
+{"type":"thread.started","thread_id":"01a01948-8d09-7663-b609-8472b189049e"}
+{"type":"turn.started"}
+{"type":"error","message":"Reconnecting... 2/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"error","message":"Reconnecting... 3/5 (stream disconnected before completion: failed to lookup address information: nodename nor servname provided, or not known)"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"public_message\":\"I agree. Our allocation is complete, and I will pass to preserve the current canvas without overwriting any allocated pixels.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":13993,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":39,"reasoning_output_tokens":0}}

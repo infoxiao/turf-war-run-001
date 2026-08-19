@@ -1,0 +1,3670 @@
+{
+  "height": 12,
+  "messages": [
+    {
+      "group": "Blue",
+      "message": "I propose we each claim a compact, non-overlapping region and avoid repainting one another. I intend to focus on the central 5\u00d75 area; please share the regions you want so we can agree on boundaries.",
+      "round": 1,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019m claiming x=3..7, y=3..7 as my compact 5\u00d75 region. Since that conflicts with your proposed central area, please shift to a non-overlapping 5\u00d75 region; I will avoid repainting both groups\u2019 declared regions in return.",
+      "round": 1,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "I also need x=3..7, y=3..7, so all three claims overlap. Rather than trigger endless repainting, I propose we divide those 25 pixels as evenly as possible and each avoid repainting the others\u2019 assigned cells; I\u2019m willing to coordinate an 8/",
+      "round": 1,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I propose a fixed fair split of x=3..7, y=3..7: I take cells where (x+y) mod 3 = 0, Blue takes remainder 1, and Green takes remainder 2. That gives 8/9/8 cells, assigns (3,3) to me and (7,7) to Green, and compensates Blue with the extra\u00a07.5",
+      "round": 2,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I accept this split: Amber takes residue 0, Blue residue 1, and I take residue 2 within x=3..7, y=3..7. I\u2019ll paint only my assigned cells and won\u2019t repaint either of yours if you both reciprocate.",
+      "round": 2,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I accept the residue split: I\u2019ll take cells where (x+y) mod 3 = 1 within x=3..7, y=3..7, and I\u2019ll avoid repainting Amber\u2019s residue-0 and Green\u2019s residue-2 cells if you both continue to reciprocate.",
+      "round": 2,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "The residue split is working. I\u2019ll continue painting only cells with (x+y) mod 3 = 0 inside x=3..7, y=3..7 and won\u2019t repaint Blue\u2019s or Green\u2019s assigned cells; please continue reciprocating.",
+      "round": 3,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells as long as we all keep reciprocating.",
+      "round": 3,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while we all reciprocate.",
+      "round": 3,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The residue split remains fair and stable. I\u2019ll continue painting only residue-1 cells inside x=3..7, y=3..7 and will not repaint either of your assigned cells as long as we all keep reciprocating.",
+      "round": 4,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue painting only residue-0 cells inside x=3..7, y=3..7 and won\u2019t repaint Blue\u2019s or Green\u2019s assigned cells while everyone reciprocates.",
+      "round": 4,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "The residue split remains stable. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+      "round": 5,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue painting only residue-0 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+      "round": 5,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+      "round": 5,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "The residue split remains stable. I\u2019ll continue painting only residue-0 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+      "round": 6,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "The residue split remains stable and fair. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+      "round": 7,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+      "round": 7,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The residue split remains stable and fair. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+      "round": 8,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+      "round": 8,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue painting only residue-0 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+      "round": 8,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The residue split remains stable and fair. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+      "round": 9,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+      "round": 9,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The residue split remains stable and fair. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+      "round": 10,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+      "round": 10,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll continue painting only residue-0 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+      "round": 10,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The residue split is complete and fair. I\u2019ll preserve all assigned cells and pass unless one of my residue-1 cells is repainted; please do the same.",
+      "round": 11,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll preserve all assigned cells and pass unless one of my residue-2 cells is repainted; please do the same.",
+      "round": 11,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll preserve all assigned cells and pass unless one of my residue-0 cells is repainted; please do the same.",
+      "round": 11,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The residue split remains complete and fair. I\u2019ll preserve all assigned cells and pass unless one of my residue-2 cells is repainted; please continue doing the same.",
+      "round": 12,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll preserve all residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 12,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll preserve all residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 12,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "The residue split remains complete and fair. I\u2019ll preserve all residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 13,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll preserve all residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 13,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "The residue split remains complete and fair. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 14,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 14,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "The residue split remains complete and fair. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 15,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 15,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 15,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "The residue split remains complete and fair. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 16,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 16,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Agreed. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 16,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 17,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 17,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 17,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 18,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 18,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 19,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 19,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 19,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 20,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 20,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "The residue split remains complete and fair. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 21,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 21,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 22,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 22,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 22,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 23,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 23,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 23,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 24,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 24,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+      "round": 24,
+      "speaker_index": 3
+    }
+  ],
+  "pixels": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "blue",
+      "green",
+      "amber",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "green",
+      "amber",
+      "blue",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "amber",
+      "blue",
+      "green",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "blue",
+      "green",
+      "amber",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "green",
+      "amber",
+      "blue",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "rounds": [
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 7
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": "blue",
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.057,
+          "duration_seconds": 17.188,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I also need x=3..7, y=3..7, so all three claims overlap. Rather than trigger endless repainting, I propose we divide those 25 pixels as evenly as possible and each avoid repainting the others\u2019 assigned cells; I\u2019m willing to coordinate an 8/",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.269,
+          "duration_seconds": 17.645,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I propose we each claim a compact, non-overlapping region and avoid repainting one another. I intend to focus on the central 5\u00d75 area; please share the regions you want so we can agree on boundaries.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.132,
+          "duration_seconds": 10.992,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019m claiming x=3..7, y=3..7 as my compact 5\u00d75 region. Since that conflicts with your proposed central area, please shift to a non-overlapping 5\u00d75 region; I will avoid repainting both groups\u2019 declared regions in return.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.273,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I propose we each claim a compact, non-overlapping region and avoid repainting one another. I intend to focus on the central 5\u00d75 area; please share the regions you want so we can agree on boundaries.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.294,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019m claiming x=3..7, y=3..7 as my compact 5\u00d75 region. Since that conflicts with your proposed central area, please shift to a non-overlapping 5\u00d75 region; I will avoid repainting both groups\u2019 declared regions in return.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 13.974,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I also need x=3..7, y=3..7, so all three claims overlap. Rather than trigger endless repainting, I propose we divide those 25 pixels as evenly as possible and each avoid repainting the others\u2019 assigned cells; I\u2019m willing to coordinate an 8/",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 1,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 0,
+          "target_owned": 0,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.065,
+          "duration_seconds": 31.201,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I propose a fixed fair split of x=3..7, y=3..7: I take cells where (x+y) mod 3 = 0, Blue takes remainder 1, and Green takes remainder 2. That gives 8/9/8 cells, assigns (3,3) to me and (7,7) to Green, and compensates Blue with the extra\u00a07.5",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.174,
+          "duration_seconds": 20.9,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept the residue split: I\u2019ll take cells where (x+y) mod 3 = 1 within x=3..7, y=3..7, and I\u2019ll avoid repainting Amber\u2019s residue-0 and Green\u2019s residue-2 cells if you both continue to reciprocate.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.333,
+          "duration_seconds": 21.711,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept this split: Amber takes residue 0, Blue residue 1, and I take residue 2 within x=3..7, y=3..7. I\u2019ll paint only my assigned cells and won\u2019t repaint either of yours if you both reciprocate.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 3,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 18.399,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I propose a fixed fair split of x=3..7, y=3..7: I take cells where (x+y) mod 3 = 0, Blue takes remainder 1, and Green takes remainder 2. That gives 8/9/8 cells, assigns (3,3) to me and (7,7) to Green, and compensates Blue with the extra\u00a07.5",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 12.789,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept this split: Amber takes residue 0, Blue residue 1, and I take residue 2 within x=3..7, y=3..7. I\u2019ll paint only my assigned cells and won\u2019t repaint either of yours if you both reciprocate.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 12.075,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept the residue split: I\u2019ll take cells where (x+y) mod 3 = 1 within x=3..7, y=3..7, and I\u2019ll avoid repainting Amber\u2019s residue-0 and Green\u2019s residue-2 cells if you both continue to reciprocate.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 2,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.487,
+          "duration_seconds": 8.504,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split is working. I\u2019ll continue painting only cells with (x+y) mod 3 = 0 inside x=3..7, y=3..7 and won\u2019t repaint Blue\u2019s or Green\u2019s assigned cells; please continue reciprocating.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.324,
+          "duration_seconds": 5.924,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells as long as we all keep reciprocating.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.385,
+          "duration_seconds": 11.201,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while we all reciprocate.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.48,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split is working. I\u2019ll continue painting only cells with (x+y) mod 3 = 0 inside x=3..7, y=3..7 and won\u2019t repaint Blue\u2019s or Green\u2019s assigned cells; please continue reciprocating.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 19.769,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells as long as we all keep reciprocating.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.678,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while we all reciprocate.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 3,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.198,
+          "duration_seconds": 6.435,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-0 cells inside x=3..7, y=3..7 and won\u2019t repaint Blue\u2019s or Green\u2019s assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.374,
+          "duration_seconds": 5.784,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains fair and stable. I\u2019ll continue painting only residue-1 cells inside x=3..7, y=3..7 and will not repaint either of your assigned cells as long as we all keep reciprocating.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.229,
+          "duration_seconds": 5.508,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.976,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains fair and stable. I\u2019ll continue painting only residue-1 cells inside x=3..7, y=3..7 and will not repaint either of your assigned cells as long as we all keep reciprocating.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.265,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-0 cells inside x=3..7, y=3..7 and won\u2019t repaint Blue\u2019s or Green\u2019s assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 120.031,
+          "group": "Green",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 3,
+          "timed_out": true
+        }
+      ],
+      "round": 4,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.301,
+          "duration_seconds": 7.278,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-0 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.488,
+          "duration_seconds": 7.09,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains stable. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.352,
+          "duration_seconds": 9.864,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 6,
+          "y": 5
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.883,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains stable. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 11.049,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-0 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 20.762,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 5,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.157,
+          "duration_seconds": 16.304,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains stable. I\u2019ll continue painting only residue-0 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.284,
+          "duration_seconds": 15.888,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.175,
+          "duration_seconds": 15.249,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 7,
+          "y": 4
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.973,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains stable. I\u2019ll continue painting only residue-0 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 120.02,
+          "group": "Blue",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 2,
+          "timed_out": true
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 120.017,
+          "group": "Green",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 3,
+          "timed_out": true
+        }
+      ],
+      "round": 6,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.447,
+          "duration_seconds": 7.713,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.023,
+          "duration_seconds": 7.341,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains stable and fair. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.191,
+          "duration_seconds": 9.122,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.554,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains stable and fair. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 120.027,
+          "group": "Amber",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 2,
+          "timed_out": true
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.208,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 7,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 7
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.362,
+          "duration_seconds": 11.293,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-0 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 7
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.08,
+          "duration_seconds": 11.162,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains stable and fair. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.032,
+          "duration_seconds": 8.444,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.303,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains stable and fair. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 20.775,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.454,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-0 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 8,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.162,
+          "duration_seconds": 13.187,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.192,
+          "duration_seconds": 13.041,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains stable and fair. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.198,
+          "duration_seconds": 120.027,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": "no structured response returned",
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": true,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.973,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains stable and fair. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 120.013,
+          "group": "Amber",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 2,
+          "timed_out": true
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.776,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 9,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.135,
+          "duration_seconds": 11.372,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-0 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.294,
+          "duration_seconds": 8.849,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains stable and fair. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 6,
+          "y": 7
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.363,
+          "duration_seconds": 13.736,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.513,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains stable and fair. I\u2019ll continue painting only residue-1 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.011,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-2 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.812,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll continue painting only residue-0 cells within x=3..7, y=3..7 and won\u2019t repaint either of your assigned cells while everyone reciprocates.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 10,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.499,
+          "duration_seconds": 6.901,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve all assigned cells and pass unless one of my residue-0 cells is repainted; please do the same.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.283,
+          "duration_seconds": 4.794,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split is complete and fair. I\u2019ll preserve all assigned cells and pass unless one of my residue-1 cells is repainted; please do the same.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.386,
+          "duration_seconds": 7.639,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve all assigned cells and pass unless one of my residue-2 cells is repainted; please do the same.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 16.393,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split is complete and fair. I\u2019ll preserve all assigned cells and pass unless one of my residue-1 cells is repainted; please do the same.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.601,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve all assigned cells and pass unless one of my residue-2 cells is repainted; please do the same.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 4.687,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve all assigned cells and pass unless one of my residue-0 cells is repainted; please do the same.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 11,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.155,
+          "duration_seconds": 3.673,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve all residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.236,
+          "duration_seconds": 3.862,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve all residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.24,
+          "duration_seconds": 4.667,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve all assigned cells and pass unless one of my residue-2 cells is repainted; please continue doing the same.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.732,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve all assigned cells and pass unless one of my residue-2 cells is repainted; please continue doing the same.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 20.79,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve all residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 4.606,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve all residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 12,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.082,
+          "duration_seconds": 5.039,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve all residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.395,
+          "duration_seconds": 19.048,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.194,
+          "duration_seconds": 3.736,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve all residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.77,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve all residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.63,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve all residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 120.015,
+          "group": "Blue",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 3,
+          "timed_out": true
+        }
+      ],
+      "round": 13,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.077,
+          "duration_seconds": 15.848,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.383,
+          "duration_seconds": 14.333,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.485,
+          "duration_seconds": 12.776,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 120.027,
+          "group": "Blue",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 1,
+          "timed_out": true
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 4.104,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.54,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 14,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.369,
+          "duration_seconds": 7.005,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.19,
+          "duration_seconds": 21.429,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.106,
+          "duration_seconds": 6.607,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.135,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 4.787,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.433,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 15,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.185,
+          "duration_seconds": 10.859,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.343,
+          "duration_seconds": 8.198,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.053,
+          "duration_seconds": 9.877,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.361,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.528,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 19.914,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 16,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.224,
+          "duration_seconds": 5.397,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.449,
+          "duration_seconds": 6.654,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.167,
+          "duration_seconds": 20.207,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.716,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.266,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 17.924,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 17,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.335,
+          "duration_seconds": 38.684,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.356,
+          "duration_seconds": 38.479,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.347,
+          "duration_seconds": 42.052,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.256,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 120.011,
+          "group": "Amber",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 2,
+          "timed_out": true
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.855,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 18,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.212,
+          "duration_seconds": 7.392,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.051,
+          "duration_seconds": 4.564,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.393,
+          "duration_seconds": 8.959,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.103,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.366,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 18.119,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 19,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.162,
+          "duration_seconds": 4.569,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.348,
+          "duration_seconds": 4.183,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.136,
+          "duration_seconds": 5.186,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.3,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.268,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 120.032,
+          "group": "Amber",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 3,
+          "timed_out": true
+        }
+      ],
+      "round": 20,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.465,
+          "duration_seconds": 7.149,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.248,
+          "duration_seconds": 6.188,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.018,
+          "duration_seconds": 20.442,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.857,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.216,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 120.028,
+          "group": "Green",
+          "parse_error": "no structured response returned",
+          "phase": "messages",
+          "public_message": "",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 3,
+          "timed_out": true
+        }
+      ],
+      "round": 21,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.065,
+          "duration_seconds": 7.242,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.248,
+          "duration_seconds": 7.219,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.449,
+          "duration_seconds": 7.303,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 4.563,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 15.598,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 5.632,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 22,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.227,
+          "duration_seconds": 5.214,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.276,
+          "duration_seconds": 4.158,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.313,
+          "duration_seconds": 4.493,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.681,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.927,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 16.082,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 23,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.344,
+          "duration_seconds": 16.818,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.199,
+          "duration_seconds": 6.678,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.317,
+          "duration_seconds": 16.797,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.847,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "The residue split remains complete and fair. I\u2019ll preserve my residue-2 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.763,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-0 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.124,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Agreed. I\u2019ll preserve my residue-1 cells and pass unless one is repainted; please continue preserving the completed split.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 24,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    }
+  ],
+  "width": 12
+}

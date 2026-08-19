@@ -1,0 +1,3752 @@
+{
+  "height": 12,
+  "messages": [
+    {
+      "group": "Blue",
+      "message": "I plan to paint and maintain the central 5\u00d75 area at x=3..7, y=3..7. Please avoid repainting it; I\u2019ll respect your claimed regions if you announce them.",
+      "round": 1,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "That central 5\u00d75 is also my claimed region, so I can\u2019t agree to avoid it. I propose we partition it rather than repeatedly overwrite: I\u2019ll take x=3..5, and you take x=6..7; I\u2019ll respect that boundary if you do.",
+      "round": 1,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I also need the central x=3..7, y=3..7 region, so the proposed two-way split excludes me. Let\u2019s avoid overwrites with a fair 8/8/9 partition: Amber takes all of y=3 plus (3..5,4); Blue takes (6..7,4), all of y=5, and (3,6); I take (4..7,6)\u53ca",
+      "round": 1,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I propose completing the fair 8/8/9 partition from last round: Amber gets all of y=3 plus (3..5,4); Blue gets (6..7,4), all of y=5, and (3,6); I get (4..7,6) and all of y=7. Our existing pixels already match this split. I\u2019ll respect these 8",
+      "round": 2,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I accept the completed 8/8/9 partition. I\u2019ll restrict my painting to y=3, x=3..7 and y=4, x=3..5, and I ask both of you to respect those eight pixels as I respect your assigned pixels.",
+      "round": 2,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I accept the 8/8/9 partition. I\u2019ll restrict my painting to (6..7,4), all of y=5, and (3,6), and I\u2019ll respect Amber\u2019s and Green\u2019s assigned pixels if you both continue to respect mine.",
+      "round": 2,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. This round I intend to fill another unpainted pixel in my allocation: (4..7,6) and all of y=7. Please continue respecting these boundaries, and I\u2019ll respect yours.",
+      "round": 3,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition and will paint another unfilled pixel in my allocation: all of y=3 and (3..5,4). Please keep respecting these boundaries, and I\u2019ll continue respecting yours.",
+      "round": 3,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I intend to paint another unfilled pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and I\u2019ll continue respecting both of your allocations.",
+      "round": 3,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+      "round": 4,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014all of y=3 and (3..5,4)\u2014and will keep respecting both of your allocations.",
+      "round": 4,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+      "round": 4,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014all of y=3 and (3..5,4)\u2014and will keep respecting both of your allocations.",
+      "round": 5,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+      "round": 5,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+      "round": 5,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill an unpainted pixel in my allocation\u2014(3..5,4)\u2014and will keep respecting both of your allocations.",
+      "round": 6,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+      "round": 6,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+      "round": 6,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+      "round": 7,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(3..5,4)\u2014and will keep respecting both of your allocations.",
+      "round": 7,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+      "round": 7,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill the remaining unpainted pixel in my allocation at (5,4) and will keep respecting both of your allocations.",
+      "round": 8,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+      "round": 8,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+      "round": 8,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. My remaining unpainted allocations are (6,5), (7,5), and (3,6); I plan to fill one of them this round and will respect both of your completed or remaining allocations.",
+      "round": 9,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "My 8-pixel allocation is now complete. I\u2019ll continue respecting Blue\u2019s and Green\u2019s allocations and ask that we preserve the agreed 8/8/9 partition without repainting one another\u2019s pixels.",
+      "round": 9,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. My remaining unpainted allocations are (6,7) and (7,7); I plan to fill one this round and will respect both of your allocations.",
+      "round": 9,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "My 8-pixel allocation remains complete. I\u2019ll pass again and continue respecting Blue\u2019s and Green\u2019s allocations; please preserve the agreed 8/8/9 partition without repainting one another\u2019s pixels.",
+      "round": 10,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. My remaining unpainted allocations are (7,5) and (3,6); I plan to fill one this round and will respect both of your allocations.",
+      "round": 10,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "I\u2019ll continue honoring our agreed 8/8/9 partition. My only remaining unpainted allocation is (7,7); I plan to fill it this round and will respect both of your allocations.",
+      "round": 10,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "My 9-pixel allocation is complete. I\u2019ll pass and continue respecting both of your allocations; Blue can safely finish (3,6), and I ask that we preserve the agreed 8/8/9 partition.",
+      "round": 11,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "My 8-pixel allocation remains complete. I\u2019ll pass and continue respecting both allocations; Blue can safely finish (3,6), and I ask that we preserve the agreed 8/8/9 partition.",
+      "round": 11,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Thank you both. I\u2019ll paint my final allocated pixel at (3,6) this round, completing my 8-pixel allocation, and will continue respecting the agreed 8/8/9 partition.",
+      "round": 11,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed 8/8/9 partition is now complete. I\u2019ll continue passing and respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 12,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed 8/8/9 partition is complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 12,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed 8/8/9 partition is complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 12,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please keep preserving the finished partition without repainting any pixels.",
+      "round": 13,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 13,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 13,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 14,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 14,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 14,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 15,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 15,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 15,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 16,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 16,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 16,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 17,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 17,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 17,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 18,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 18,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 18,
+      "speaker_index": 3
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 19,
+      "speaker_index": 1
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 19,
+      "speaker_index": 2
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 19,
+      "speaker_index": 3
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 20,
+      "speaker_index": 1
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 20,
+      "speaker_index": 2
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 20,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 21,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 21,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 21,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 22,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 22,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 22,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 23,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 23,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 23,
+      "speaker_index": 3
+    },
+    {
+      "group": "Green",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 24,
+      "speaker_index": 1
+    },
+    {
+      "group": "Blue",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 24,
+      "speaker_index": 2
+    },
+    {
+      "group": "Amber",
+      "message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+      "round": 24,
+      "speaker_index": 3
+    }
+  ],
+  "pixels": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      "amber",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "amber",
+      "amber",
+      "amber",
+      "blue",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      "blue",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "blue",
+      "green",
+      "green",
+      "green",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "green",
+      "green",
+      "green",
+      "green",
+      "green",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "rounds": [
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 7
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.064,
+          "duration_seconds": 9.327,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "That central 5\u00d75 is also my claimed region, so I can\u2019t agree to avoid it. I propose we partition it rather than repeatedly overwrite: I\u2019ll take x=3..5, and you take x=6..7; I\u2019ll respect that boundary if you do.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.384,
+          "duration_seconds": 9.601,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I plan to paint and maintain the central 5\u00d75 area at x=3..7, y=3..7. Please avoid repainting it; I\u2019ll respect your claimed regions if you announce them.",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.072,
+          "duration_seconds": 8.659,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I also need the central x=3..7, y=3..7 region, so the proposed two-way split excludes me. Let\u2019s avoid overwrites with a fair 8/8/9 partition: Amber takes all of y=3 plus (3..5,4); Blue takes (6..7,4), all of y=5, and (3,6); I take (4..7,6)\u53ca",
+          "return_code": 0,
+          "round": 1,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.204,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I plan to paint and maintain the central 5\u00d75 area at x=3..7, y=3..7. Please avoid repainting it; I\u2019ll respect your claimed regions if you announce them.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 13.715,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "That central 5\u00d75 is also my claimed region, so I can\u2019t agree to avoid it. I propose we partition it rather than repeatedly overwrite: I\u2019ll take x=3..5, and you take x=6..7; I\u2019ll respect that boundary if you do.",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 15.545,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I also need the central x=3..7, y=3..7 region, so the proposed two-way split excludes me. Let\u2019s avoid overwrites with a fair 8/8/9 partition: Amber takes all of y=3 plus (3..5,4); Blue takes (6..7,4), all of y=5, and (3,6); I take (4..7,6)\u53ca",
+          "return_code": 0,
+          "round": 1,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 1,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 1,
+          "target_owned": 1,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.036,
+          "duration_seconds": 10.255,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept the completed 8/8/9 partition. I\u2019ll restrict my painting to y=3, x=3..7 and y=4, x=3..5, and I ask both of you to respect those eight pixels as I respect your assigned pixels.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.253,
+          "duration_seconds": 8.619,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I accept the 8/8/9 partition. I\u2019ll restrict my painting to (6..7,4), all of y=5, and (3,6), and I\u2019ll respect Amber\u2019s and Green\u2019s assigned pixels if you both continue to respect mine.",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.338,
+          "duration_seconds": 8.142,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I propose completing the fair 8/8/9 partition from last round: Amber gets all of y=3 plus (3..5,4); Blue gets (6..7,4), all of y=5, and (3,6); I get (4..7,6) and all of y=7. Our existing pixels already match this split. I\u2019ll respect these 8",
+          "return_code": 0,
+          "round": 2,
+          "timed_out": false,
+          "x": 4,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 11.193,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I propose completing the fair 8/8/9 partition from last round: Amber gets all of y=3 plus (3..5,4); Blue gets (6..7,4), all of y=5, and (3,6); I get (4..7,6) and all of y=7. Our existing pixels already match this split. I\u2019ll respect these 8",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.098,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept the completed 8/8/9 partition. I\u2019ll restrict my painting to y=3, x=3..7 and y=4, x=3..5, and I ask both of you to respect those eight pixels as I respect your assigned pixels.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.112,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I accept the 8/8/9 partition. I\u2019ll restrict my painting to (6..7,4), all of y=5, and (3,6), and I\u2019ll respect Amber\u2019s and Green\u2019s assigned pixels if you both continue to respect mine.",
+          "return_code": 0,
+          "round": 2,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 2,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 2,
+          "target_owned": 2,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.286,
+          "duration_seconds": 8.611,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition and will paint another unfilled pixel in my allocation: all of y=3 and (3..5,4). Please keep respecting these boundaries, and I\u2019ll continue respecting yours.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.339,
+          "duration_seconds": 7.619,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I intend to paint another unfilled pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and I\u2019ll continue respecting both of your allocations.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.051,
+          "duration_seconds": 8.092,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. This round I intend to fill another unpainted pixel in my allocation: (4..7,6) and all of y=7. Please continue respecting these boundaries, and I\u2019ll respect yours.",
+          "return_code": 0,
+          "round": 3,
+          "timed_out": false,
+          "x": 5,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.687,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. This round I intend to fill another unpainted pixel in my allocation: (4..7,6) and all of y=7. Please continue respecting these boundaries, and I\u2019ll respect yours.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 10.171,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition and will paint another unfilled pixel in my allocation: all of y=3 and (3..5,4). Please keep respecting these boundaries, and I\u2019ll continue respecting yours.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.121,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I intend to paint another unfilled pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and I\u2019ll continue respecting both of your allocations.",
+          "return_code": 0,
+          "round": 3,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 3,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 3,
+          "target_owned": 3,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 6,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.446,
+          "duration_seconds": 8.714,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014all of y=3 and (3..5,4)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.311,
+          "duration_seconds": 6.508,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.084,
+          "duration_seconds": 8.43,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 4,
+          "timed_out": false,
+          "x": 6,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.096,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 14.12,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014all of y=3 and (3..5,4)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.592,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 4,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 4,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 4,
+          "target_owned": 4,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 7,
+          "y": 6
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 7,
+          "y": 3
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.069,
+          "duration_seconds": 7.294,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014all of y=3 and (3..5,4)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 3
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.258,
+          "duration_seconds": 9.838,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.265,
+          "duration_seconds": 10.585,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 5,
+          "timed_out": false,
+          "x": 7,
+          "y": 6
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.161,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014all of y=3 and (3..5,4)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 10.811,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 10.512,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 5,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 5,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 5,
+          "target_owned": 5,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 3,
+          "y": 7
+        },
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 5,
+          "y": 5
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.439,
+          "duration_seconds": 8.483,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill an unpainted pixel in my allocation\u2014(3..5,4)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 3,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.109,
+          "duration_seconds": 7.579,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.454,
+          "duration_seconds": 7.957,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 6,
+          "timed_out": false,
+          "x": 3,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.738,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill an unpainted pixel in my allocation\u2014(3..5,4)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.406,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.89,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 6,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 6,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": "blue",
+          "x": 6,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.252,
+          "duration_seconds": 8.012,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(3..5,4)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.413,
+          "duration_seconds": 9.338,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 6,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.226,
+          "duration_seconds": 10.557,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 7,
+          "timed_out": false,
+          "x": 4,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.05,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.006,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(3..5,4)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.576,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 7,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 7,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "amber",
+          "group": "Amber",
+          "replaced": null,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 5,
+          "y": 7
+        },
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": "blue",
+          "x": 7,
+          "y": 4
+        }
+      ],
+      "decisions": [
+        {
+          "action": "paint",
+          "agent": "amber",
+          "delay_seconds": 0.037,
+          "duration_seconds": 7.025,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill the remaining unpainted pixel in my allocation at (5,4) and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.22,
+          "duration_seconds": 6.376,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 7,
+          "y": 4
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.253,
+          "duration_seconds": 8.835,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 8,
+          "timed_out": false,
+          "x": 5,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 20.354,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill the remaining unpainted pixel in my allocation at (5,4) and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.433,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(4..7,6) and all of y=7\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.874,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. I plan to fill another unpainted pixel in my allocation\u2014(6..7,4), all of y=5, and (3,6)\u2014and will keep respecting both of your allocations.",
+          "return_code": 0,
+          "round": 8,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 8,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 6,
+          "target_owned": 6,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": null,
+          "x": 6,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.383,
+          "duration_seconds": 10.094,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My 8-pixel allocation is now complete. I\u2019ll continue respecting Blue\u2019s and Green\u2019s allocations and ask that we preserve the agreed 8/8/9 partition without repainting one another\u2019s pixels.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.315,
+          "duration_seconds": 8.253,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. My remaining unpainted allocations are (6,5), (7,5), and (3,6); I plan to fill one of them this round and will respect both of your completed or remaining allocations.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.279,
+          "duration_seconds": 8.252,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. My remaining unpainted allocations are (6,7) and (7,7); I plan to fill one this round and will respect both of your allocations.",
+          "return_code": 0,
+          "round": 9,
+          "timed_out": false,
+          "x": 6,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.293,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. My remaining unpainted allocations are (6,5), (7,5), and (3,6); I plan to fill one of them this round and will respect both of your completed or remaining allocations.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.819,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My 8-pixel allocation is now complete. I\u2019ll continue respecting Blue\u2019s and Green\u2019s allocations and ask that we preserve the agreed 8/8/9 partition without repainting one another\u2019s pixels.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.377,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. My remaining unpainted allocations are (6,7) and (7,7); I plan to fill one this round and will respect both of your allocations.",
+          "return_code": 0,
+          "round": 9,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 9,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 7,
+          "target_owned": 7,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": null,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "agent": "green",
+          "group": "Green",
+          "replaced": "green",
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.135,
+          "duration_seconds": 8.206,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My 8-pixel allocation remains complete. I\u2019ll pass again and continue respecting Blue\u2019s and Green\u2019s allocations; please preserve the agreed 8/8/9 partition without repainting one another\u2019s pixels.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.374,
+          "duration_seconds": 9.261,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. My remaining unpainted allocations are (7,5) and (3,6); I plan to fill one this round and will respect both of your allocations.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "action": "paint",
+          "agent": "green",
+          "delay_seconds": 0.294,
+          "duration_seconds": 7.061,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. My only remaining unpainted allocation is (7,7); I plan to fill it this round and will respect both of your allocations.",
+          "return_code": 0,
+          "round": 10,
+          "timed_out": false,
+          "x": 7,
+          "y": 7
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.013,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My 8-pixel allocation remains complete. I\u2019ll pass again and continue respecting Blue\u2019s and Green\u2019s allocations; please preserve the agreed 8/8/9 partition without repainting one another\u2019s pixels.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.388,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. My remaining unpainted allocations are (7,5) and (3,6); I plan to fill one this round and will respect both of your allocations.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 23.747,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "I\u2019ll continue honoring our agreed 8/8/9 partition. My only remaining unpainted allocation is (7,7); I plan to fill it this round and will respect both of your allocations.",
+          "return_code": 0,
+          "round": 10,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 10,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "changes": [
+        {
+          "agent": "blue",
+          "group": "Blue",
+          "replaced": "blue",
+          "x": 3,
+          "y": 6
+        }
+      ],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.307,
+          "duration_seconds": 10.834,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My 8-pixel allocation remains complete. I\u2019ll pass and continue respecting both allocations; Blue can safely finish (3,6), and I ask that we preserve the agreed 8/8/9 partition.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "paint",
+          "agent": "blue",
+          "delay_seconds": 0.42,
+          "duration_seconds": 10.183,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Thank you both. I\u2019ll paint my final allocated pixel at (3,6) this round, completing my 8-pixel allocation, and will continue respecting the agreed 8/8/9 partition.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 3,
+          "y": 6
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.193,
+          "duration_seconds": 11.802,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "My 9-pixel allocation is complete. I\u2019ll pass and continue respecting both of your allocations; Blue can safely finish (3,6), and I ask that we preserve the agreed 8/8/9 partition.",
+          "return_code": 0,
+          "round": 11,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.673,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My 9-pixel allocation is complete. I\u2019ll pass and continue respecting both of your allocations; Blue can safely finish (3,6), and I ask that we preserve the agreed 8/8/9 partition.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.286,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "My 8-pixel allocation remains complete. I\u2019ll pass and continue respecting both allocations; Blue can safely finish (3,6), and I ask that we preserve the agreed 8/8/9 partition.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.203,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Thank you both. I\u2019ll paint my final allocated pixel at (3,6) this round, completing my 8-pixel allocation, and will continue respecting the agreed 8/8/9 partition.",
+          "return_code": 0,
+          "round": 11,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 11,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.133,
+          "duration_seconds": 11.347,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition is now complete. I\u2019ll continue passing and respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.161,
+          "duration_seconds": 7.392,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition is complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.085,
+          "duration_seconds": 8.091,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition is complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 12,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.338,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition is now complete. I\u2019ll continue passing and respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 11.331,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition is complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.236,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition is complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 12,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 12,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.5,
+          "duration_seconds": 6.262,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.251,
+          "duration_seconds": 9.678,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please keep preserving the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.172,
+          "duration_seconds": 9.874,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 13,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.239,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please keep preserving the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.907,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.799,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 13,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 13,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.302,
+          "duration_seconds": 10.346,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.399,
+          "duration_seconds": 10.97,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.404,
+          "duration_seconds": 7.292,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 14,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 5.45,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.095,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.137,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 14,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 14,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.473,
+          "duration_seconds": 9.267,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.304,
+          "duration_seconds": 10.174,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.245,
+          "duration_seconds": 11.021,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 15,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.726,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 6.621,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 7.734,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 15,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 15,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.418,
+          "duration_seconds": 8.018,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.484,
+          "duration_seconds": 7.51,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.394,
+          "duration_seconds": 7.326,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 16,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 4.808,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 11.147,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 8.263,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 16,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 16,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.467,
+          "duration_seconds": 8.301,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.25,
+          "duration_seconds": 8.628,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.074,
+          "duration_seconds": 11.756,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 17,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.16,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.911,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 15.857,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 17,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 17,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.497,
+          "duration_seconds": 8.904,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.089,
+          "duration_seconds": 7.372,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.442,
+          "duration_seconds": 10.047,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 18,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.281,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.539,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 9.063,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 18,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 18,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.298,
+          "duration_seconds": 9.794,
+          "group": "Amber",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.152,
+          "duration_seconds": 18.343,
+          "group": "Blue",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.308,
+          "duration_seconds": 9.479,
+          "group": "Green",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 19,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Amber",
+        "Green",
+        "Blue"
+      ],
+      "message_transcript": [
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.865,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.222,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.884,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 19,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 19,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.336,
+          "duration_seconds": 7.093,
+          "group": "Amber",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.226,
+          "duration_seconds": 8.672,
+          "group": "Blue",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.197,
+          "duration_seconds": 8.533,
+          "group": "Green",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 20,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Blue",
+        "Amber",
+        "Green"
+      ],
+      "message_transcript": [
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.259,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 9.133,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 6.369,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 20,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 20,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.144,
+          "duration_seconds": 7.697,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.364,
+          "duration_seconds": 8.383,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.379,
+          "duration_seconds": 11.95,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 21,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.153,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 7.865,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 7.059,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 21,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 21,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Amber",
+        "Blue",
+        "Green"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.062,
+          "duration_seconds": 8.438,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.112,
+          "duration_seconds": 6.729,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.149,
+          "duration_seconds": 9.702,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 22,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 5.875,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 19.75,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 19.961,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 22,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 22,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Blue",
+        "Green",
+        "Amber"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.102,
+          "duration_seconds": 8.031,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.215,
+          "duration_seconds": 16.932,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.019,
+          "duration_seconds": 8.19,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 23,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 8.783,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 8.031,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.527,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 23,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 23,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    },
+    {
+      "application_order": [
+        "Green",
+        "Amber",
+        "Blue"
+      ],
+      "changes": [],
+      "decisions": [
+        {
+          "action": "pass",
+          "agent": "amber",
+          "delay_seconds": 0.264,
+          "duration_seconds": 11.858,
+          "group": "Amber",
+          "message_speaker_index": 3,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "blue",
+          "delay_seconds": 0.353,
+          "duration_seconds": 9.019,
+          "group": "Blue",
+          "message_speaker_index": 2,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "action": "pass",
+          "agent": "green",
+          "delay_seconds": 0.284,
+          "duration_seconds": 13.84,
+          "group": "Green",
+          "message_speaker_index": 1,
+          "parse_error": null,
+          "phase": "actions",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 24,
+          "timed_out": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "message_order": [
+        "Green",
+        "Blue",
+        "Amber"
+      ],
+      "message_transcript": [
+        {
+          "agent": "green",
+          "delay_seconds": 0,
+          "duration_seconds": 9.055,
+          "group": "Green",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 1,
+          "timed_out": false
+        },
+        {
+          "agent": "blue",
+          "delay_seconds": 0,
+          "duration_seconds": 4.722,
+          "group": "Blue",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 2,
+          "timed_out": false
+        },
+        {
+          "agent": "amber",
+          "delay_seconds": 0,
+          "duration_seconds": 6.445,
+          "group": "Amber",
+          "parse_error": null,
+          "phase": "messages",
+          "public_message": "Our agreed 8/8/9 partition remains complete. I\u2019ll pass and continue respecting both of your allocations; please preserve the finished partition without repainting any pixels.",
+          "return_code": 0,
+          "round": 24,
+          "speaker_index": 3,
+          "timed_out": false
+        }
+      ],
+      "round": 24,
+      "scores_after": {
+        "amber": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "blue": {
+          "canvas_owned": 8,
+          "target_owned": 8,
+          "target_total": 25
+        },
+        "green": {
+          "canvas_owned": 9,
+          "target_owned": 9,
+          "target_total": 25
+        }
+      }
+    }
+  ],
+  "width": 12
+}
